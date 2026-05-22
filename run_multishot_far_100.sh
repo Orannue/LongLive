@@ -7,7 +7,7 @@ PROMPTS_PATH="eval_caption_multishot_t2v_100_longlive.json"
 CHECKPOINT_PATH="LongLive-2.0-5B/model_bf16.pt"
 CONFIG_PATH="configs/inference.yaml"
 OUTPUT_DIR="videos/multishot_far_100"
-WAN_MODEL_ROOT="../models/Wan2.2-TI2V-5B"
+WAN_MODEL_ROOT="../models"
 
 # 6 shots * ~5s/shot at 24fps maps to about 181 latent frames.
 # With num_frame_per_block=8, use 192 latent frames so each shot is exactly
