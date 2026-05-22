@@ -14,7 +14,7 @@ WAN_MODEL_ROOT="../models"
 # 4 blocks and decodes to about 5.3s.
 NUM_OUTPUT_FRAMES=192
 NUM_FRAME_PER_BLOCK=8
-GPUS="0,1,2,3,4,5,6,7"
+GPUS="4,5,6,7"
 FPS=24
 SEED=0
 UNIFORM_SHOT_BLOCKS=1
