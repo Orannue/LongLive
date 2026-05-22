@@ -4,7 +4,7 @@ set -euo pipefail
 # Edit these paths/values before launching.
 # FAR_PROMPTS_PATH="C:/Users/Administrator/Desktop/FAR-Dev/assets/evaluation/eval_caption_multishot_t2v_100.json"
 PROMPTS_PATH="eval_caption_multishot_t2v_100_longlive.json"
-CHECKPOINT_PATH="checkpoints/LongLive-2.0-5B/model_bf16.pt"
+CHECKPOINT_PATH="checkpoints/longlive2_5b/model_bf16.pt"
 CONFIG_PATH="configs/inference.yaml"
 OUTPUT_DIR="videos/multishot_far_100"
 WAN_MODEL_ROOT="../models"
