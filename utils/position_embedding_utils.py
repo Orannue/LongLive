@@ -12,6 +12,22 @@
 import torch
 
 
+def _rope_base_angles_from_freqs(freqs_t: torch.Tensor) -> torch.Tensor:
+    """Return temporal RoPE base angles without calling torch.angle.
+
+    ``freqs_t`` is produced by ``rope_params(max_seq_len, dim)`` with the
+    default theta=10000. Row 1 would contain ``polar(1, inv_freq)``. Computing
+    that inverse-frequency vector directly avoids a CUDA complex ``angle``
+    kernel that can fail with ``invalid argument`` on some driver/PyTorch
+    combinations.
+    """
+    rope_dim = int(freqs_t.shape[1]) * 2
+    return 1.0 / torch.pow(
+        10000,
+        torch.arange(0, rope_dim, 2, device=freqs_t.device, dtype=torch.float64).div(rope_dim),
+    )
+
+
 def select_temporal_offset_for_sample(
     temporal_offset,
     sample_idx: int,
@@ -77,7 +93,7 @@ def compute_temporal_freqs(
     ):
         return freqs_t[start_frame:start_frame + f]
 
-    base_angles = torch.angle(freqs_t[1]).to(torch.float64)
+    base_angles = _rope_base_angles_from_freqs(freqs_t)
     positions = torch.arange(f, device=device, dtype=torch.float64) + start_frame
     if torch.is_tensor(temporal_offset):
         offset = temporal_offset.to(device=device, dtype=torch.float64)
