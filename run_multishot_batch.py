@@ -225,13 +225,21 @@ def save_sample_outputs(video: torch.Tensor, sample_dir: Path, block_counts: lis
         start, end = points[shot_idx], points[shot_idx + 1]
         shot = video[start:end]
         shot_frame_counts.append(int(shot.shape[0]))
-        save_video(shot, sample_dir / f"shot{shot_idx + 1}.mp4", fps=fps)
+        save_video(shot, sample_dir / f"shot_{shot_idx + 1}.mp4", fps=fps)
 
     return {
         "total_video_frames": total_video_frames,
         "shot_frame_boundaries": boundaries,
         "shot_frame_counts": shot_frame_counts,
     }
+
+
+def sample_outputs_complete(sample_dir: Path, expected_shots: int) -> bool:
+    if not (sample_dir / "full.mp4").exists():
+        return False
+    if not (sample_dir / "metadata.json").exists():
+        return False
+    return all((sample_dir / f"shot_{shot_idx}.mp4").exists() for shot_idx in range(1, expected_shots + 1))
 
 
 def configure_config(args: argparse.Namespace):
@@ -290,10 +298,6 @@ def run_worker(rank: int, world_size: int, args: argparse.Namespace, gpu_ids: li
 
         idx = int(record.get("idx", record.get("index", args.start + local_i)))
         sample_dir = output_dir / f"video{idx}"
-        full_path = sample_dir / "full.mp4"
-        if full_path.exists() and not args.overwrite:
-            print(f"[rank {rank}] skip idx={idx}: {full_path} exists")
-            continue
 
         block_prompts, block_counts = build_block_prompts(
             record,
@@ -302,6 +306,13 @@ def run_worker(rank: int, world_size: int, args: argparse.Namespace, gpu_ids: li
             scene_cut_prefix=args.scene_cut_prefix,
             uniform_shot_blocks=args.uniform_shot_blocks,
         )
+
+        if not args.overwrite:
+            if sample_outputs_complete(sample_dir, len(block_counts)):
+                print(f"[rank {rank}] skip idx={idx}: complete outputs exist")
+                continue
+            if (sample_dir / "full.mp4").exists():
+                print(f"[rank {rank}] rerun idx={idx}: incomplete outputs found in {sample_dir}")
 
         generator = torch.Generator(device=device).manual_seed(args.seed + idx)
         shape = config.image_or_video_shape
