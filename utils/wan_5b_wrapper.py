@@ -13,9 +13,18 @@ from wan_5b.modules.t5 import umt5_xxl
 from wan_5b.modules.causal_model import CausalWanModel
 
 
+def _resolve_model_root(model_root: str | None = None) -> str:
+    return model_root or os.environ.get("WAN_MODEL_ROOT", "wan_models")
+
+
+def _model_dir(model_root: str | None, model_name: str) -> str:
+    return os.path.join(_resolve_model_root(model_root), model_name)
+
+
 class WanTextEncoder(torch.nn.Module):
-    def __init__(self) -> None:
+    def __init__(self, model_root: str | None = None, model_name: str = "Wan2.2-TI2V-5B") -> None:
         super().__init__()
+        root = _model_dir(model_root, model_name)
 
         self.text_encoder = umt5_xxl(
             encoder_only=True,
@@ -24,7 +33,7 @@ class WanTextEncoder(torch.nn.Module):
             device=torch.device('cpu')
         ).eval().requires_grad_(False)
         self.text_encoder.load_state_dict(
-            torch.load("wan_models/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth",
+            torch.load(os.path.join(root, "models_t5_umt5-xxl-enc-bf16.pth"),
                        map_location='cpu', weights_only=False)
         )
         
@@ -33,7 +42,7 @@ class WanTextEncoder(torch.nn.Module):
             self.text_encoder = self.text_encoder.cuda()
 
         self.tokenizer = HuggingfaceTokenizer(
-            name="wan_models/Wan2.2-TI2V-5B/google/umt5-xxl/", seq_len=512, clean='whitespace')
+            name=os.path.join(root, "google", "umt5-xxl") + os.sep, seq_len=512, clean='whitespace')
 
     @property
     def device(self):
@@ -56,7 +65,7 @@ class WanTextEncoder(torch.nn.Module):
 
 
 class WanVAEWrapper(torch.nn.Module):
-    def __init__(self):
+    def __init__(self, model_root: str | None = None, model_name: str = "Wan2.2-TI2V-5B"):
         super().__init__()
         mean = [
                 -0.2289,
@@ -163,7 +172,7 @@ class WanVAEWrapper(torch.nn.Module):
 
         # init model
         self.model = _video_vae(
-            pretrained_path="wan_models/Wan2.2-TI2V-5B/Wan2.2_VAE.pth",
+            pretrained_path=os.path.join(_model_dir(model_root, model_name), "Wan2.2_VAE.pth"),
         ).eval().requires_grad_(False)
 
     def encode_to_latent(self, pixel: torch.Tensor) -> torch.Tensor:
@@ -286,15 +295,17 @@ class WanDiffusionWrapper(torch.nn.Module):
             t_scale=1.0,
             rope_method="linear",
             original_seq_len=None,
+            model_root=None,
     ):
         super().__init__()
+        root = _model_dir(model_root, model_name)
 
         if is_causal:
             self.model = CausalWanModel.from_pretrained(
-                f"wan_models/{model_name}/", local_attn_size=local_attn_size, sink_size=sink_size,
+                root + os.sep, local_attn_size=local_attn_size, sink_size=sink_size,
                 num_frame_per_block=num_frame_per_block)
         else:
-            self.model = WanModel.from_pretrained(f"wan_models/{model_name}/")
+            self.model = WanModel.from_pretrained(root + os.sep)
         self.model.eval()
         self.model.t_scale = t_scale
         self.model.rope_method = rope_method
@@ -502,23 +513,23 @@ class WanDiffusionWrapper(torch.nn.Module):
         self.get_scheduler()
 
 
-_MG_LIGHTVAE_DEFAULT_PATHS = {
-    "mg_lightvae": os.path.join("wan_models", "Matrix-Game-3.0", "MG-LightVAE.pth"),
-    "mg_lightvae_v2": os.path.join("wan_models", "Matrix-Game-3.0", "MG-LightVAE_v2.pth"),
-}
-
-
 def build_vae_5b(args):
     """Return the 5B VAE wrapper requested by args.vae_type."""
     vae_type = str(getattr(args, "vae_type", "wan")).lower().strip()
+    model_root = getattr(args, "wan_model_root", None)
+    model_name = getattr(getattr(args, "model_kwargs", {}), "model_name", "Wan2.2-TI2V-5B")
 
     if vae_type in ("wan", "wan2.2", ""):
-        return WanVAEWrapper()
+        return WanVAEWrapper(model_root=model_root, model_name=model_name)
 
-    if vae_type in _MG_LIGHTVAE_DEFAULT_PATHS:
+    if vae_type in ("mg_lightvae", "mg_lightvae_v2"):
         from utils.lightvae_5b_wrapper import LightVAE5BWrapper
 
-        return LightVAE5BWrapper(vae_path=_MG_LIGHTVAE_DEFAULT_PATHS[vae_type])
+        lightvae_paths = {
+            "mg_lightvae": os.path.join(_resolve_model_root(model_root), "Matrix-Game-3.0", "MG-LightVAE.pth"),
+            "mg_lightvae_v2": os.path.join(_resolve_model_root(model_root), "Matrix-Game-3.0", "MG-LightVAE_v2.pth"),
+        }
+        return LightVAE5BWrapper(vae_path=lightvae_paths[vae_type])
 
     raise ValueError(
         f"Unknown vae_type '{vae_type}'. "

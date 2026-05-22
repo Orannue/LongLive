@@ -27,9 +27,10 @@ class CausalDiffusionInferencePipeline(torch.nn.Module):
         model_name = getattr(args.model_kwargs, "model_name", "Wan2.2-TI2V-5B")
         if "5B" not in model_name:
             raise ValueError(f"Only Wan2.2-TI2V-5B is supported in this release, got {model_name}")
+        wan_model_root = getattr(args, "wan_model_root", None)
         self.generator = WanDiffusionWrapper(
-            **getattr(args, "model_kwargs", {}), is_causal=True) if generator is None else generator
-        self.text_encoder = WanTextEncoder() if text_encoder is None else text_encoder
+            **getattr(args, "model_kwargs", {}), is_causal=True, model_root=wan_model_root) if generator is None else generator
+        self.text_encoder = WanTextEncoder(model_root=wan_model_root, model_name=model_name) if text_encoder is None else text_encoder
         self.vae = build_vae_5b(args) if vae is None else vae
 
         # Step 2: Initialize scheduler
