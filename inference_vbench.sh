@@ -16,6 +16,7 @@ GENERATOR_CKPT="${GENERATOR_CKPT:-longlive_models/models/longlive_base.pt}"
 LORA_CKPT="${LORA_CKPT:-longlive_models/models/lora.pt}"
 
 NUM_SAMPLES="${NUM_SAMPLES:-5}"
+NUM_OUTPUT_FRAMES="${NUM_OUTPUT_FRAMES:-120}"
 SEED="${SEED:-0}"
 NPROC_PER_NODE="${NPROC_PER_NODE:-8}"
 MASTER_PORT="${MASTER_PORT:-29500}"
@@ -36,6 +37,7 @@ Options:
   --generator-ckpt PATH      LongLive generator checkpoint.
   --lora-ckpt PATH           LoRA checkpoint. Pass empty string to disable if config allows it.
   --num-samples N            Samples per prompt. VBench standard expects 5.
+  --num-output-frames N      Latent output frames. Default: 120.
   --seed N                   Random seed.
   --nproc-per-node N         torchrun processes.
   --master-port PORT         torchrun master port.
@@ -59,6 +61,7 @@ while [[ $# -gt 0 ]]; do
     --generator-ckpt) GENERATOR_CKPT="$2"; shift 2 ;;
     --lora-ckpt) LORA_CKPT="$2"; shift 2 ;;
     --num-samples) NUM_SAMPLES="$2"; shift 2 ;;
+    --num-output-frames) NUM_OUTPUT_FRAMES="$2"; shift 2 ;;
     --seed) SEED="$2"; shift 2 ;;
     --nproc-per-node) NPROC_PER_NODE="$2"; shift 2 ;;
     --master-port) MASTER_PORT="$2"; shift 2 ;;
@@ -85,6 +88,7 @@ torchrun \
   --generator_ckpt "$GENERATOR_CKPT" \
   --lora_ckpt "$LORA_CKPT" \
   --num_samples "$NUM_SAMPLES" \
+  --num_output_frames "$NUM_OUTPUT_FRAMES" \
   --seed "$SEED" \
   --save_with_vbench_names \
   "${EXTRA_ARGS[@]}"

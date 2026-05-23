@@ -29,12 +29,13 @@ parser.add_argument("--generator_ckpt", type=str, default=None, help="Override g
 parser.add_argument("--lora_ckpt", type=str, default=None, help="Override LoRA checkpoint path")
 parser.add_argument("--base_model_dir", type=str, default=None, help="Override local Wan base model directory")
 parser.add_argument("--num_samples", type=int, default=None, help="Override number of samples per prompt")
+parser.add_argument("--num_output_frames", type=int, default=None, help="Override number of latent output frames")
 parser.add_argument("--seed", type=int, default=None, help="Override random seed")
 parser.add_argument("--save_with_vbench_names", action="store_true", help="Save videos as '<original prompt>-<sample index>.mp4'")
 args = parser.parse_args()
 
 config = OmegaConf.load(args.config_path)
-for key in ("data_path", "extended_prompt_path", "output_folder", "generator_ckpt", "lora_ckpt", "num_samples", "seed"):
+for key in ("data_path", "extended_prompt_path", "output_folder", "generator_ckpt", "lora_ckpt", "num_samples", "num_output_frames", "seed"):
     value = getattr(args, key)
     if value is not None:
         config[key] = value
