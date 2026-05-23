@@ -1,6 +1,7 @@
 # Adopted from https://github.com/guandeh17/Self-Forcing
 # SPDX-License-Identifier: Apache-2.0
 import argparse
+import gc
 import torch
 import os
 from omegaconf import OmegaConf
@@ -31,6 +32,7 @@ parser.add_argument("--base_model_dir", type=str, default=None, help="Override l
 parser.add_argument("--num_samples", type=int, default=None, help="Override number of samples per prompt")
 parser.add_argument("--num_output_frames", type=int, default=None, help="Override number of latent output frames")
 parser.add_argument("--seed", type=int, default=None, help="Override random seed")
+parser.add_argument("--sequential_samples", action="store_true", help="Generate samples one at a time to reduce peak VRAM")
 parser.add_argument("--save_with_vbench_names", action="store_true", help="Save videos as '<original prompt>-<sample index>.mp4'")
 args = parser.parse_args()
 
@@ -43,6 +45,8 @@ if args.base_model_dir is not None:
     config.base_model_dir = args.base_model_dir
 if args.save_with_vbench_names:
     config.save_with_vbench_names = True
+if args.sequential_samples:
+    config.sequential_samples = True
 
 # Initialize distributed inference
 if "LOCAL_RANK" in os.environ:
@@ -188,6 +192,19 @@ def encode(self, videos: torch.Tensor) -> torch.Tensor:
     return output
 
 
+def cleanup_runtime_caches():
+    if hasattr(pipeline, "vae") and hasattr(pipeline.vae, "model"):
+        pipeline.vae.model.clear_cache()
+    if hasattr(pipeline, "kv_cache1"):
+        pipeline.kv_cache1 = None
+    if hasattr(pipeline, "crossattn_cache"):
+        pipeline.crossattn_cache = None
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.ipc_collect()
+
+
 for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
     idx = batch_data['idx'].item()
 
@@ -204,6 +221,57 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
     # For text-to-video, batch is just the text prompt
     prompt = batch['prompts'][0]
     extended_prompt = batch['extended_prompts'][0] if 'extended_prompts' in batch else None
+
+    if getattr(config, "sequential_samples", False):
+        sample_prompt = extended_prompt if extended_prompt is not None else prompt
+
+        if dist.is_initialized():
+            rank = dist.get_rank()
+        else:
+            rank = 0
+
+        for seed_idx in range(config.num_samples):
+            if getattr(config, "save_with_vbench_names", False):
+                output_path = os.path.join(config.output_folder, f'{prompt}-{seed_idx}.mp4')
+            elif config.save_with_index:
+                output_path = os.path.join(config.output_folder, f'rank{rank}-{idx}-{seed_idx}.mp4')
+            else:
+                output_path = os.path.join(config.output_folder, f'rank{rank}-{prompt[:100]}-{seed_idx}.mp4')
+
+            if os.path.exists(output_path):
+                print(f"Skipping existing video: {output_path}")
+                continue
+
+            cleanup_runtime_caches()
+            generator = torch.Generator(device=device).manual_seed(config.seed + idx * config.num_samples + seed_idx)
+            sampled_noise = torch.randn(
+                [1, config.num_output_frames, 16, 60, 104],
+                device=device,
+                dtype=torch.bfloat16,
+                generator=generator,
+            )
+
+            print("sampled_noise.device", sampled_noise.device)
+            print("prompt", sample_prompt)
+            video, latents = pipeline.inference(
+                noise=sampled_noise,
+                text_prompts=[sample_prompt],
+                return_latents=True,
+                low_memory=low_memory,
+                profile=False,
+            )
+
+            video = 255.0 * rearrange(video, 'b t c h w -> b t h w c').cpu()
+            cleanup_runtime_caches()
+            write_video(output_path, video[0], fps=16)
+
+            del sampled_noise, video, latents
+            cleanup_runtime_caches()
+
+        if config.inference_iter != -1 and i >= config.inference_iter:
+            break
+        continue
+
     if extended_prompt is not None:
         prompts = [extended_prompt] * config.num_samples
     else:
@@ -237,7 +305,7 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
     video = 255.0 * torch.cat(all_video, dim=1)
 
     # Clear VAE cache
-    pipeline.vae.model.clear_cache()
+    cleanup_runtime_caches()
 
     if dist.is_initialized():
         rank = dist.get_rank()
@@ -263,6 +331,9 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
             else:
                 output_path = os.path.join(config.output_folder, f'rank{rank}-{prompt[:100]}-{seed_idx}.mp4')
             write_video(output_path, video[seed_idx], fps=16)
+
+    del sampled_noise, video, latents, current_video, all_video
+    cleanup_runtime_caches()
 
     if config.inference_iter != -1 and i >= config.inference_iter:
         break

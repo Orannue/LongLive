@@ -5,6 +5,8 @@ set -euo pipefail
 # The generated files are named exactly as VBench expects:
 #   <original prompt>-0.mp4 ... <original prompt>-4.mp4
 
+export PYTORCH_CUDA_ALLOC_CONF="${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}"
+
 CONFIG_PATH="${CONFIG_PATH:-configs/longlive_inference.yaml}"
 PROMPT_FILE="${PROMPT_FILE:-vbench_prompts/all_dimension.txt}"
 EXTENDED_PROMPT_FILE="${EXTENDED_PROMPT_FILE:-}"
@@ -90,5 +92,6 @@ torchrun \
   --num_samples "$NUM_SAMPLES" \
   --num_output_frames "$NUM_OUTPUT_FRAMES" \
   --seed "$SEED" \
+  --sequential_samples \
   --save_with_vbench_names \
   "${EXTRA_ARGS[@]}"
