@@ -11,13 +11,13 @@ EXTENDED_PROMPT_FILE="${EXTENDED_PROMPT_FILE:-}"
 OUTPUT_DIR="${OUTPUT_DIR:-videos/vbench_all_dimension}"
 
 # Local model paths. Override these from the command line or environment.
-BASE_MODEL_DIR="${BASE_MODEL_DIR:-wan_models/Wan2.1-T2V-1.3B}"
+BASE_MODEL_DIR="${BASE_MODEL_DIR:-../models/Wan2.1-T2V-1.3B}"
 GENERATOR_CKPT="${GENERATOR_CKPT:-longlive_models/models/longlive_base.pt}"
 LORA_CKPT="${LORA_CKPT:-longlive_models/models/lora.pt}"
 
 NUM_SAMPLES="${NUM_SAMPLES:-5}"
 SEED="${SEED:-0}"
-NPROC_PER_NODE="${NPROC_PER_NODE:-1}"
+NPROC_PER_NODE="${NPROC_PER_NODE:-8}"
 MASTER_PORT="${MASTER_PORT:-29500}"
 
 usage() {
