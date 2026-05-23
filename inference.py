@@ -22,9 +22,26 @@ from utils.memory import gpu, get_cuda_free_memory_gb, DynamicSwapInstaller, log
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config_path", type=str, help="Path to the config file")
+parser.add_argument("--data_path", type=str, default=None, help="Override prompt file path")
+parser.add_argument("--extended_prompt_path", type=str, default=None, help="Optional generation prompt file aligned with data_path")
+parser.add_argument("--output_folder", type=str, default=None, help="Override output folder")
+parser.add_argument("--generator_ckpt", type=str, default=None, help="Override generator checkpoint path")
+parser.add_argument("--lora_ckpt", type=str, default=None, help="Override LoRA checkpoint path")
+parser.add_argument("--base_model_dir", type=str, default=None, help="Override local Wan base model directory")
+parser.add_argument("--num_samples", type=int, default=None, help="Override number of samples per prompt")
+parser.add_argument("--seed", type=int, default=None, help="Override random seed")
+parser.add_argument("--save_with_vbench_names", action="store_true", help="Save videos as '<original prompt>-<sample index>.mp4'")
 args = parser.parse_args()
 
 config = OmegaConf.load(args.config_path)
+for key in ("data_path", "extended_prompt_path", "output_folder", "generator_ckpt", "lora_ckpt", "num_samples", "seed"):
+    value = getattr(args, key)
+    if value is not None:
+        config[key] = value
+if args.base_model_dir is not None:
+    config.base_model_dir = args.base_model_dir
+if args.save_with_vbench_names:
+    config.save_with_vbench_names = True
 
 # Initialize distributed inference
 if "LOCAL_RANK" in os.environ:
@@ -138,7 +155,7 @@ if low_memory:
 pipeline.generator.to(device=device)
 pipeline.vae.to(device=device)
 
-extended_prompt_path = config.data_path
+extended_prompt_path = getattr(config, "extended_prompt_path", None) or config.data_path
 dataset = TextDataset(prompt_path=config.data_path, extended_prompt_path=extended_prompt_path)
 num_prompts = len(dataset)
 print(f"Number of prompts: {num_prompts}")
@@ -238,7 +255,9 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
             
         for seed_idx in range(config.num_samples):
             # All processes save their videos
-            if config.save_with_index:
+            if getattr(config, "save_with_vbench_names", False):
+                output_path = os.path.join(config.output_folder, f'{prompt}-{seed_idx}.mp4')
+            elif config.save_with_index:
                 output_path = os.path.join(config.output_folder, f'rank{rank}-{idx}-{seed_idx}_{model_type}.mp4')
             else:
                 output_path = os.path.join(config.output_folder, f'rank{rank}-{prompt[:100]}-{seed_idx}.mp4')

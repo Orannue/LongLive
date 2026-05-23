@@ -1,5 +1,6 @@
 # Adopted from https://github.com/guandeh17/Self-Forcing
 # SPDX-License-Identifier: Apache-2.0
+import os
 import types
 from typing import List, Optional
 import torch
@@ -14,8 +15,9 @@ from wan.modules.causal_model import CausalWanModel
 from wan.modules.causal_model_infinity import CausalWanModel as CausalWanModelInfinity
 
 class WanTextEncoder(torch.nn.Module):
-    def __init__(self) -> None:
+    def __init__(self, base_model_dir: Optional[str] = None) -> None:
         super().__init__()
+        base_model_dir = base_model_dir or "wan_models/Wan2.1-T2V-1.3B"
 
         self.text_encoder = umt5_xxl(
             encoder_only=True,
@@ -24,7 +26,7 @@ class WanTextEncoder(torch.nn.Module):
             device=torch.device('cpu')
         ).eval().requires_grad_(False)
         self.text_encoder.load_state_dict(
-            torch.load("wan_models/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth",
+            torch.load(os.path.join(base_model_dir, "models_t5_umt5-xxl-enc-bf16.pth"),
                        map_location='cpu', weights_only=False)
         )
         
@@ -33,7 +35,7 @@ class WanTextEncoder(torch.nn.Module):
             self.text_encoder = self.text_encoder.cuda()
 
         self.tokenizer = HuggingfaceTokenizer(
-            name="wan_models/Wan2.1-T2V-1.3B/google/umt5-xxl/", seq_len=512, clean='whitespace')
+            name=os.path.join(base_model_dir, "google", "umt5-xxl"), seq_len=512, clean='whitespace')
 
     @property
     def device(self):
@@ -58,8 +60,9 @@ class WanTextEncoder(torch.nn.Module):
 
 
 class WanVAEWrapper(torch.nn.Module):
-    def __init__(self):
+    def __init__(self, base_model_dir: Optional[str] = None):
         super().__init__()
+        base_model_dir = base_model_dir or "wan_models/Wan2.1-T2V-1.3B"
         mean = [
             -0.7571, -0.7089, -0.9113, 0.1075, -0.1745, 0.9653, -0.1517, 1.5508,
             0.4134, -0.0715, 0.5517, -0.3632, -0.1922, -0.9497, 0.2503, -0.2921
@@ -73,7 +76,7 @@ class WanVAEWrapper(torch.nn.Module):
 
         # init model
         self.model = _video_vae(
-            pretrained_path="wan_models/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth",
+            pretrained_path=os.path.join(base_model_dir, "Wan2.1_VAE.pth"),
             z_dim=16,
         ).eval().requires_grad_(False)
 
@@ -176,19 +179,21 @@ class WanDiffusionWrapper(torch.nn.Module):
             is_causal=False,
             local_attn_size=-1,
             sink_size=0,
-            use_infinite_attention=False
+            use_infinite_attention=False,
+            base_model_dir: Optional[str] = None,
     ):
         super().__init__()
+        model_dir = base_model_dir or f"wan_models/{model_name}"
 
         if is_causal:
             if use_infinite_attention:
                 self.model = CausalWanModelInfinity.from_pretrained(
-                    f"wan_models/{model_name}/", local_attn_size=local_attn_size, sink_size=sink_size)
+                    model_dir, local_attn_size=local_attn_size, sink_size=sink_size)
             else:
                 self.model = CausalWanModel.from_pretrained(
-                    f"wan_models/{model_name}/", local_attn_size=local_attn_size, sink_size=sink_size)
+                    model_dir, local_attn_size=local_attn_size, sink_size=sink_size)
         else:
-            self.model = WanModel.from_pretrained(f"wan_models/{model_name}/")
+            self.model = WanModel.from_pretrained(model_dir)
         self.model.eval()
 
         # For non-causal diffusion, all frames share the same timestep
