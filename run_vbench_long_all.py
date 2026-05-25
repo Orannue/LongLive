@@ -11,6 +11,7 @@ import argparse
 import csv
 import json
 import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from statistics import mean
@@ -75,6 +76,14 @@ def parse_args() -> argparse.Namespace:
         help=(
             "Root cache directory for VBench and common model backends. "
             "Sets VBENCH_CACHE_DIR, TORCH_HOME, HF_HOME, and related variables."
+        ),
+    )
+    parser.add_argument(
+        "--vbench_repo",
+        default=None,
+        help=(
+            "Optional path to a VBench source checkout. Use this when the installed "
+            "vbench package does not include vbench2_beta_long."
         ),
     )
     parser.add_argument(
@@ -164,20 +173,30 @@ def require_existing_file(path: Path, description: str) -> str:
     return str(path)
 
 
-def load_long_package():
-    try:
-        import torch
-        import vbench2_beta_long
-        from vbench2_beta_long import VBenchLong
-    except ImportError as exc:
-        raise SystemExit(
-            "Cannot import vbench2_beta_long from the current Python environment.\n"
-            "Install a VBench version that includes VBench-Long, or install from source:\n"
-            "  pip install git+https://github.com/Vchitect/VBench.git"
-        ) from exc
+def add_vbench_repo_to_path(vbench_repo: str | None) -> Path | None:
+    candidates = []
+    if vbench_repo:
+        candidates.append(Path(vbench_repo).resolve())
+    candidates.append(Path(__file__).resolve().parent)
+    candidates.append(Path.home() / "Desktop" / "VBench")
+
+    for candidate in candidates:
+        if (candidate / "vbench2_beta_long" / "__init__.py").is_file():
+            sys.path.insert(0, str(candidate))
+            return candidate
+    return None
+
+
+def load_long_package(vbench_repo: str | None):
+    source_repo = add_vbench_repo_to_path(vbench_repo)
+   
+    import torch
+    import vbench2_beta_long
+    from vbench2_beta_long import VBenchLong
+   
 
     package_dir = Path(vbench2_beta_long.__file__).resolve().parent
-    return torch, VBenchLong, package_dir
+    return torch, VBenchLong, package_dir, source_repo
 
 
 def extract_score(results: dict, dimension: str) -> float:
@@ -194,7 +213,7 @@ def extract_score(results: dict, dimension: str) -> float:
 def main() -> None:
     args = parse_args()
     cache_root = configure_cache_dir(args.cache_dir)
-    torch, VBenchLong, package_dir = load_long_package()
+    torch, VBenchLong, package_dir, source_repo = load_long_package(args.vbench_repo)
     if cache_root is not None:
         try:
             torch.hub.set_dir(str(cache_root / "torch" / "hub"))
@@ -298,6 +317,7 @@ def main() -> None:
         "videos_path": str(base_path),
         "mode": args.mode,
         "cache_dir": str(cache_root) if cache_root is not None else None,
+        "vbench_repo": str(source_repo) if source_repo is not None else None,
         "created_at": timestamp,
         "dimension_scores": summary_rows,
         "overall_mean": mean(scores) if scores else None,
