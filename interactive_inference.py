@@ -15,8 +15,7 @@ import torch
 import torch.distributed as dist
 from omegaconf import OmegaConf
 from tqdm import tqdm
-from torch.utils.data import DataLoader, SequentialSampler
-from torch.utils.data.distributed import DistributedSampler
+from torch.utils.data import DataLoader, SequentialSampler, Subset
 from torchvision.io import write_video
 from torchvision import transforms  # noqa: F401
 from einops import rearrange
@@ -165,11 +164,17 @@ num_prompts_total = len(dataset)
 print(f"Number of prompt lines: {num_prompts_total}")
 
 if dist.is_initialized():
-    sampler = DistributedSampler(dataset, shuffle=False, drop_last=True)
+    world_size = dist.get_world_size()
+    rank = dist.get_rank()
+    rank_indices = list(range(rank, len(dataset), world_size))
+    rank_dataset = Subset(dataset, rank_indices)
+    sampler = SequentialSampler(rank_dataset)
+    print(f"[Rank {rank}] Assigned {len(rank_indices)} prompt lines: {rank_indices}")
 else:
-    sampler = SequentialSampler(dataset)
+    rank_dataset = dataset
+    sampler = SequentialSampler(rank_dataset)
 
-dataloader = DataLoader(dataset, batch_size=1, sampler=sampler, num_workers=0, drop_last=False)
+dataloader = DataLoader(rank_dataset, batch_size=1, sampler=sampler, num_workers=0, drop_last=False)
 
 # Create output directory
 if local_rank == 0:

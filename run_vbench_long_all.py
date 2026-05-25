@@ -155,13 +155,14 @@ def configure_cache_dir(cache_dir: str | None) -> Path | None:
 
     original_expanduser = os.path.expanduser
 
-    def expanduser_with_cache(path: str) -> str:
-        normalized = path.replace(r"\\", "/")
+    def expanduser_with_cache(path: str | os.PathLike[str]) -> str:
+        path_str = os.fspath(path)
+        normalized = path_str.replace(r"\\", "/")
         if normalized == "~/.cache":
             return str(root)
         if normalized.startswith("~/.cache/"):
             return str(root / normalized[len("~/.cache/") :])
-        return original_expanduser(path)
+        return original_expanduser(path_str)
 
     os.path.expanduser = expanduser_with_cache
     return root
