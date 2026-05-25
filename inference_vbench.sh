@@ -65,7 +65,7 @@ while [[ $# -gt 0 ]]; do
     --num-samples) NUM_SAMPLES="$2"; shift 2 ;;
     --num-output-frames) NUM_OUTPUT_FRAMES="$2"; shift 2 ;;
     --seed) SEED="$2"; shift 2 ;;
-    --nproc-per-node) NPROC_PER_NODE="$2"; shift 2 ;;
+    --nproc-per-node) NPROC_PER_NODE="$2"; shift 2 ;; 
     --master-port) MASTER_PORT="$2"; shift 2 ;;
     -h|--help) usage; exit 0 ;;
     *) echo "Unknown option: $1" >&2; usage; exit 2 ;;
