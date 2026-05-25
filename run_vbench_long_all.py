@@ -70,6 +70,14 @@ def parse_args() -> argparse.Namespace:
         help="Directory for raw VBench outputs and final summaries.",
     )
     parser.add_argument(
+        "--cache_dir",
+        default=None,
+        help=(
+            "Root cache directory for VBench and common model backends. "
+            "Sets VBENCH_CACHE_DIR, TORCH_HOME, HF_HOME, and related variables."
+        ),
+    )
+    parser.add_argument(
         "--mode",
         default="long_vbench_standard",
         choices=["long_vbench_standard", "long_custom_input"],
@@ -114,6 +122,42 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def configure_cache_dir(cache_dir: str | None) -> Path | None:
+    if not cache_dir:
+        return None
+
+    root = Path(cache_dir).resolve()
+    root.mkdir(parents=True, exist_ok=True)
+
+    env_paths = {
+        "VBENCH_CACHE_DIR": root,
+        "TORCH_HOME": root / "torch",
+        "HF_HOME": root / "huggingface",
+        "HUGGINGFACE_HUB_CACHE": root / "huggingface" / "hub",
+        "TRANSFORMERS_CACHE": root / "huggingface" / "transformers",
+        "HF_DATASETS_CACHE": root / "huggingface" / "datasets",
+        "XDG_CACHE_HOME": root,
+        "PYTORCH_PRETRAINED_BERT_CACHE": root / "pytorch_pretrained_bert",
+        "PYTORCH_TRANSFORMERS_CACHE": root / "pytorch_transformers",
+    }
+    for key, path in env_paths.items():
+        os.environ[key] = str(path)
+        Path(path).mkdir(parents=True, exist_ok=True)
+
+    original_expanduser = os.path.expanduser
+
+    def expanduser_with_cache(path: str) -> str:
+        normalized = path.replace("\\", "/")
+        if normalized == "~/.cache":
+            return str(root)
+        if normalized.startswith("~/.cache/"):
+            return str(root / normalized[len("~/.cache/") :])
+        return original_expanduser(path)
+
+    os.path.expanduser = expanduser_with_cache
+    return root
+
+
 def require_existing_file(path: Path, description: str) -> str:
     if not path.is_file():
         raise FileNotFoundError(f"{description} not found: {path}")
@@ -149,7 +193,13 @@ def extract_score(results: dict, dimension: str) -> float:
 
 def main() -> None:
     args = parse_args()
+    cache_root = configure_cache_dir(args.cache_dir)
     torch, VBenchLong, package_dir = load_long_package()
+    if cache_root is not None:
+        try:
+            torch.hub.set_dir(str(cache_root / "torch" / "hub"))
+        except Exception:
+            pass
 
     output_path = Path(args.output_path).resolve()
     output_path.mkdir(parents=True, exist_ok=True)
@@ -247,6 +297,7 @@ def main() -> None:
     summary = {
         "videos_path": str(base_path),
         "mode": args.mode,
+        "cache_dir": str(cache_root) if cache_root is not None else None,
         "created_at": timestamp,
         "dimension_scores": summary_rows,
         "overall_mean": mean(scores) if scores else None,
