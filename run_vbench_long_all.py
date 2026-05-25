@@ -156,7 +156,7 @@ def configure_cache_dir(cache_dir: str | None) -> Path | None:
     original_expanduser = os.path.expanduser
 
     def expanduser_with_cache(path: str) -> str:
-        normalized = path.replace("\\", "/")
+        normalized = path.replace(r"\\", "/")
         if normalized == "~/.cache":
             return str(root)
         if normalized.startswith("~/.cache/"):
