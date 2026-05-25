@@ -6,3 +6,5 @@ wan_models
 checkpoints/
 videos
 slurm_out
+*.sbatch
+
