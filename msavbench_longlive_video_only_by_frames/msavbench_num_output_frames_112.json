@@ -1,0 +1,572 @@
+[
+  {
+    "idx": 34,
+    "sample_id": "34",
+    "prompts": [
+      "Shot 1 begins with a black screen followed by a hard cut, using a medium eye-level composition. Mixed ceiling and side-window lighting casts warm and cool tones onto his hand gripping the racket. An elderly male stands steadily in a hospital rehab room, gently rotating his wrist and adjusting grip angle, shoulders slightly tensed, racket trembling subtly with wrist motion, sleeves and strings showing slight vibration. The camera performs a slight push-in, compressing the contained strength of the warm-up.",
+      "Shot 2 follows with a hard cut, using a close-up overhead view. Shallow depth of field focuses on the calloused palm, knuckles, and string intersection, with background blurred into pale sheets and equipment outlines. Side lighting highlights skin texture and string reflections. He repositions thumb and index finger firmly on the handle, palm slightly sweaty, strings vibrating finely from a light tap. The camera executes a very short dive-like push-in, emphasizing preparation for high-speed action.",
+      "Shot 3 continues with a hard cut, using a wide side-view tracking shot. Floor tile lines guide the eye into the distance, occasional door frames in the foreground enhance speed. Uniform ceiling lights illuminate the long corridor. He moves sideways while bouncing the ball, which rapidly travels between racket and air. Steps are light yet cautious, body weight continuously shifting laterally, pants hem and shirt bottom swaying with each step. The staccato piano begins to sync rhythmically with the continuous bounce. The camera tracks smoothly along the corridor, keeping the ball within a clear trajectory.",
+      "Shot 4 follows with a hard cut, using a close-up overhead view. Background shows his quickly extended racket face and half-step leg movement. Bright highlights appear on the metal rail as the ball spins rapidly past, creating a sense of pressure. He swiftly adjusts wrist angle to avoid collision, sole lightly scraping the floor. A sharp piano note aligns with the metallic tremor. The camera performs a slight downward tilt, emphasizing precise control amid obstacles.",
+      "Shot 5 transitions via rapid motion match to the office with a hard cut, using a medium-long eye-level shot. Foreground features a blurred file cabinet, subject and white wall forming depth. Keyboard and desk appear at the edge, hinting at future elements. Lighting remains mixed ceiling and side-window. Arm swing shifts from tentative to stable power, shoulder rotation increases. Piano staccato noticeably speeds up, with faint keyboard typing first introduced. The camera makes a small leftward pan, following his lateral adjustments near the wall.",
+      "Shot 6 follows with a hard cut, using a close-up eye-level shot. Composition tightly frames face, neck, and lower-body footwork area. Background blurs into office walls and reflective floor. Lighting highlights sweat droplet edges. Feet perform rapid micro-steps, knees continuously bouncing. After each swing, residual momentum causes collar flutter. The camera slightly handheld pushes in, creating intimate pressure.",
+      "Shot 7 follows with a hard cut, using a close-up low-angle shot. Camera near table edge, foreground features keyboard and mouse, focus on the tennis ball landing beside the keyboard. Background shows blurred subject lowering body for next shot. Ceiling light creates clear reflection on the desk. The ball hits the floor and rebounds sharply. He precisely lowers racket face to continue. The camera performs a brief push-in then follows the ball upward, highlighting explosive rebound.",
+      "Shot 8 transitions via fade-out and fade-in to the cafe, using a medium eye-level shot. Foreground features dense obstacles of table and chair legs. Subject moves centrally toward the back. Warm practical lights and side-window natural light maintain consistent high-saturation indoor quality. He quickly sidesteps furniture to execute a volley, arm motion more decisive, shoulder and hip coordination evident. The ball navigates narrow gaps, tablecloth edges and chair backs fluttering from airflow. Piano staccato shifts from tense to uplifting. The camera pans along the table edge, showcasing precise judgment in confined space.",
+      "Shot 9 follows with a hard cut, using a close-up low-angle shot. Camera nearly touches the ground, tile patterns lead forward. Focus locked on the ball racing close to the floor. Background shows his lowered legs and racket frame bottom. Warm lighting reflects bright streaks on the floor from high-speed glide. The ball surges forward with extremely low arc. He quickly closes steps to catch up, toe stops abruptly causing minor slide. The camera performs a short ground-level forward move, enhancing sprint sensation.",
+      "Shot 10 follows with a hard cut, using a medium eye-level lateral move into an empty classroom. Foreground features doorframe passing as transitional obstruction. Background includes blackboard, desks, and white walls forming a clean training space. Lighting continues mixed ceiling and window light. Piano staccato reaches its densest section, perfectly synced with every touch. The camera smoothly pans horizontally with slight follow, ensuring wall, ball, person, and rebound path remain clearly connected.",
+      "Shot 11 follows with a hard cut, using a close-up overhead shot. Focus centers on feet and floor markings. Foreground blurs a corner of a table leg as spatial cue. Light flashes briefly on shoes and floor. He adjusts stance with continuous forefoot micro-steps, ankles rapidly springing, weight shifting left-right. Pants hem and laces vibrate slightly. The camera performs a slight downward follow pan, breaking down the force transmission from lower limbs.",
+      "Shot 12 transitions from the previous shot with a smooth pull-out, using a wide-angle high-angle slightly pulling back shot, fully revealing the empty classroom. Desks are pushed to both sides, clearly defining the boundaries of the makeshift court. Natural light from the window and overhead lighting jointly illuminate the trajectory of the ball in flight. He continuously hits the wall at the center of the space, achieving his largest body swing yet. His follow-through after each hit is clean and crisp, creating a rhythmic back-and-forth motion between himself and the wall. The camera continues to pull back, emphasizing both the completeness of the makeshift court and his sustained endurance.",
+      "Shot 13 cuts abruptly into the kitchen from the previous shot, using a medium-close eye-level slightly low-angle shot. The foreground features the edge of the countertop, with focus on the tennis ball that bounces off the surface and suddenly changes direction. In the background, cabinets, utensils, and warm-toned lighting strips maintain a sense of domestic continuity. He rushes into the frame, using the countertop bounce to execute an extreme save. His body leans forward to near imbalance, and his arm swings out at the last moment with an extremely narrow racket face angle, redirecting the ball back into a controllable trajectory. His shirt flares up due to the rapid spin. At this point, the staccato piano reaches its most intense peak. The subtle vibrations of kitchenware and the sharp The camera first briefly dips down, then follows the upward motion of his arm, amplifying the thrill of the near-miss success.",
+      "Shot 14 directly enters the climax through continuous action from the previous shot, using a close-up high-angle static composition. The subject's airborne forehand swing dominates the frame. The foreground includes slightly blurred net substitute and countertop edge, while the background highlights are compressed into tense indoor light spots. Light from the side front illuminates sweat droplets, the racket frame, and the taut forearm muscles. The moment he completes the airborne forehand is frozen in time—sweat, shirt edges, and strings vibrate at the peak of explosive power. The camera remains completely still for the final half-second, sealing the entire indoor high-speed self-training sequence with maximum tension."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 begins with a black screen followed by a hard cut, using a medium eye-level composition. Mixed ceiling and side-window lighting casts warm and cool tones onto his hand gripping the racket. An elderly male stands steadily in a hospital rehab room, gently rotating his wrist and adjusting grip angle, shoulders slightly tensed, racket trembling subtly with wrist motion, sleeves and strings showing slight vibration. The camera performs a slight push-in, compressing the contained strength of the warm-up.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 follows with a hard cut, using a close-up overhead view. Shallow depth of field focuses on the calloused palm, knuckles, and string intersection, with background blurred into pale sheets and equipment outlines. Side lighting highlights skin texture and string reflections. He repositions thumb and index finger firmly on the handle, palm slightly sweaty, strings vibrating finely from a light tap. The camera executes a very short dive-like push-in, emphasizing preparation for high-speed action.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 continues with a hard cut, using a wide side-view tracking shot. Floor tile lines guide the eye into the distance, occasional door frames in the foreground enhance speed. Uniform ceiling lights illuminate the long corridor. He moves sideways while bouncing the ball, which rapidly travels between racket and air. Steps are light yet cautious, body weight continuously shifting laterally, pants hem and shirt bottom swaying with each step. The staccato piano begins to sync rhythmically with the continuous bounce. The camera tracks smoothly along the corridor, keeping the ball within a clear trajectory.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 follows with a hard cut, using a close-up overhead view. Background shows his quickly extended racket face and half-step leg movement. Bright highlights appear on the metal rail as the ball spins rapidly past, creating a sense of pressure. He swiftly adjusts wrist angle to avoid collision, sole lightly scraping the floor. A sharp piano note aligns with the metallic tremor. The camera performs a slight downward tilt, emphasizing precise control amid obstacles.",
+        "source_video_frames": 15,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 transitions via rapid motion match to the office with a hard cut, using a medium-long eye-level shot. Foreground features a blurred file cabinet, subject and white wall forming depth. Keyboard and desk appear at the edge, hinting at future elements. Lighting remains mixed ceiling and side-window. Arm swing shifts from tentative to stable power, shoulder rotation increases. Piano staccato noticeably speeds up, with faint keyboard typing first introduced. The camera makes a small leftward pan, following his lateral adjustments near the wall.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 follows with a hard cut, using a close-up eye-level shot. Composition tightly frames face, neck, and lower-body footwork area. Background blurs into office walls and reflective floor. Lighting highlights sweat droplet edges. Feet perform rapid micro-steps, knees continuously bouncing. After each swing, residual momentum causes collar flutter. The camera slightly handheld pushes in, creating intimate pressure.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 follows with a hard cut, using a close-up low-angle shot. Camera near table edge, foreground features keyboard and mouse, focus on the tennis ball landing beside the keyboard. Background shows blurred subject lowering body for next shot. Ceiling light creates clear reflection on the desk. The ball hits the floor and rebounds sharply. He precisely lowers racket face to continue. The camera performs a brief push-in then follows the ball upward, highlighting explosive rebound.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 transitions via fade-out and fade-in to the cafe, using a medium eye-level shot. Foreground features dense obstacles of table and chair legs. Subject moves centrally toward the back. Warm practical lights and side-window natural light maintain consistent high-saturation indoor quality. He quickly sidesteps furniture to execute a volley, arm motion more decisive, shoulder and hip coordination evident. The ball navigates narrow gaps, tablecloth edges and chair backs fluttering from airflow. Piano staccato shifts from tense to uplifting. The camera pans along the table edge, showcasing precise judgment in confined space.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 follows with a hard cut, using a close-up low-angle shot. Camera nearly touches the ground, tile patterns lead forward. Focus locked on the ball racing close to the floor. Background shows his lowered legs and racket frame bottom. Warm lighting reflects bright streaks on the floor from high-speed glide. The ball surges forward with extremely low arc. He quickly closes steps to catch up, toe stops abruptly causing minor slide. The camera performs a short ground-level forward move, enhancing sprint sensation.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 follows with a hard cut, using a medium eye-level lateral move into an empty classroom. Foreground features doorframe passing as transitional obstruction. Background includes blackboard, desks, and white walls forming a clean training space. Lighting continues mixed ceiling and window light. Piano staccato reaches its densest section, perfectly synced with every touch. The camera smoothly pans horizontally with slight follow, ensuring wall, ball, person, and rebound path remain clearly connected.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 follows with a hard cut, using a close-up overhead shot. Focus centers on feet and floor markings. Foreground blurs a corner of a table leg as spatial cue. Light flashes briefly on shoes and floor. He adjusts stance with continuous forefoot micro-steps, ankles rapidly springing, weight shifting left-right. Pants hem and laces vibrate slightly. The camera performs a slight downward follow pan, breaking down the force transmission from lower limbs.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 transitions from the previous shot with a smooth pull-out, using a wide-angle high-angle slightly pulling back shot, fully revealing the empty classroom. Desks are pushed to both sides, clearly defining the boundaries of the makeshift court. Natural light from the window and overhead lighting jointly illuminate the trajectory of the ball in flight. He continuously hits the wall at the center of the space, achieving his largest body swing yet. His follow-through after each hit is clean and crisp, creating a rhythmic back-and-forth motion between himself and the wall. The camera continues to pull back, emphasizing both the completeness of the makeshift court and his sustained endurance.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts abruptly into the kitchen from the previous shot, using a medium-close eye-level slightly low-angle shot. The foreground features the edge of the countertop, with focus on the tennis ball that bounces off the surface and suddenly changes direction. In the background, cabinets, utensils, and warm-toned lighting strips maintain a sense of domestic continuity. He rushes into the frame, using the countertop bounce to execute an extreme save. His body leans forward to near imbalance, and his arm swings out at the last moment with an extremely narrow racket face angle, redirecting the ball back into a controllable trajectory. His shirt flares up due to the rapid spin. At this point, the staccato piano reaches its most intense peak. The subtle vibrations of kitchenware and the sharp The camera first briefly dips down, then follows the upward motion of his arm, amplifying the thrill of the near-miss success.",
+        "source_video_frames": 25,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 directly enters the climax through continuous action from the previous shot, using a close-up high-angle static composition. The subject's airborne forehand swing dominates the frame. The foreground includes slightly blurred net substitute and countertop edge, while the background highlights are compressed into tense indoor light spots. Light from the side front illuminates sweat droplets, the racket frame, and the taut forearm muscles. The moment he completes the airborne forehand is frozen in time—sweat, shirt edges, and strings vibrate at the peak of explosive power. The camera remains completely still for the final half-second, sealing the entire indoor high-speed self-training sequence with maximum tension.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      13,
+      19,
+      15,
+      19,
+      14,
+      16,
+      20,
+      14,
+      21,
+      13,
+      19,
+      25,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      4,
+      6,
+      5,
+      6,
+      4,
+      5,
+      6,
+      4,
+      6,
+      4,
+      6,
+      7,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 begins with a black screen followed by a hard cut, using a medium eye-level composition. Mixed ceiling and side-window lighting casts warm and cool tones onto his hand gripping the racket. An elderly male stands steadily in a hospital rehab room, gently rotating his wrist and adjusting grip angle, shoulders slightly tensed, racket trembling subtly with wrist motion, sleeves and strings showing slight vibration. The camera performs a slight push-in, compressing the contained strength of the warm-up.",
+      "The scene transitions. Shot 2 follows with a hard cut, using a close-up overhead view. Shallow depth of field focuses on the calloused palm, knuckles, and string intersection, with background blurred into pale sheets and equipment outlines. Side lighting highlights skin texture and string reflections. He repositions thumb and index finger firmly on the handle, palm slightly sweaty, strings vibrating finely from a light tap. The camera executes a very short dive-like push-in, emphasizing preparation for high-speed action.",
+      "The scene transitions. Shot 3 continues with a hard cut, using a wide side-view tracking shot. Floor tile lines guide the eye into the distance, occasional door frames in the foreground enhance speed. Uniform ceiling lights illuminate the long corridor. He moves sideways while bouncing the ball, which rapidly travels between racket and air. Steps are light yet cautious, body weight continuously shifting laterally, pants hem and shirt bottom swaying with each step. The staccato piano begins to sync rhythmically with the continuous bounce. The camera tracks smoothly along the corridor, keeping the ball within a clear trajectory.",
+      "The scene transitions. Shot 4 follows with a hard cut, using a close-up overhead view. Background shows his quickly extended racket face and half-step leg movement. Bright highlights appear on the metal rail as the ball spins rapidly past, creating a sense of pressure. He swiftly adjusts wrist angle to avoid collision, sole lightly scraping the floor. A sharp piano note aligns with the metallic tremor. The camera performs a slight downward tilt, emphasizing precise control amid obstacles.",
+      "The scene transitions. Shot 5 transitions via rapid motion match to the office with a hard cut, using a medium-long eye-level shot. Foreground features a blurred file cabinet, subject and white wall forming depth. Keyboard and desk appear at the edge, hinting at future elements. Lighting remains mixed ceiling and side-window. Arm swing shifts from tentative to stable power, shoulder rotation increases. Piano staccato noticeably speeds up, with faint keyboard typing first introduced. The camera makes a small leftward pan, following his lateral adjustments near the wall.",
+      "The scene transitions. Shot 6 follows with a hard cut, using a close-up eye-level shot. Composition tightly frames face, neck, and lower-body footwork area. Background blurs into office walls and reflective floor. Lighting highlights sweat droplet edges. Feet perform rapid micro-steps, knees continuously bouncing. After each swing, residual momentum causes collar flutter. The camera slightly handheld pushes in, creating intimate pressure.",
+      "The scene transitions. Shot 7 follows with a hard cut, using a close-up low-angle shot. Camera near table edge, foreground features keyboard and mouse, focus on the tennis ball landing beside the keyboard. Background shows blurred subject lowering body for next shot. Ceiling light creates clear reflection on the desk. The ball hits the floor and rebounds sharply. He precisely lowers racket face to continue. The camera performs a brief push-in then follows the ball upward, highlighting explosive rebound.",
+      "The scene transitions. Shot 8 transitions via fade-out and fade-in to the cafe, using a medium eye-level shot. Foreground features dense obstacles of table and chair legs. Subject moves centrally toward the back. Warm practical lights and side-window natural light maintain consistent high-saturation indoor quality. He quickly sidesteps furniture to execute a volley, arm motion more decisive, shoulder and hip coordination evident. The ball navigates narrow gaps, tablecloth edges and chair backs fluttering from airflow. Piano staccato shifts from tense to uplifting. The camera pans along the table edge, showcasing precise judgment in confined space.",
+      "The scene transitions. Shot 9 follows with a hard cut, using a close-up low-angle shot. Camera nearly touches the ground, tile patterns lead forward. Focus locked on the ball racing close to the floor. Background shows his lowered legs and racket frame bottom. Warm lighting reflects bright streaks on the floor from high-speed glide. The ball surges forward with extremely low arc. He quickly closes steps to catch up, toe stops abruptly causing minor slide. The camera performs a short ground-level forward move, enhancing sprint sensation.",
+      "The scene transitions. Shot 10 follows with a hard cut, using a medium eye-level lateral move into an empty classroom. Foreground features doorframe passing as transitional obstruction. Background includes blackboard, desks, and white walls forming a clean training space. Lighting continues mixed ceiling and window light. Piano staccato reaches its densest section, perfectly synced with every touch. The camera smoothly pans horizontally with slight follow, ensuring wall, ball, person, and rebound path remain clearly connected.",
+      "The scene transitions. Shot 11 follows with a hard cut, using a close-up overhead shot. Focus centers on feet and floor markings. Foreground blurs a corner of a table leg as spatial cue. Light flashes briefly on shoes and floor. He adjusts stance with continuous forefoot micro-steps, ankles rapidly springing, weight shifting left-right. Pants hem and laces vibrate slightly. The camera performs a slight downward follow pan, breaking down the force transmission from lower limbs.",
+      "The scene transitions. Shot 12 transitions from the previous shot with a smooth pull-out, using a wide-angle high-angle slightly pulling back shot, fully revealing the empty classroom. Desks are pushed to both sides, clearly defining the boundaries of the makeshift court. Natural light from the window and overhead lighting jointly illuminate the trajectory of the ball in flight. He continuously hits the wall at the center of the space, achieving his largest body swing yet. His follow-through after each hit is clean and crisp, creating a rhythmic back-and-forth motion between himself and the wall. The camera continues to pull back, emphasizing both the completeness of the makeshift court and his sustained endurance.",
+      "The scene transitions. Shot 13 cuts abruptly into the kitchen from the previous shot, using a medium-close eye-level slightly low-angle shot. The foreground features the edge of the countertop, with focus on the tennis ball that bounces off the surface and suddenly changes direction. In the background, cabinets, utensils, and warm-toned lighting strips maintain a sense of domestic continuity. He rushes into the frame, using the countertop bounce to execute an extreme save. His body leans forward to near imbalance, and his arm swings out at the last moment with an extremely narrow racket face angle, redirecting the ball back into a controllable trajectory. His shirt flares up due to the rapid spin. At this point, the staccato piano reaches its most intense peak. The subtle vibrations of kitchenware and the sharp The camera first briefly dips down, then follows the upward motion of his arm, amplifying the thrill of the near-miss success.",
+      "The scene transitions. Shot 14 directly enters the climax through continuous action from the previous shot, using a close-up high-angle static composition. The subject's airborne forehand swing dominates the frame. The foreground includes slightly blurred net substitute and countertop edge, while the background highlights are compressed into tense indoor light spots. Light from the side front illuminates sweat droplets, the racket frame, and the taut forearm muscles. The moment he completes the airborne forehand is frozen in time—sweat, shirt edges, and strings vibrate at the peak of explosive power. The camera remains completely still for the final half-second, sealing the entire indoor high-speed self-training sequence with maximum tension."
+    ],
+    "num_output_frames": 112,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 73,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 216,
+    "sample_id": "216",
+    "prompts": [
+      "Shot 1: Fade in from black, wide eye-level composition establishes the night-time office. City lights outside are subdued in the background, foreground features desk edge and scattered draft papers, midground shows a young male seated at his workstation. Camera slowly pushes in, synchronized with the first piano arpeggio as the machine boots.",
+      "Shot 2: Hard cut from previous shot, close-up overhead view focuses on keyboard and hands. Composition uses fingers and illuminated keys to form diagonal leading lines. Shallow depth of field reveals rotating disk parameter interface emerging on screen. Cold screen light reflects off knuckles. Fingers rapidly type to load black hole accretion disk simulation. Camera performs slight lateral dolly to emphasize increasing input speed.",
+      "Shot 3: Match hard cut to extreme close-up eye-level shot focusing on formulas, curved arrows, and lens sketches on desk paper. Blurred pen tip moves across foreground, out-of-focus blue monitor glow in background. Warm light illuminates paper texture clearly. Young male quickly adds supplementary lines, paper slightly shifts. Piano pattern becomes denser. Camera subtly tilts to adjust focus, bringing formulas and lens diagrams into sharp succession.",
+      "Shot 4: Action cut to break room, overhead medium close-up centers on a dark coffee cup. Rim and liquid surface occupy frame center, surrounded by metal countertop and scattered stirrers. Warm overhead light creates bright reflection on surface. Male gently rotates cup, ripples distort light into curved arcs, visually analogizing light path bending. Camera slowly lowers and rotates slightly.",
+      "Shot 5: Hard cut to side-view close-up of desk lamp beam and handheld lens in break room. Foreground features warm white light outlined by airborne dust. Midground shows lens horizontally crossing the beam. Background blurred cabinet and kettle. High saturation contrast appears at lens edges where cool and warm light overlap. He slowly rotates lens, causing visible deflection and shape stretching of the beam. Camera gently tracks along beam direction.",
+      "Shot 6: Light spot match cut back to office, extreme close-up eye-level shot near monitor. Central composition shows a star point gradually stretched into long arc. Pixel grain and UI fine lines are clearly visible. Surrounding darkness is swallowed by cold light, only faint warm reflections remain at edges. Simulation transitions from dot to warped arc ring, material appearance shifts from stable glow to trailing bright form. Piano chords begin to sustain. Camera extremely slow push-in emphasizes intensifying changes within screen.",
+      "Shot 7: Hard cut to close-up low-angle shot of young male’s face and neck. Foreground blurred monitor edge, midground focus on eyes and blue screen reflection. Background system lights flicker. Soaring parameters reflect in pupils. Fan pitch rises and overlaps with piano accents. Camera makes abrupt push-in to heighten urgency.",
+      "Shot 8: Hard cut to classroom, wide overhead slightly eye-level angle establishes whiteboard, lectern, and empty seats. Whiteboard occupies upper half of frame as clear background. Young male stands before it, rapidly drawing event horizon, light deflection paths, and observation arcs with dark marker. Classroom fluorescent lighting provides even cool-white illumination, but residual warmth comes from corridor light spilling in. Lines evolve from simple circle to multi-layered rings. Pen scratch syncs with piano arpeggios. Camera starts still then slowly pans right, suggesting unfolding thought process.",
+      "Shot 9: Hard cut back to office, extreme close-up low-angle shot of PC cooling fan. Circular blades dominate frame. Foreground features repeating mesh pattern of case. Background flashes cold blue indicator lights. Fan accelerates from distinct to semi-transparent blur. Airflow causes corner sticky note to flutter. Camera makes very short push-in then stops, placing mechanical energy in foreground.",
+      "Shot 10: Circular structure match cut to accretion disk on screen, extreme close-up eye-level composition fills most of frame with glowing disk. Dark core contrasts sharply with surrounding orange-white turbulent edge. Bright speckles rotate rapidly along orbit. Light-dark layers continuously roll. Physical changes include enhanced luminosity at rim, denser texture, localized unstable flashes. Piano pitch matches brightness fluctuations. Camera makes small orbital movement around disk edge, creating sense of being pulled in.",
+      "Shot 11: Fade-in hard cut to office glass door, close-up eye-level shot using reflection composition. Foreground features real corridor frame, focus on ring-shaped reflection on glass surface. Background overlays young male and screen image. Cold and warm light mix on glass into a glowing arc resembling an Einstein ring. As he approaches, reflection stretches into more complete ring. Fan Camera slightly shifts sideways, sliding ring reflection across door surface.",
+      "Shot 12: Hard cut to medium eye-level shot of him standing before dual screens comparing before-and-after images. Composition uses left-right split: left screen shows initial star point, right screen shows warped arc ring. Foreground features blurred reference photo taped to desk edge. Background wall remains dark to avoid distraction. He alternates gaze between screens, rapidly scrolls comparison layers. Marking lines appear sequentially on screen. Camera smoothly dollies horizontally, emphasizing “比较” action.",
+      "The foreground features a slightly reflective desk surface, while the background draft paper and marker pen are softly blurred. Cold screen light illuminates the texture of the back of the hand. He confirms parameters, names the file, and presses save; the progress bar fills instantly. The final crisp keystroke synchronizes with a piano chord, and the camera gently lowers then stabilizes.",
+      "Shot 14 fades in from the previous shot into a long shot at eye level, pulling back to frame the entire office. A young man stands still before the screen, the full display of the distorted starfield spreading like a luminous wall. Foreground desk clutter is darkened, while the night outside the window echoes the cosmic patterns on the screen. Cool light dominates, warm lighting only leaving thin outlines at the edges. The camera pulls out extremely slowly, holding the moment of completed simulation."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1: Fade in from black, wide eye-level composition establishes the night-time office. City lights outside are subdued in the background, foreground features desk edge and scattered draft papers, midground shows a young male seated at his workstation. Camera slowly pushes in, synchronized with the first piano arpeggio as the machine boots.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2: Hard cut from previous shot, close-up overhead view focuses on keyboard and hands. Composition uses fingers and illuminated keys to form diagonal leading lines. Shallow depth of field reveals rotating disk parameter interface emerging on screen. Cold screen light reflects off knuckles. Fingers rapidly type to load black hole accretion disk simulation. Camera performs slight lateral dolly to emphasize increasing input speed.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3: Match hard cut to extreme close-up eye-level shot focusing on formulas, curved arrows, and lens sketches on desk paper. Blurred pen tip moves across foreground, out-of-focus blue monitor glow in background. Warm light illuminates paper texture clearly. Young male quickly adds supplementary lines, paper slightly shifts. Piano pattern becomes denser. Camera subtly tilts to adjust focus, bringing formulas and lens diagrams into sharp succession.",
+        "source_video_frames": 15,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4: Action cut to break room, overhead medium close-up centers on a dark coffee cup. Rim and liquid surface occupy frame center, surrounded by metal countertop and scattered stirrers. Warm overhead light creates bright reflection on surface. Male gently rotates cup, ripples distort light into curved arcs, visually analogizing light path bending. Camera slowly lowers and rotates slightly.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5: Hard cut to side-view close-up of desk lamp beam and handheld lens in break room. Foreground features warm white light outlined by airborne dust. Midground shows lens horizontally crossing the beam. Background blurred cabinet and kettle. High saturation contrast appears at lens edges where cool and warm light overlap. He slowly rotates lens, causing visible deflection and shape stretching of the beam. Camera gently tracks along beam direction.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6: Light spot match cut back to office, extreme close-up eye-level shot near monitor. Central composition shows a star point gradually stretched into long arc. Pixel grain and UI fine lines are clearly visible. Surrounding darkness is swallowed by cold light, only faint warm reflections remain at edges. Simulation transitions from dot to warped arc ring, material appearance shifts from stable glow to trailing bright form. Piano chords begin to sustain. Camera extremely slow push-in emphasizes intensifying changes within screen.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7: Hard cut to close-up low-angle shot of young male’s face and neck. Foreground blurred monitor edge, midground focus on eyes and blue screen reflection. Background system lights flicker. Soaring parameters reflect in pupils. Fan pitch rises and overlaps with piano accents. Camera makes abrupt push-in to heighten urgency.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8: Hard cut to classroom, wide overhead slightly eye-level angle establishes whiteboard, lectern, and empty seats. Whiteboard occupies upper half of frame as clear background. Young male stands before it, rapidly drawing event horizon, light deflection paths, and observation arcs with dark marker. Classroom fluorescent lighting provides even cool-white illumination, but residual warmth comes from corridor light spilling in. Lines evolve from simple circle to multi-layered rings. Pen scratch syncs with piano arpeggios. Camera starts still then slowly pans right, suggesting unfolding thought process.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9: Hard cut back to office, extreme close-up low-angle shot of PC cooling fan. Circular blades dominate frame. Foreground features repeating mesh pattern of case. Background flashes cold blue indicator lights. Fan accelerates from distinct to semi-transparent blur. Airflow causes corner sticky note to flutter. Camera makes very short push-in then stops, placing mechanical energy in foreground.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10: Circular structure match cut to accretion disk on screen, extreme close-up eye-level composition fills most of frame with glowing disk. Dark core contrasts sharply with surrounding orange-white turbulent edge. Bright speckles rotate rapidly along orbit. Light-dark layers continuously roll. Physical changes include enhanced luminosity at rim, denser texture, localized unstable flashes. Piano pitch matches brightness fluctuations. Camera makes small orbital movement around disk edge, creating sense of being pulled in.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11: Fade-in hard cut to office glass door, close-up eye-level shot using reflection composition. Foreground features real corridor frame, focus on ring-shaped reflection on glass surface. Background overlays young male and screen image. Cold and warm light mix on glass into a glowing arc resembling an Einstein ring. As he approaches, reflection stretches into more complete ring. Fan Camera slightly shifts sideways, sliding ring reflection across door surface.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12: Hard cut to medium eye-level shot of him standing before dual screens comparing before-and-after images. Composition uses left-right split: left screen shows initial star point, right screen shows warped arc ring. Foreground features blurred reference photo taped to desk edge. Background wall remains dark to avoid distraction. He alternates gaze between screens, rapidly scrolls comparison layers. Marking lines appear sequentially on screen. Camera smoothly dollies horizontally, emphasizing “比较” action.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "The foreground features a slightly reflective desk surface, while the background draft paper and marker pen are softly blurred. Cold screen light illuminates the texture of the back of the hand. He confirms parameters, names the file, and presses save; the progress bar fills instantly. The final crisp keystroke synchronizes with a piano chord, and the camera gently lowers then stabilizes.",
+        "source_video_frames": 15,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 fades in from the previous shot into a long shot at eye level, pulling back to frame the entire office. A young man stands still before the screen, the full display of the distorted starfield spreading like a luminous wall. Foreground desk clutter is darkened, while the night outside the window echoes the cosmic patterns on the screen. Cool light dominates, warm lighting only leaving thin outlines at the edges. The camera pulls out extremely slowly, holding the moment of completed simulation.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      18,
+      16,
+      15,
+      17,
+      17,
+      17,
+      18,
+      18,
+      16,
+      20,
+      17,
+      19,
+      15,
+      17
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1: Fade in from black, wide eye-level composition establishes the night-time office. City lights outside are subdued in the background, foreground features desk edge and scattered draft papers, midground shows a young male seated at his workstation. Camera slowly pushes in, synchronized with the first piano arpeggio as the machine boots.",
+      "The scene transitions. Shot 2: Hard cut from previous shot, close-up overhead view focuses on keyboard and hands. Composition uses fingers and illuminated keys to form diagonal leading lines. Shallow depth of field reveals rotating disk parameter interface emerging on screen. Cold screen light reflects off knuckles. Fingers rapidly type to load black hole accretion disk simulation. Camera performs slight lateral dolly to emphasize increasing input speed.",
+      "The scene transitions. Shot 3: Match hard cut to extreme close-up eye-level shot focusing on formulas, curved arrows, and lens sketches on desk paper. Blurred pen tip moves across foreground, out-of-focus blue monitor glow in background. Warm light illuminates paper texture clearly. Young male quickly adds supplementary lines, paper slightly shifts. Piano pattern becomes denser. Camera subtly tilts to adjust focus, bringing formulas and lens diagrams into sharp succession.",
+      "The scene transitions. Shot 4: Action cut to break room, overhead medium close-up centers on a dark coffee cup. Rim and liquid surface occupy frame center, surrounded by metal countertop and scattered stirrers. Warm overhead light creates bright reflection on surface. Male gently rotates cup, ripples distort light into curved arcs, visually analogizing light path bending. Camera slowly lowers and rotates slightly.",
+      "The scene transitions. Shot 5: Hard cut to side-view close-up of desk lamp beam and handheld lens in break room. Foreground features warm white light outlined by airborne dust. Midground shows lens horizontally crossing the beam. Background blurred cabinet and kettle. High saturation contrast appears at lens edges where cool and warm light overlap. He slowly rotates lens, causing visible deflection and shape stretching of the beam. Camera gently tracks along beam direction.",
+      "The scene transitions. Shot 6: Light spot match cut back to office, extreme close-up eye-level shot near monitor. Central composition shows a star point gradually stretched into long arc. Pixel grain and UI fine lines are clearly visible. Surrounding darkness is swallowed by cold light, only faint warm reflections remain at edges. Simulation transitions from dot to warped arc ring, material appearance shifts from stable glow to trailing bright form. Piano chords begin to sustain. Camera extremely slow push-in emphasizes intensifying changes within screen.",
+      "The scene transitions. Shot 7: Hard cut to close-up low-angle shot of young male’s face and neck. Foreground blurred monitor edge, midground focus on eyes and blue screen reflection. Background system lights flicker. Soaring parameters reflect in pupils. Fan pitch rises and overlaps with piano accents. Camera makes abrupt push-in to heighten urgency.",
+      "The scene transitions. Shot 8: Hard cut to classroom, wide overhead slightly eye-level angle establishes whiteboard, lectern, and empty seats. Whiteboard occupies upper half of frame as clear background. Young male stands before it, rapidly drawing event horizon, light deflection paths, and observation arcs with dark marker. Classroom fluorescent lighting provides even cool-white illumination, but residual warmth comes from corridor light spilling in. Lines evolve from simple circle to multi-layered rings. Pen scratch syncs with piano arpeggios. Camera starts still then slowly pans right, suggesting unfolding thought process.",
+      "The scene transitions. Shot 9: Hard cut back to office, extreme close-up low-angle shot of PC cooling fan. Circular blades dominate frame. Foreground features repeating mesh pattern of case. Background flashes cold blue indicator lights. Fan accelerates from distinct to semi-transparent blur. Airflow causes corner sticky note to flutter. Camera makes very short push-in then stops, placing mechanical energy in foreground.",
+      "The scene transitions. Shot 10: Circular structure match cut to accretion disk on screen, extreme close-up eye-level composition fills most of frame with glowing disk. Dark core contrasts sharply with surrounding orange-white turbulent edge. Bright speckles rotate rapidly along orbit. Light-dark layers continuously roll. Physical changes include enhanced luminosity at rim, denser texture, localized unstable flashes. Piano pitch matches brightness fluctuations. Camera makes small orbital movement around disk edge, creating sense of being pulled in.",
+      "The scene transitions. Shot 11: Fade-in hard cut to office glass door, close-up eye-level shot using reflection composition. Foreground features real corridor frame, focus on ring-shaped reflection on glass surface. Background overlays young male and screen image. Cold and warm light mix on glass into a glowing arc resembling an Einstein ring. As he approaches, reflection stretches into more complete ring. Fan Camera slightly shifts sideways, sliding ring reflection across door surface.",
+      "The scene transitions. Shot 12: Hard cut to medium eye-level shot of him standing before dual screens comparing before-and-after images. Composition uses left-right split: left screen shows initial star point, right screen shows warped arc ring. Foreground features blurred reference photo taped to desk edge. Background wall remains dark to avoid distraction. He alternates gaze between screens, rapidly scrolls comparison layers. Marking lines appear sequentially on screen. Camera smoothly dollies horizontally, emphasizing “比较” action.",
+      "The scene transitions. The foreground features a slightly reflective desk surface, while the background draft paper and marker pen are softly blurred. Cold screen light illuminates the texture of the back of the hand. He confirms parameters, names the file, and presses save; the progress bar fills instantly. The final crisp keystroke synchronizes with a piano chord, and the camera gently lowers then stabilizes.",
+      "The scene transitions. Shot 14 fades in from the previous shot into a long shot at eye level, pulling back to frame the entire office. A young man stands still before the screen, the full display of the distorted starfield spreading like a luminous wall. Foreground desk clutter is darkened, while the night outside the window echoes the cosmic patterns on the screen. Cool light dominates, warm lighting only leaving thin outlines at the edges. The camera pulls out extremely slowly, holding the moment of completed simulation."
+    ],
+    "num_output_frames": 112,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 72,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 244,
+    "sample_id": "244",
+    "prompts": [
+      "Shot 1 begins with a glitch flash cut, wide overhead view of the entire castle facade. Spire and battlements form strong leading lines converging toward the central tower. Foreground features flag with electric arc texture and stone eaves. Focus locked on the center of the exterior wall, where cool blue neon spreads along brick seams. A large headline \"王城快报\" floats in the upper half of the frame, centered on the gate, rendered in metallic outline with scanning light material. Dense Chinese scrolling ticker runs rapidly along the bottom edge. As a heavy bell toll and distant crowd commotion simultaneously begin, the headline suddenly illuminates. Camera slightly lowers and pushes in from above.",
+      "Shot 2 continues from previous shot with a hard cut, full shot eye-level view of the drawbridge entrance. Blue-white backlight spills from the castle gate crack. Cold-glow runes hang on both sides of the bridge. The young female anchor stands slightly left of center, with pulsing gate warning runes in the background. Focus follows her as she strides across the bridge, her cloak flaring in the wind. Camera laterally tracks alongside, creating a sense of urgency typical of live news reporting.",
+      "Shot 3 enters via a glitch hard cut, medium-to-close eye-level tracking shot down a long corridor. Arched ceiling recedes into depth, forming a vanishing point. Occasional stone pillars and floating crystals pass in foreground. Shallow depth of field keeps focus on her running profile and passing floating news alerts. Cool blue key light combined with moving top scan lights reflects off armor and walls. Several Chinese news alerts sweep from right to left like a flowing curtain. She quickens pace while glancing upward to confirm info. Camera moves forward quickly with slight pan across the alert layer.",
+      "Shot 4 enters via action-matched hard cut from previous shot, full shot low-angle view of the broadcast hall entrance. Heavy door panels frame the foreground, creating a framing effect. Focus centers on her hand pushing the door. Silver-white backlight bursts from the gap, illuminating blue dust particles. Inside, floating layers and news desk outlines are faintly visible. She steps powerfully through the doorway. Door Camera tilts up slightly from low angle and slides inward following the door’s opening.",
+      "Shot 5 transitions via brief hard cut from interior space to close-up eye-level shot. Composition uses rule of thirds, placing her face and shoulder on the left, with blurred broadcast interface and scrolling text on the right. Focus sharply on the glowing earpiece beside her ear. Soft cool blue light defines facial contours, with silver-white highlights on the earpiece edge. Camera slowly pushes in.",
+      "Shot 6 enters via a glitch frame skip into extreme close-up high-angle shot of the pupil. The frame is nearly filled by one eye. Foreground shows slightly defocused eyelashes. Focus precisely locks on the center of the pupil, which reflects blue data streams, map markers, and scrolling news bars. Cool blue reflection gives the eye edges a glass-like quality. Her gaze shifts from stillness to rapid focus, symbolizing information calibration. Camera gently pushes in to create a sense of pressure.",
+      "Console centered in frame. Semi-transparent floating rune cards pass in foreground. Background features curved broadcast hall wall and dim screens. Focus shifts from her side profile to the illuminated \"魔导讯晶终端\" logo and map projection at the center of the console. Cool blue key light highlights crystal edges, silver-white rim light traces hand movements. She walks to the console and raises her hand to unfold a virtual map. Paths and city hotspots expand layer by layer with her gestures. Chinese voiceover begins formal delivery “王城关键讯息，即刻汇聚”. Camera performs semi-circular pan to enhance spatial expansion.",
+      "Shot 8 continues from previous shot’s action continuity, direct overhead close-up cut to crystal screen interface. Upper frame shows her hands, lower frame shows crystal screen and pulsing symbols. Clean composition. Focus tightly on fingertips touching the screen. Cool blue light rises from within the screen, illuminating finger joints. Crystal surface ripples with bright concentric waves upon tap. She rapidly taps and swipes, folding, unfolding, and reorganizing multiple sections. Bottom Chinese ticker speed increases noticeably. Camera maintains overhead view with minimal follow motion to keep fingertips centered.",
+      "Shot 9 after final tap triggers glitch flash, cuts to wide overhead view of the main hall. The entire broadcast hall is instantly lit by blue-white beams. Foreground features cluster of floating screens. Background shows towering dome and crowd silhouettes. Focus lands on the sudden explosion of massive text \"限时发布\" at the center of the hall, slightly above center. She stands beneath it, serving as visual anchor. All screens in the hall flip pages simultaneously. Crowd commotion rises in volume. Anchor’s Camera rapidly drops from high position, creating a burst of information.",
+      "Shot 10 cuts hard from the previous shot to a medium-long eye-level view of the tower window, where the window frame acts as a natural framing device. Outside, the cityscape and floating beacons in the night form the background, while in the foreground she stands sideways by the window broadcasting, her hair gently moved by the night breeze. Cold blue moonlight blends with silver backlighting inside, creating a crisp silhouette. She raises her hand to send a signal into the city; Chinese subtitles appear clearly: “王城讯号已接通”. Distant light points along city pathways rapidly illuminate in response. The camera first pushes slightly, then pulls back subtly, allowing the city's reaction to enter the frame.",
+      "Shot 11 cuts hard via light match from the glowing points outside the window to a close-up eye-level view of the archive room. Long bookshelves extend backward, creating compressed perspective. Slightly blurred document edges appear in the foreground. Focus locks onto the colorful page she opens and the product illustrations emerging on the page. Under cold blue ambient lighting, sharp highlights are cast along the paper edges by silver top light. She quickly flips through illustrated archives; text, images, and symbols animate into floating mini-windows on the page. The camera slides horizontally along the desk, emphasizing efficient sequential retrieval of data.",
+      "Shot 12 cuts hard via action match from the previous shot’s page-turning motion to a wide-angle low-angle view of the stairwell. Focus is on her running upward and the pulsating blue light at the top of the stairs—the signal core. The scene naturally transitions from archival research to signal connection. Cold blue key light flows along the railing, while localized backlight creates sharp highlights along the edge of each step. She ascends rapidly holding a terminal, her cloak and hem flaring with speed. Electronic The camera follows from below, tilting upward with slight rotation, enhancing the sense of sprinting momentum.",
+      "Shot 13 cuts abruptly to a medium close-up, eye-level shot facing the main hall, with symmetrical composition. The product and the person are both centered: in the foreground, her hands cradle the cool blue-glowing \"魔导讯晶终端\", while the background features a fully activated news matrix wall. Focus initially lands on the texture of the terminal's crystal surface and the flowing light within, then extends to her resolute expression as she looks directly into the camera. Silver-white backlight creates a premium silhouette along the device's edges. In the lower-right corner, the slogan \"一触即达\" appears in bright metallic text with a brief trailing motion effect. The camera performs a steady push-in, centering the key selling point within the frame.",
+      "Shot 14 concludes with a brief fade-in/fade-out from the previous shot, transitioning to a fixed shot in front of the throne. Wide-angle slightly high-angle view. The throne is centered in the background. In the foreground, the terminal product floats mid-air alongside the broadcaster standing calmly. Focus centers on the product and static text. The entire space is dominated by cold blue key lighting, with only silver backlight outlining the throne edges and stone steps, creating a solemn yet futuristic finale. A dense Chinese scrolling ticker runs continuously along the bottom edge of the screen. A small glitch-style tag \"王城快报\" remains in the upper-left corner. Near the center-bottom, the product name \"魔导讯晶终端\" appears in crystalline-metal hybrid typography with subtle glitch tremor. The camera slowly pulls back and freezes to end the sequence."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 begins with a glitch flash cut, wide overhead view of the entire castle facade. Spire and battlements form strong leading lines converging toward the central tower. Foreground features flag with electric arc texture and stone eaves. Focus locked on the center of the exterior wall, where cool blue neon spreads along brick seams. A large headline \"王城快报\" floats in the upper half of the frame, centered on the gate, rendered in metallic outline with scanning light material. Dense Chinese scrolling ticker runs rapidly along the bottom edge. As a heavy bell toll and distant crowd commotion simultaneously begin, the headline suddenly illuminates. Camera slightly lowers and pushes in from above.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 continues from previous shot with a hard cut, full shot eye-level view of the drawbridge entrance. Blue-white backlight spills from the castle gate crack. Cold-glow runes hang on both sides of the bridge. The young female anchor stands slightly left of center, with pulsing gate warning runes in the background. Focus follows her as she strides across the bridge, her cloak flaring in the wind. Camera laterally tracks alongside, creating a sense of urgency typical of live news reporting.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 enters via a glitch hard cut, medium-to-close eye-level tracking shot down a long corridor. Arched ceiling recedes into depth, forming a vanishing point. Occasional stone pillars and floating crystals pass in foreground. Shallow depth of field keeps focus on her running profile and passing floating news alerts. Cool blue key light combined with moving top scan lights reflects off armor and walls. Several Chinese news alerts sweep from right to left like a flowing curtain. She quickens pace while glancing upward to confirm info. Camera moves forward quickly with slight pan across the alert layer.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 enters via action-matched hard cut from previous shot, full shot low-angle view of the broadcast hall entrance. Heavy door panels frame the foreground, creating a framing effect. Focus centers on her hand pushing the door. Silver-white backlight bursts from the gap, illuminating blue dust particles. Inside, floating layers and news desk outlines are faintly visible. She steps powerfully through the doorway. Door Camera tilts up slightly from low angle and slides inward following the door’s opening.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 transitions via brief hard cut from interior space to close-up eye-level shot. Composition uses rule of thirds, placing her face and shoulder on the left, with blurred broadcast interface and scrolling text on the right. Focus sharply on the glowing earpiece beside her ear. Soft cool blue light defines facial contours, with silver-white highlights on the earpiece edge. Camera slowly pushes in.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 enters via a glitch frame skip into extreme close-up high-angle shot of the pupil. The frame is nearly filled by one eye. Foreground shows slightly defocused eyelashes. Focus precisely locks on the center of the pupil, which reflects blue data streams, map markers, and scrolling news bars. Cool blue reflection gives the eye edges a glass-like quality. Her gaze shifts from stillness to rapid focus, symbolizing information calibration. Camera gently pushes in to create a sense of pressure.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Console centered in frame. Semi-transparent floating rune cards pass in foreground. Background features curved broadcast hall wall and dim screens. Focus shifts from her side profile to the illuminated \"魔导讯晶终端\" logo and map projection at the center of the console. Cool blue key light highlights crystal edges, silver-white rim light traces hand movements. She walks to the console and raises her hand to unfold a virtual map. Paths and city hotspots expand layer by layer with her gestures. Chinese voiceover begins formal delivery “王城关键讯息，即刻汇聚”. Camera performs semi-circular pan to enhance spatial expansion.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 continues from previous shot’s action continuity, direct overhead close-up cut to crystal screen interface. Upper frame shows her hands, lower frame shows crystal screen and pulsing symbols. Clean composition. Focus tightly on fingertips touching the screen. Cool blue light rises from within the screen, illuminating finger joints. Crystal surface ripples with bright concentric waves upon tap. She rapidly taps and swipes, folding, unfolding, and reorganizing multiple sections. Bottom Chinese ticker speed increases noticeably. Camera maintains overhead view with minimal follow motion to keep fingertips centered.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 after final tap triggers glitch flash, cuts to wide overhead view of the main hall. The entire broadcast hall is instantly lit by blue-white beams. Foreground features cluster of floating screens. Background shows towering dome and crowd silhouettes. Focus lands on the sudden explosion of massive text \"限时发布\" at the center of the hall, slightly above center. She stands beneath it, serving as visual anchor. All screens in the hall flip pages simultaneously. Crowd commotion rises in volume. Anchor’s Camera rapidly drops from high position, creating a burst of information.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts hard from the previous shot to a medium-long eye-level view of the tower window, where the window frame acts as a natural framing device. Outside, the cityscape and floating beacons in the night form the background, while in the foreground she stands sideways by the window broadcasting, her hair gently moved by the night breeze. Cold blue moonlight blends with silver backlighting inside, creating a crisp silhouette. She raises her hand to send a signal into the city; Chinese subtitles appear clearly: “王城讯号已接通”. Distant light points along city pathways rapidly illuminate in response. The camera first pushes slightly, then pulls back subtly, allowing the city's reaction to enter the frame.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts hard via light match from the glowing points outside the window to a close-up eye-level view of the archive room. Long bookshelves extend backward, creating compressed perspective. Slightly blurred document edges appear in the foreground. Focus locks onto the colorful page she opens and the product illustrations emerging on the page. Under cold blue ambient lighting, sharp highlights are cast along the paper edges by silver top light. She quickly flips through illustrated archives; text, images, and symbols animate into floating mini-windows on the page. The camera slides horizontally along the desk, emphasizing efficient sequential retrieval of data.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 cuts hard via action match from the previous shot’s page-turning motion to a wide-angle low-angle view of the stairwell. Focus is on her running upward and the pulsating blue light at the top of the stairs—the signal core. The scene naturally transitions from archival research to signal connection. Cold blue key light flows along the railing, while localized backlight creates sharp highlights along the edge of each step. She ascends rapidly holding a terminal, her cloak and hem flaring with speed. Electronic The camera follows from below, tilting upward with slight rotation, enhancing the sense of sprinting momentum.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts abruptly to a medium close-up, eye-level shot facing the main hall, with symmetrical composition. The product and the person are both centered: in the foreground, her hands cradle the cool blue-glowing \"魔导讯晶终端\", while the background features a fully activated news matrix wall. Focus initially lands on the texture of the terminal's crystal surface and the flowing light within, then extends to her resolute expression as she looks directly into the camera. Silver-white backlight creates a premium silhouette along the device's edges. In the lower-right corner, the slogan \"一触即达\" appears in bright metallic text with a brief trailing motion effect. The camera performs a steady push-in, centering the key selling point within the frame.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 concludes with a brief fade-in/fade-out from the previous shot, transitioning to a fixed shot in front of the throne. Wide-angle slightly high-angle view. The throne is centered in the background. In the foreground, the terminal product floats mid-air alongside the broadcaster standing calmly. Focus centers on the product and static text. The entire space is dominated by cold blue key lighting, with only silver backlight outlining the throne edges and stone steps, creating a solemn yet futuristic finale. A dense Chinese scrolling ticker runs continuously along the bottom edge of the screen. A small glitch-style tag \"王城快报\" remains in the upper-left corner. Near the center-bottom, the product name \"魔导讯晶终端\" appears in crystalline-metal hybrid typography with subtle glitch tremor. The camera slowly pulls back and freezes to end the sequence.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      18,
+      18,
+      16,
+      14,
+      16,
+      18,
+      16,
+      19,
+      17,
+      18,
+      18,
+      20
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      6,
+      5,
+      5,
+      5,
+      6
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 begins with a glitch flash cut, wide overhead view of the entire castle facade. Spire and battlements form strong leading lines converging toward the central tower. Foreground features flag with electric arc texture and stone eaves. Focus locked on the center of the exterior wall, where cool blue neon spreads along brick seams. A large headline \"王城快报\" floats in the upper half of the frame, centered on the gate, rendered in metallic outline with scanning light material. Dense Chinese scrolling ticker runs rapidly along the bottom edge. As a heavy bell toll and distant crowd commotion simultaneously begin, the headline suddenly illuminates. Camera slightly lowers and pushes in from above.",
+      "The scene transitions. Shot 2 continues from previous shot with a hard cut, full shot eye-level view of the drawbridge entrance. Blue-white backlight spills from the castle gate crack. Cold-glow runes hang on both sides of the bridge. The young female anchor stands slightly left of center, with pulsing gate warning runes in the background. Focus follows her as she strides across the bridge, her cloak flaring in the wind. Camera laterally tracks alongside, creating a sense of urgency typical of live news reporting.",
+      "The scene transitions. Shot 3 enters via a glitch hard cut, medium-to-close eye-level tracking shot down a long corridor. Arched ceiling recedes into depth, forming a vanishing point. Occasional stone pillars and floating crystals pass in foreground. Shallow depth of field keeps focus on her running profile and passing floating news alerts. Cool blue key light combined with moving top scan lights reflects off armor and walls. Several Chinese news alerts sweep from right to left like a flowing curtain. She quickens pace while glancing upward to confirm info. Camera moves forward quickly with slight pan across the alert layer.",
+      "The scene transitions. Shot 4 enters via action-matched hard cut from previous shot, full shot low-angle view of the broadcast hall entrance. Heavy door panels frame the foreground, creating a framing effect. Focus centers on her hand pushing the door. Silver-white backlight bursts from the gap, illuminating blue dust particles. Inside, floating layers and news desk outlines are faintly visible. She steps powerfully through the doorway. Door Camera tilts up slightly from low angle and slides inward following the door’s opening.",
+      "The scene transitions. Shot 5 transitions via brief hard cut from interior space to close-up eye-level shot. Composition uses rule of thirds, placing her face and shoulder on the left, with blurred broadcast interface and scrolling text on the right. Focus sharply on the glowing earpiece beside her ear. Soft cool blue light defines facial contours, with silver-white highlights on the earpiece edge. Camera slowly pushes in.",
+      "The scene transitions. Shot 6 enters via a glitch frame skip into extreme close-up high-angle shot of the pupil. The frame is nearly filled by one eye. Foreground shows slightly defocused eyelashes. Focus precisely locks on the center of the pupil, which reflects blue data streams, map markers, and scrolling news bars. Cool blue reflection gives the eye edges a glass-like quality. Her gaze shifts from stillness to rapid focus, symbolizing information calibration. Camera gently pushes in to create a sense of pressure.",
+      "The scene transitions. Console centered in frame. Semi-transparent floating rune cards pass in foreground. Background features curved broadcast hall wall and dim screens. Focus shifts from her side profile to the illuminated \"魔导讯晶终端\" logo and map projection at the center of the console. Cool blue key light highlights crystal edges, silver-white rim light traces hand movements. She walks to the console and raises her hand to unfold a virtual map. Paths and city hotspots expand layer by layer with her gestures. Chinese voiceover begins formal delivery “王城关键讯息，即刻汇聚”. Camera performs semi-circular pan to enhance spatial expansion.",
+      "The scene transitions. Shot 8 continues from previous shot’s action continuity, direct overhead close-up cut to crystal screen interface. Upper frame shows her hands, lower frame shows crystal screen and pulsing symbols. Clean composition. Focus tightly on fingertips touching the screen. Cool blue light rises from within the screen, illuminating finger joints. Crystal surface ripples with bright concentric waves upon tap. She rapidly taps and swipes, folding, unfolding, and reorganizing multiple sections. Bottom Chinese ticker speed increases noticeably. Camera maintains overhead view with minimal follow motion to keep fingertips centered.",
+      "The scene transitions. Shot 9 after final tap triggers glitch flash, cuts to wide overhead view of the main hall. The entire broadcast hall is instantly lit by blue-white beams. Foreground features cluster of floating screens. Background shows towering dome and crowd silhouettes. Focus lands on the sudden explosion of massive text \"限时发布\" at the center of the hall, slightly above center. She stands beneath it, serving as visual anchor. All screens in the hall flip pages simultaneously. Crowd commotion rises in volume. Anchor’s Camera rapidly drops from high position, creating a burst of information.",
+      "The scene transitions. Shot 10 cuts hard from the previous shot to a medium-long eye-level view of the tower window, where the window frame acts as a natural framing device. Outside, the cityscape and floating beacons in the night form the background, while in the foreground she stands sideways by the window broadcasting, her hair gently moved by the night breeze. Cold blue moonlight blends with silver backlighting inside, creating a crisp silhouette. She raises her hand to send a signal into the city; Chinese subtitles appear clearly: “王城讯号已接通”. Distant light points along city pathways rapidly illuminate in response. The camera first pushes slightly, then pulls back subtly, allowing the city's reaction to enter the frame.",
+      "The scene transitions. Shot 11 cuts hard via light match from the glowing points outside the window to a close-up eye-level view of the archive room. Long bookshelves extend backward, creating compressed perspective. Slightly blurred document edges appear in the foreground. Focus locks onto the colorful page she opens and the product illustrations emerging on the page. Under cold blue ambient lighting, sharp highlights are cast along the paper edges by silver top light. She quickly flips through illustrated archives; text, images, and symbols animate into floating mini-windows on the page. The camera slides horizontally along the desk, emphasizing efficient sequential retrieval of data.",
+      "The scene transitions. Shot 12 cuts hard via action match from the previous shot’s page-turning motion to a wide-angle low-angle view of the stairwell. Focus is on her running upward and the pulsating blue light at the top of the stairs—the signal core. The scene naturally transitions from archival research to signal connection. Cold blue key light flows along the railing, while localized backlight creates sharp highlights along the edge of each step. She ascends rapidly holding a terminal, her cloak and hem flaring with speed. Electronic The camera follows from below, tilting upward with slight rotation, enhancing the sense of sprinting momentum.",
+      "The scene transitions. Shot 13 cuts abruptly to a medium close-up, eye-level shot facing the main hall, with symmetrical composition. The product and the person are both centered: in the foreground, her hands cradle the cool blue-glowing \"魔导讯晶终端\", while the background features a fully activated news matrix wall. Focus initially lands on the texture of the terminal's crystal surface and the flowing light within, then extends to her resolute expression as she looks directly into the camera. Silver-white backlight creates a premium silhouette along the device's edges. In the lower-right corner, the slogan \"一触即达\" appears in bright metallic text with a brief trailing motion effect. The camera performs a steady push-in, centering the key selling point within the frame.",
+      "The scene transitions. Shot 14 concludes with a brief fade-in/fade-out from the previous shot, transitioning to a fixed shot in front of the throne. Wide-angle slightly high-angle view. The throne is centered in the background. In the foreground, the terminal product floats mid-air alongside the broadcaster standing calmly. Focus centers on the product and static text. The entire space is dominated by cold blue key lighting, with only silver backlight outlining the throne edges and stone steps, creating a solemn yet futuristic finale. A dense Chinese scrolling ticker runs continuously along the bottom edge of the screen. A small glitch-style tag \"王城快报\" remains in the upper-left corner. Near the center-bottom, the product name \"魔导讯晶终端\" appears in crystalline-metal hybrid typography with subtle glitch tremor. The camera slowly pulls back and freezes to end the sequence."
+    ],
+    "num_output_frames": 112,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  }
+]

@@ -1,0 +1,1012 @@
+[
+  {
+    "idx": 11,
+    "sample_id": "11",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition to fully frame the cloud platform. Thin mist floats in the foreground, the midground features a jade-brick cloud terrace, and the background shows a waterfall and layered mountain peaks with low-resolution pixel edges subtly flickering. Twelve teacups gather from all sides into a neat square formation. Their glazed bodies reflect cold daylight, limbs gently swaying in preparation. The camera slowly descends in an overhead tracking move, emphasizing the relationship between the platform and formation.",
+      "As feet land, pixel dust on the cloud surface slightly lifts, and cold mist trails backward behind them. The steady camera pan reinforces uniformity.",
+      "Shot 3 cuts sharply to a close-up, focusing closely on the rim, handle, and hand of a lead teacup. Occasional mist threads drift across the foreground, while the background formation blurs into blue-white pulsating blocks. The handle-hand and other hand clap in sync, producing a sharp cold highlight on the ceramic surface at impact.",
+      "Shot 4 cuts directly to a wide eye-level pull-back, showing the entire group dispersing from a square into a lotus formation. Platform patterns and railing lines naturally guide the viewer’s gaze toward the center. The central teacup leads slightly ahead, guiding the outer circle to spiral outward. Under cool diffuse light, the twelve cups resemble jade petals unfurling, limbs extending at consistent angles, the transition smooth. Background waterfall The camera pulls back with slight orbiting, emphasizing the pattern’s emergence.",
+      "Shot 5 cuts to a low-angle wide shot from beneath the edge of the jade bridge. Foreground includes railings and passing mist, background features a high waterfall cascading down. Teacups leap onto the bridge one by one, completing synchronized spins. Three distinct phases—kicking off, lifting body, landing—are clearly visible. As feet leave the ground, mist splits into arcs. Backlight outlines the rims in silver. Wind The camera rises upward, following motion, creating a sense of elevation.",
+      "Shot 6 cuts sharply to a medium-close eye-level shot focused on the bridge surface. The composition uses longitudinal brick textures to create a sense of speed. Several teacups slide past the lens, others maintain same-speed movement behind. Arms remain extended for balance, bodies slightly leaning forward. The camera moves laterally opposite the direction of travel, emphasizing horizontal flow.",
+      "Shot 7 transitions via a soft misty dissolve to a close-up eye-level shot moving through peach blossom mist. Foreground features blurred pink-white pixel petals. Focus locks on a middle row of teacups advancing with arm swings. A faint peach hue accents the cool palette without disrupting it. Arms sweep outward from chest, leg steps tightly timed. Mist swirls in response to motion. Wind becomes more intimate, near ear level. The camera steadily pushes through the mist, creating a sense of entering the performance core.",
+      "Shot 8 cuts sharply to a wide overhead view. The lotus pond walkway unfolds in geometric zigzags. A corner of a lotus leaf appears in the foreground, cloud platform and bridge visible in the background, evoking spatial memory. Twelve teacups split into two columns, crossing paths while maintaining equal distance. Limb motions shift from wide swings to compact steps. Body turns and foot crossings are clearly distinguishable. Cold water below reflects fragmented light. The camera slowly pans overhead, fully mapping the crossing path.",
+      "Shot 9 cuts sharply to a medium eye-level shot facing the side of the walkway. A full row of teacups performs synchronized kicks. Foreground and background layers are distinct. Lift, extend, and land actions are highly synchronized. Droplets separate into pixelated particles mid-air before falling. Ceramic highlights and droplet reflections flash in sync. The camera slightly follows with a lateral pan, emphasizing continuous bursts.",
+      "Shot 10 cuts sharply to a far-medium low-angle shot on an open platform before the waterfall. Strong backlight makes the mist glow white and bright. Twelve teacups spin in unison—outer ring counterclockwise, inner clockwise—forming dual-layer melodies. Limbs extend then retract. As bodies rotate, rim light circles form arcs. The waterfall behind creates a high-contrast dynamic backdrop. The camera orbits slightly while pulling back, making the rotation structure clear.",
+      "Shot 11 cuts sharply to a close-up, focusing on the tea surface inside a single cup. The rim frames the edge of the image naturally. Background reduces to blurred waterfall highlights. The surface trembles finely due to recent collective rotation, ripples spreading outward from the center. Cold light glides across the liquid surface. Occasionally, tiny droplets rise and fall back.",
+      "Shot 12 connects via a brief fade-in/fade-out to a medium eye-level shot returning to the cloud platform. Low-lying mist in the foreground, layered mountains in the background. Twelve teacups re-form and perform wave-like swaying. Motion passes left to right—first arms, then body tilt, finally light foot taps completing the cycle. Wind regains dominance. The camera slowly moves horizontally opposite the wave direction, enhancing the propagation effect.",
+      "Shot 13 cuts hard from the previous shot to a high-angle wide shot, with the cloud platform's paving stones and bridge corridors forming geometric converging lines. Twelve teacups begin moving in a figure-eight pattern, with the left and right groups meeting at the center before diverging. The route is clear, spacing remains consistent, and there are no collisions. Arm swing amplitude decreases while foot frequency increases. The camera performs a slight diving push from above, emphasizing the path pattern.",
+      "Shot 14 cuts hard from the previous shot to a close-up eye-level view, focusing on several front-row teacups, with background performers forming an orderly blurred layer. All teacups simultaneously retract their arms and squat down, drawing arms from the sides to the chest, knees bending, bodies lowering, and gazes fixed forward, forming a distinct ending posture. Cold mist is compressed downward, creating a low-lying wave of air as it sinks. Highlights on the porcelain shrink to the rim and shoulders. The camera gently lowers to match the motion, completing the final gesture.",
+      "Shot 15 transitions softly from the previous shot via fade, ending in a wide eye-level static frame centered on the cloud platform. All teacups spread out into a standard circular formation. Thin mist slowly drifts into the foreground, while the background waterfall and clouds maintain steady flow. A blank space remains at the center of the formation, resembling a cold jade imprint. The twelve teacups slightly lift their heads after holding the final pose, limbs still but wisps of fog like fabric edges and residual ripples inside the cups continue to move. Overall cool ambient lighting remains consistent. Wind continues as a lingering tail The camera slowly pulls back and holds, allowing the circular formation to leave a crisp, orderly finale within a pixelated fantasy realm."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide overhead composition to fully frame the cloud platform. Thin mist floats in the foreground, the midground features a jade-brick cloud terrace, and the background shows a waterfall and layered mountain peaks with low-resolution pixel edges subtly flickering. Twelve teacups gather from all sides into a neat square formation. Their glazed bodies reflect cold daylight, limbs gently swaying in preparation. The camera slowly descends in an overhead tracking move, emphasizing the relationship between the platform and formation.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "As feet land, pixel dust on the cloud surface slightly lifts, and cold mist trails backward behind them. The steady camera pan reinforces uniformity.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 cuts sharply to a close-up, focusing closely on the rim, handle, and hand of a lead teacup. Occasional mist threads drift across the foreground, while the background formation blurs into blue-white pulsating blocks. The handle-hand and other hand clap in sync, producing a sharp cold highlight on the ceramic surface at impact.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts directly to a wide eye-level pull-back, showing the entire group dispersing from a square into a lotus formation. Platform patterns and railing lines naturally guide the viewer’s gaze toward the center. The central teacup leads slightly ahead, guiding the outer circle to spiral outward. Under cool diffuse light, the twelve cups resemble jade petals unfurling, limbs extending at consistent angles, the transition smooth. Background waterfall The camera pulls back with slight orbiting, emphasizing the pattern’s emergence.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts to a low-angle wide shot from beneath the edge of the jade bridge. Foreground includes railings and passing mist, background features a high waterfall cascading down. Teacups leap onto the bridge one by one, completing synchronized spins. Three distinct phases—kicking off, lifting body, landing—are clearly visible. As feet leave the ground, mist splits into arcs. Backlight outlines the rims in silver. Wind The camera rises upward, following motion, creating a sense of elevation.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 cuts sharply to a medium-close eye-level shot focused on the bridge surface. The composition uses longitudinal brick textures to create a sense of speed. Several teacups slide past the lens, others maintain same-speed movement behind. Arms remain extended for balance, bodies slightly leaning forward. The camera moves laterally opposite the direction of travel, emphasizing horizontal flow.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 transitions via a soft misty dissolve to a close-up eye-level shot moving through peach blossom mist. Foreground features blurred pink-white pixel petals. Focus locks on a middle row of teacups advancing with arm swings. A faint peach hue accents the cool palette without disrupting it. Arms sweep outward from chest, leg steps tightly timed. Mist swirls in response to motion. Wind becomes more intimate, near ear level. The camera steadily pushes through the mist, creating a sense of entering the performance core.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 cuts sharply to a wide overhead view. The lotus pond walkway unfolds in geometric zigzags. A corner of a lotus leaf appears in the foreground, cloud platform and bridge visible in the background, evoking spatial memory. Twelve teacups split into two columns, crossing paths while maintaining equal distance. Limb motions shift from wide swings to compact steps. Body turns and foot crossings are clearly distinguishable. Cold water below reflects fragmented light. The camera slowly pans overhead, fully mapping the crossing path.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 cuts sharply to a medium eye-level shot facing the side of the walkway. A full row of teacups performs synchronized kicks. Foreground and background layers are distinct. Lift, extend, and land actions are highly synchronized. Droplets separate into pixelated particles mid-air before falling. Ceramic highlights and droplet reflections flash in sync. The camera slightly follows with a lateral pan, emphasizing continuous bursts.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts sharply to a far-medium low-angle shot on an open platform before the waterfall. Strong backlight makes the mist glow white and bright. Twelve teacups spin in unison—outer ring counterclockwise, inner clockwise—forming dual-layer melodies. Limbs extend then retract. As bodies rotate, rim light circles form arcs. The waterfall behind creates a high-contrast dynamic backdrop. The camera orbits slightly while pulling back, making the rotation structure clear.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts sharply to a close-up, focusing on the tea surface inside a single cup. The rim frames the edge of the image naturally. Background reduces to blurred waterfall highlights. The surface trembles finely due to recent collective rotation, ripples spreading outward from the center. Cold light glides across the liquid surface. Occasionally, tiny droplets rise and fall back.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 connects via a brief fade-in/fade-out to a medium eye-level shot returning to the cloud platform. Low-lying mist in the foreground, layered mountains in the background. Twelve teacups re-form and perform wave-like swaying. Motion passes left to right—first arms, then body tilt, finally light foot taps completing the cycle. Wind regains dominance. The camera slowly moves horizontally opposite the wave direction, enhancing the propagation effect.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts hard from the previous shot to a high-angle wide shot, with the cloud platform's paving stones and bridge corridors forming geometric converging lines. Twelve teacups begin moving in a figure-eight pattern, with the left and right groups meeting at the center before diverging. The route is clear, spacing remains consistent, and there are no collisions. Arm swing amplitude decreases while foot frequency increases. The camera performs a slight diving push from above, emphasizing the path pattern.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 cuts hard from the previous shot to a close-up eye-level view, focusing on several front-row teacups, with background performers forming an orderly blurred layer. All teacups simultaneously retract their arms and squat down, drawing arms from the sides to the chest, knees bending, bodies lowering, and gazes fixed forward, forming a distinct ending posture. Cold mist is compressed downward, creating a low-lying wave of air as it sinks. Highlights on the porcelain shrink to the rim and shoulders. The camera gently lowers to match the motion, completing the final gesture.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 15,
+        "prompt": "Shot 15 transitions softly from the previous shot via fade, ending in a wide eye-level static frame centered on the cloud platform. All teacups spread out into a standard circular formation. Thin mist slowly drifts into the foreground, while the background waterfall and clouds maintain steady flow. A blank space remains at the center of the formation, resembling a cold jade imprint. The twelve teacups slightly lift their heads after holding the final pose, limbs still but wisps of fog like fabric edges and residual ripples inside the cups continue to move. Overall cool ambient lighting remains consistent. Wind continues as a lingering tail The camera slowly pulls back and holds, allowing the circular formation to leave a crisp, orderly finale within a pixelated fantasy realm.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition to fully frame the cloud platform. Thin mist floats in the foreground, the midground features a jade-brick cloud terrace, and the background shows a waterfall and layered mountain peaks with low-resolution pixel edges subtly flickering. Twelve teacups gather from all sides into a neat square formation. Their glazed bodies reflect cold daylight, limbs gently swaying in preparation. The camera slowly descends in an overhead tracking move, emphasizing the relationship between the platform and formation.",
+      "The scene transitions. As feet land, pixel dust on the cloud surface slightly lifts, and cold mist trails backward behind them. The steady camera pan reinforces uniformity.",
+      "The scene transitions. Shot 3 cuts sharply to a close-up, focusing closely on the rim, handle, and hand of a lead teacup. Occasional mist threads drift across the foreground, while the background formation blurs into blue-white pulsating blocks. The handle-hand and other hand clap in sync, producing a sharp cold highlight on the ceramic surface at impact.",
+      "The scene transitions. Shot 4 cuts directly to a wide eye-level pull-back, showing the entire group dispersing from a square into a lotus formation. Platform patterns and railing lines naturally guide the viewer’s gaze toward the center. The central teacup leads slightly ahead, guiding the outer circle to spiral outward. Under cool diffuse light, the twelve cups resemble jade petals unfurling, limbs extending at consistent angles, the transition smooth. Background waterfall The camera pulls back with slight orbiting, emphasizing the pattern’s emergence.",
+      "The scene transitions. Shot 5 cuts to a low-angle wide shot from beneath the edge of the jade bridge. Foreground includes railings and passing mist, background features a high waterfall cascading down. Teacups leap onto the bridge one by one, completing synchronized spins. Three distinct phases—kicking off, lifting body, landing—are clearly visible. As feet leave the ground, mist splits into arcs. Backlight outlines the rims in silver. Wind The camera rises upward, following motion, creating a sense of elevation.",
+      "The scene transitions. Shot 6 cuts sharply to a medium-close eye-level shot focused on the bridge surface. The composition uses longitudinal brick textures to create a sense of speed. Several teacups slide past the lens, others maintain same-speed movement behind. Arms remain extended for balance, bodies slightly leaning forward. The camera moves laterally opposite the direction of travel, emphasizing horizontal flow.",
+      "The scene transitions. Shot 7 transitions via a soft misty dissolve to a close-up eye-level shot moving through peach blossom mist. Foreground features blurred pink-white pixel petals. Focus locks on a middle row of teacups advancing with arm swings. A faint peach hue accents the cool palette without disrupting it. Arms sweep outward from chest, leg steps tightly timed. Mist swirls in response to motion. Wind becomes more intimate, near ear level. The camera steadily pushes through the mist, creating a sense of entering the performance core.",
+      "The scene transitions. Shot 8 cuts sharply to a wide overhead view. The lotus pond walkway unfolds in geometric zigzags. A corner of a lotus leaf appears in the foreground, cloud platform and bridge visible in the background, evoking spatial memory. Twelve teacups split into two columns, crossing paths while maintaining equal distance. Limb motions shift from wide swings to compact steps. Body turns and foot crossings are clearly distinguishable. Cold water below reflects fragmented light. The camera slowly pans overhead, fully mapping the crossing path.",
+      "The scene transitions. Shot 9 cuts sharply to a medium eye-level shot facing the side of the walkway. A full row of teacups performs synchronized kicks. Foreground and background layers are distinct. Lift, extend, and land actions are highly synchronized. Droplets separate into pixelated particles mid-air before falling. Ceramic highlights and droplet reflections flash in sync. The camera slightly follows with a lateral pan, emphasizing continuous bursts.",
+      "The scene transitions. Shot 10 cuts sharply to a far-medium low-angle shot on an open platform before the waterfall. Strong backlight makes the mist glow white and bright. Twelve teacups spin in unison—outer ring counterclockwise, inner clockwise—forming dual-layer melodies. Limbs extend then retract. As bodies rotate, rim light circles form arcs. The waterfall behind creates a high-contrast dynamic backdrop. The camera orbits slightly while pulling back, making the rotation structure clear.",
+      "The scene transitions. Shot 11 cuts sharply to a close-up, focusing on the tea surface inside a single cup. The rim frames the edge of the image naturally. Background reduces to blurred waterfall highlights. The surface trembles finely due to recent collective rotation, ripples spreading outward from the center. Cold light glides across the liquid surface. Occasionally, tiny droplets rise and fall back.",
+      "The scene transitions. Shot 12 connects via a brief fade-in/fade-out to a medium eye-level shot returning to the cloud platform. Low-lying mist in the foreground, layered mountains in the background. Twelve teacups re-form and perform wave-like swaying. Motion passes left to right—first arms, then body tilt, finally light foot taps completing the cycle. Wind regains dominance. The camera slowly moves horizontally opposite the wave direction, enhancing the propagation effect.",
+      "The scene transitions. Shot 13 cuts hard from the previous shot to a high-angle wide shot, with the cloud platform's paving stones and bridge corridors forming geometric converging lines. Twelve teacups begin moving in a figure-eight pattern, with the left and right groups meeting at the center before diverging. The route is clear, spacing remains consistent, and there are no collisions. Arm swing amplitude decreases while foot frequency increases. The camera performs a slight diving push from above, emphasizing the path pattern.",
+      "The scene transitions. Shot 14 cuts hard from the previous shot to a close-up eye-level view, focusing on several front-row teacups, with background performers forming an orderly blurred layer. All teacups simultaneously retract their arms and squat down, drawing arms from the sides to the chest, knees bending, bodies lowering, and gazes fixed forward, forming a distinct ending posture. Cold mist is compressed downward, creating a low-lying wave of air as it sinks. Highlights on the porcelain shrink to the rim and shoulders. The camera gently lowers to match the motion, completing the final gesture.",
+      "The scene transitions. Shot 15 transitions softly from the previous shot via fade, ending in a wide eye-level static frame centered on the cloud platform. All teacups spread out into a standard circular formation. Thin mist slowly drifts into the foreground, while the background waterfall and clouds maintain steady flow. A blank space remains at the center of the formation, resembling a cold jade imprint. The twelve teacups slightly lift their heads after holding the final pose, limbs still but wisps of fog like fabric edges and residual ripples inside the cups continue to move. Overall cool ambient lighting remains consistent. Wind continues as a lingering tail The camera slowly pulls back and holds, allowing the circular formation to leave a crisp, orderly finale within a pixelated fantasy realm."
+    ],
+    "num_output_frames": 120,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 75,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 96,
+    "sample_id": "96",
+    "prompts": [
+      "Shot 1 opens directly with a wide eye-level composition, placing the electronic keyboard and a young woman seated before it along the center axis of the frame. The foreground includes the edge of the bench, while the background reveals a rain-wet window and softly blurred classroom walls. Shallow depth of field keeps the subject and instrument in focus. Cool natural light from the side-rear outlines her silhouette. She sits upright, shoulders relaxed, right hand hovering above the keys ready to demonstrate.",
+      "Shot 2 cuts hard from the previous shot, featuring a close-up eye-level view centered on the central area of the keyboard. Black and white keys form horizontal leading lines, with focus locked near middle C. The sleeve and body of the piano in the background are blurred. Soft cool lighting continues.",
+      "Shot 3 cuts hard from the previous shot, showing an overhead close-up from directly above the right hand and central key area. The back of the hand, fingertips, and adjacent black keys are clearly visible. Composition places middle C slightly below center. Diffused cool light from the window evenly illuminates the scene. Finger 1 accurately presses down on middle C, fingertip naturally curved, knuckles stable. The small displacement of the key depression is clearly visible, accompanied by a crisp single key press The camera remains static to emphasize teaching accuracy.",
+      "Shot 4 cuts hard from the previous shot with action matching, shifting to a close-up eye-level view from the front side of the keyboard. The foreground shows the already released middle C, focus shifts to the D key. Under the same cool soft lighting, finger 2 drops from above onto D, palm maintains natural arch, wrist not overly raised. Key press The camera slightly pushes in to highlight the position of finger 2 pressing the key.",
+      "Shot 5 cuts hard from the previous shot, continuing the close-up eye-level view with a slight pan to the right along the keyboard. The group of black keys forms a rhythmic background reference, focus lands on the E key and fingertip of finger 3. The young woman uses finger 3 to press E, pad contact stable, first two fingers naturally retracted without tension. The full process of the key cap sinking is fully presented. The camera performs a very short distance follow pan to complete the key press display.",
+      "Shot 6 cuts hard from the previous shot, showing a medium close-up from a slightly forward overhead angle. The frame simultaneously includes the thumb, palm, and transitional space before the F key. The composition shifts focus from individual keys to hand structure. Under cool lighting, the relaxed palm and rounded back of the fingers are clearly visible. The young woman slowly demonstrates the key action of the thumb passing under the palm. After finger 3 completes its previous position and lifts to form a channel, the thumb smoothly slides into the new landing preparation area. The motion is continuous and not stiff. The camera makes slight tilt adjustments to follow, emphasizing the core difficulty in the tutorial.",
+      "Shot 7 cuts hard from the previous shot with continuous action, showing an overhead close-up directly facing the F key area, focus concentrated on the position of finger 1 after completing the crossover. Lighting remains consistent. Finger 1 follows through to press F, thumb joint does not collapse, wrist still maintains a steady arc. Single key press The camera remains stable, allowing viewers to clearly see the correct result after the crossover.",
+      "Shot 8 cuts hard from the previous shot, showing a close-up eye-level view with a slight side angle. Composition places the G key at the golden ratio point of the frame. Slight cold reflection appears on the foreground key surface. Finger 2 sequentially presses G, other fingers naturally hover. Motion is concise and accurate. The camera makes a minor push-in to reinforce the sense of step-by-step progression.",
+      "Shot 9 cuts hard from the previous shot, continuing the close-up eye-level view moving further right along the keyboard, focus shifting to the A key. Finger 3 drops to press A, relationship between key press and finger number is clear. Fingertip remains rounded and properly weighted.",
+      "Shot 10 cuts hard from the previous shot, showing a close-up eye-level view closer to the higher register, with B key and finger 4 as absolute visual centers. Background high-register keys gradually blur to create depth. When finger 4 presses B, the back of the hand remains smooth without outward flipping. Changes in hand shape and key press are clearly visible under mixed cool top-side soft lighting. The camera makes a brief push-in then stops.",
+      "Shot 11 cuts hard from the previous shot, showing a close-up overhead view locked on high C. Adjacent black keys in the foreground provide clear positioning reference. Shallow depth of field makes the fingertip of finger 5 sharpest. Finger 5 firmly presses high C, completing the ascending endpoint. Fingertip support is clear, palm arch complete. The note onset is perfectly synchronized with the image. The camera gently lifts slightly, visually concluding the ascent.",
+      "Shot 12 transitions from the previous shot with a fade-in continuation of motion, showing a medium close-up eye-level view displaying a segment of keyboard from central to high register and the entire right hand. Composition is wider, allowing both hand shape and scale path to be seen. Soft reflections from cool rainy-day lighting appear on the key surfaces. The young woman slowly and continuously plays the ascending C major scale. Fingers move sequentially, thumb crossover smooth, wrist gently follows without excessive movement. Continuous piano The camera performs a smooth lateral follow pan, synchronizing scale flow with image movement.",
+      "Shot 13 cuts hard from the previous shot, showing an overhead medium close-up from directly above recording the descending return path. The entire route from high C back to central area is clearly readable. She begins from high C and descends in correct order back to central area. Wrist remains stable without collapsing. Continuous descending notes perfectly correspond to finger movements. The camera makes a slight leftward pan to follow the return path, completing the closed-loop step.",
+      "Shot 14 cuts hard from the previous shot, returning to a medium eye-level view of the subject and piano from one side. The frame includes forearm, wrist, and half-body sitting posture. Background rain-streaked window and classroom remain consistent. Focus is on the contour of the right wrist.",
+      "Shot 15 concludes with a natural hard cut from the previous shot, returning to a wide eye-level view that re-establishes the full teaching space. The electronic keyboard, sitting posture, rain outside the window, and cool-toned classroom are all included in the frame. Foreground-background relationships remain stable, with the person and instrument again centered to create a bookend effect. She ends in the standard hand position, wrist slightly arched, fingers rounded and hovering above the keys. The camera slowly pulls back to complete a calm, professional instructional conclusion."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens directly with a wide eye-level composition, placing the electronic keyboard and a young woman seated before it along the center axis of the frame. The foreground includes the edge of the bench, while the background reveals a rain-wet window and softly blurred classroom walls. Shallow depth of field keeps the subject and instrument in focus. Cool natural light from the side-rear outlines her silhouette. She sits upright, shoulders relaxed, right hand hovering above the keys ready to demonstrate.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot, featuring a close-up eye-level view centered on the central area of the keyboard. Black and white keys form horizontal leading lines, with focus locked near middle C. The sleeve and body of the piano in the background are blurred. Soft cool lighting continues.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 cuts hard from the previous shot, showing an overhead close-up from directly above the right hand and central key area. The back of the hand, fingertips, and adjacent black keys are clearly visible. Composition places middle C slightly below center. Diffused cool light from the window evenly illuminates the scene. Finger 1 accurately presses down on middle C, fingertip naturally curved, knuckles stable. The small displacement of the key depression is clearly visible, accompanied by a crisp single key press The camera remains static to emphasize teaching accuracy.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts hard from the previous shot with action matching, shifting to a close-up eye-level view from the front side of the keyboard. The foreground shows the already released middle C, focus shifts to the D key. Under the same cool soft lighting, finger 2 drops from above onto D, palm maintains natural arch, wrist not overly raised. Key press The camera slightly pushes in to highlight the position of finger 2 pressing the key.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard from the previous shot, continuing the close-up eye-level view with a slight pan to the right along the keyboard. The group of black keys forms a rhythmic background reference, focus lands on the E key and fingertip of finger 3. The young woman uses finger 3 to press E, pad contact stable, first two fingers naturally retracted without tension. The full process of the key cap sinking is fully presented. The camera performs a very short distance follow pan to complete the key press display.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 cuts hard from the previous shot, showing a medium close-up from a slightly forward overhead angle. The frame simultaneously includes the thumb, palm, and transitional space before the F key. The composition shifts focus from individual keys to hand structure. Under cool lighting, the relaxed palm and rounded back of the fingers are clearly visible. The young woman slowly demonstrates the key action of the thumb passing under the palm. After finger 3 completes its previous position and lifts to form a channel, the thumb smoothly slides into the new landing preparation area. The motion is continuous and not stiff. The camera makes slight tilt adjustments to follow, emphasizing the core difficulty in the tutorial.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 cuts hard from the previous shot with continuous action, showing an overhead close-up directly facing the F key area, focus concentrated on the position of finger 1 after completing the crossover. Lighting remains consistent. Finger 1 follows through to press F, thumb joint does not collapse, wrist still maintains a steady arc. Single key press The camera remains stable, allowing viewers to clearly see the correct result after the crossover.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 cuts hard from the previous shot, showing a close-up eye-level view with a slight side angle. Composition places the G key at the golden ratio point of the frame. Slight cold reflection appears on the foreground key surface. Finger 2 sequentially presses G, other fingers naturally hover. Motion is concise and accurate. The camera makes a minor push-in to reinforce the sense of step-by-step progression.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 cuts hard from the previous shot, continuing the close-up eye-level view moving further right along the keyboard, focus shifting to the A key. Finger 3 drops to press A, relationship between key press and finger number is clear. Fingertip remains rounded and properly weighted.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts hard from the previous shot, showing a close-up eye-level view closer to the higher register, with B key and finger 4 as absolute visual centers. Background high-register keys gradually blur to create depth. When finger 4 presses B, the back of the hand remains smooth without outward flipping. Changes in hand shape and key press are clearly visible under mixed cool top-side soft lighting. The camera makes a brief push-in then stops.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts hard from the previous shot, showing a close-up overhead view locked on high C. Adjacent black keys in the foreground provide clear positioning reference. Shallow depth of field makes the fingertip of finger 5 sharpest. Finger 5 firmly presses high C, completing the ascending endpoint. Fingertip support is clear, palm arch complete. The note onset is perfectly synchronized with the image. The camera gently lifts slightly, visually concluding the ascent.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 transitions from the previous shot with a fade-in continuation of motion, showing a medium close-up eye-level view displaying a segment of keyboard from central to high register and the entire right hand. Composition is wider, allowing both hand shape and scale path to be seen. Soft reflections from cool rainy-day lighting appear on the key surfaces. The young woman slowly and continuously plays the ascending C major scale. Fingers move sequentially, thumb crossover smooth, wrist gently follows without excessive movement. Continuous piano The camera performs a smooth lateral follow pan, synchronizing scale flow with image movement.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts hard from the previous shot, showing an overhead medium close-up from directly above recording the descending return path. The entire route from high C back to central area is clearly readable. She begins from high C and descends in correct order back to central area. Wrist remains stable without collapsing. Continuous descending notes perfectly correspond to finger movements. The camera makes a slight leftward pan to follow the return path, completing the closed-loop step.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 cuts hard from the previous shot, returning to a medium eye-level view of the subject and piano from one side. The frame includes forearm, wrist, and half-body sitting posture. Background rain-streaked window and classroom remain consistent. Focus is on the contour of the right wrist.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 15,
+        "prompt": "Shot 15 concludes with a natural hard cut from the previous shot, returning to a wide eye-level view that re-establishes the full teaching space. The electronic keyboard, sitting posture, rain outside the window, and cool-toned classroom are all included in the frame. Foreground-background relationships remain stable, with the person and instrument again centered to create a bookend effect. She ends in the standard hand position, wrist slightly arched, fingers rounded and hovering above the keys. The camera slowly pulls back to complete a calm, professional instructional conclusion.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens directly with a wide eye-level composition, placing the electronic keyboard and a young woman seated before it along the center axis of the frame. The foreground includes the edge of the bench, while the background reveals a rain-wet window and softly blurred classroom walls. Shallow depth of field keeps the subject and instrument in focus. Cool natural light from the side-rear outlines her silhouette. She sits upright, shoulders relaxed, right hand hovering above the keys ready to demonstrate.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot, featuring a close-up eye-level view centered on the central area of the keyboard. Black and white keys form horizontal leading lines, with focus locked near middle C. The sleeve and body of the piano in the background are blurred. Soft cool lighting continues.",
+      "The scene transitions. Shot 3 cuts hard from the previous shot, showing an overhead close-up from directly above the right hand and central key area. The back of the hand, fingertips, and adjacent black keys are clearly visible. Composition places middle C slightly below center. Diffused cool light from the window evenly illuminates the scene. Finger 1 accurately presses down on middle C, fingertip naturally curved, knuckles stable. The small displacement of the key depression is clearly visible, accompanied by a crisp single key press The camera remains static to emphasize teaching accuracy.",
+      "The scene transitions. Shot 4 cuts hard from the previous shot with action matching, shifting to a close-up eye-level view from the front side of the keyboard. The foreground shows the already released middle C, focus shifts to the D key. Under the same cool soft lighting, finger 2 drops from above onto D, palm maintains natural arch, wrist not overly raised. Key press The camera slightly pushes in to highlight the position of finger 2 pressing the key.",
+      "The scene transitions. Shot 5 cuts hard from the previous shot, continuing the close-up eye-level view with a slight pan to the right along the keyboard. The group of black keys forms a rhythmic background reference, focus lands on the E key and fingertip of finger 3. The young woman uses finger 3 to press E, pad contact stable, first two fingers naturally retracted without tension. The full process of the key cap sinking is fully presented. The camera performs a very short distance follow pan to complete the key press display.",
+      "The scene transitions. Shot 6 cuts hard from the previous shot, showing a medium close-up from a slightly forward overhead angle. The frame simultaneously includes the thumb, palm, and transitional space before the F key. The composition shifts focus from individual keys to hand structure. Under cool lighting, the relaxed palm and rounded back of the fingers are clearly visible. The young woman slowly demonstrates the key action of the thumb passing under the palm. After finger 3 completes its previous position and lifts to form a channel, the thumb smoothly slides into the new landing preparation area. The motion is continuous and not stiff. The camera makes slight tilt adjustments to follow, emphasizing the core difficulty in the tutorial.",
+      "The scene transitions. Shot 7 cuts hard from the previous shot with continuous action, showing an overhead close-up directly facing the F key area, focus concentrated on the position of finger 1 after completing the crossover. Lighting remains consistent. Finger 1 follows through to press F, thumb joint does not collapse, wrist still maintains a steady arc. Single key press The camera remains stable, allowing viewers to clearly see the correct result after the crossover.",
+      "The scene transitions. Shot 8 cuts hard from the previous shot, showing a close-up eye-level view with a slight side angle. Composition places the G key at the golden ratio point of the frame. Slight cold reflection appears on the foreground key surface. Finger 2 sequentially presses G, other fingers naturally hover. Motion is concise and accurate. The camera makes a minor push-in to reinforce the sense of step-by-step progression.",
+      "The scene transitions. Shot 9 cuts hard from the previous shot, continuing the close-up eye-level view moving further right along the keyboard, focus shifting to the A key. Finger 3 drops to press A, relationship between key press and finger number is clear. Fingertip remains rounded and properly weighted.",
+      "The scene transitions. Shot 10 cuts hard from the previous shot, showing a close-up eye-level view closer to the higher register, with B key and finger 4 as absolute visual centers. Background high-register keys gradually blur to create depth. When finger 4 presses B, the back of the hand remains smooth without outward flipping. Changes in hand shape and key press are clearly visible under mixed cool top-side soft lighting. The camera makes a brief push-in then stops.",
+      "The scene transitions. Shot 11 cuts hard from the previous shot, showing a close-up overhead view locked on high C. Adjacent black keys in the foreground provide clear positioning reference. Shallow depth of field makes the fingertip of finger 5 sharpest. Finger 5 firmly presses high C, completing the ascending endpoint. Fingertip support is clear, palm arch complete. The note onset is perfectly synchronized with the image. The camera gently lifts slightly, visually concluding the ascent.",
+      "The scene transitions. Shot 12 transitions from the previous shot with a fade-in continuation of motion, showing a medium close-up eye-level view displaying a segment of keyboard from central to high register and the entire right hand. Composition is wider, allowing both hand shape and scale path to be seen. Soft reflections from cool rainy-day lighting appear on the key surfaces. The young woman slowly and continuously plays the ascending C major scale. Fingers move sequentially, thumb crossover smooth, wrist gently follows without excessive movement. Continuous piano The camera performs a smooth lateral follow pan, synchronizing scale flow with image movement.",
+      "The scene transitions. Shot 13 cuts hard from the previous shot, showing an overhead medium close-up from directly above recording the descending return path. The entire route from high C back to central area is clearly readable. She begins from high C and descends in correct order back to central area. Wrist remains stable without collapsing. Continuous descending notes perfectly correspond to finger movements. The camera makes a slight leftward pan to follow the return path, completing the closed-loop step.",
+      "The scene transitions. Shot 14 cuts hard from the previous shot, returning to a medium eye-level view of the subject and piano from one side. The frame includes forearm, wrist, and half-body sitting posture. Background rain-streaked window and classroom remain consistent. Focus is on the contour of the right wrist.",
+      "The scene transitions. Shot 15 concludes with a natural hard cut from the previous shot, returning to a wide eye-level view that re-establishes the full teaching space. The electronic keyboard, sitting posture, rain outside the window, and cool-toned classroom are all included in the frame. Foreground-background relationships remain stable, with the person and instrument again centered to create a bookend effect. She ends in the standard hand position, wrist slightly arched, fingers rounded and hovering above the keys. The camera slowly pulls back to complete a calm, professional instructional conclusion."
+    ],
+    "num_output_frames": 120,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 75,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 131,
+    "sample_id": "131",
+    "prompts": [
+      "Shot 1 opens with a fade-in, a wide overhead composition fully revealing the rain-soaked open plaza. The foreground shows reflective wet ground illuminated by rain, while the background features the stadium entrance. Two white singers, each holding a microphone, converge from both sides of the frame toward the entrance. The fine rain is compressed into a misty texture by cool natural light, and the wind gently lifts their clothing. The camera slowly lowers and slightly moves forward in an overhead tracking motion, establishing spatial awareness through",
+      "Shot 2 follows with a hard cut from the previous shot, using a medium-wide eye-level pan through the ticketing corridor. Depth lines guide the viewer’s gaze forward as the two pass metal turnstiles and glass walls. The background is softly blurred to retain the rain curtain.",
+      "Shot 3 follows with a hard cut from the previous shot, a close-up eye-level shot focusing on the female singer at the glass door. Raindrops hang on the glass in the foreground. Focus locks on her face and microphone. Cool natural light highlights moisture on her skin. As she sustains the final syllable, the camera slightly pushes in. Wind",
+      "Shot 4 follows with a hard cut from the previous shot, a close-up low-angle dolly-in upward along the steps. Only the lower bodies of the two and the diagonal lines of the steps are visible. The camera pushes upward along the step direction.",
+      "Shot 5 follows with a hard cut from the previous shot, a wide eye-level shot showing the empty seating area and aisle. The two stand on opposite sides of the seating passage. Side light slants down from the gray sky ceiling. Seats form repeating patterns in the background, creating leading lines that connect the two into a symmetrical relationship. The camera slightly pans to maintain spatial tension.",
+      "Shot 6 follows with a hard cut from the previous shot, an extreme close-up eye-level shot locking on the male singer. The background seating is compressed into shallow depth-of-field color blocks. Rain threads occasionally cross the lens. Cool light outlines his nose bridge and jawline. The camera performs a very slight dolly-in, making the male",
+      "Shot 7 follows with a hard cut from the previous shot, a reverse-angle extreme close-up eye-level shot shifting to the female singer responding. Focus lands on her eyes, lips, and fingers gripping the mic. The background retains the same seating environment to maintain continuity. Wind blows her wet hair. The camera slightly shifts sideways to capture the amplitude of her head turn.",
+      "Shot 8 follows with a hard cut from the previous shot, a medium eye-level shot entering the seating aisle. The two alternate passing the microphone between them in the narrow row. Chair backs occasionally pass in the foreground, creating layering. The camera smoothly pans to follow. Their bodies slightly lean toward each other. Handoffs and receptions are perfectly timed. Rain",
+      "Shot 9 follows with a hard cut from the previous shot, an overhead medium-wide shot landing on the track edge. The two walk side by side along the track. The red track is desaturated in the cool tone. Lines guide the viewer’s gaze forward. Steps are in unison. Cloaks flutter backward in the wind. The camera smoothly follows from above along their path.",
+      "Shot 10 follows with a hard cut from the previous shot, a medium eye-level shot moving through the player tunnel. The tunnel forms a natural frame. Wind rushes in from the tunnel’s depth. The camera slightly pulls back, making the two approach the lens. Wind",
+      "Shot 11 follows with a hard cut from the previous shot, a close-up backlit silhouette showing the two briefly stopping and sharing one microphone. Bright daylight at the exit outlines their silhouettes. Reduced distance increases emotional intensity. The camera slowly circles half a step, reinforcing the intimate yet reserved duet dynamic.",
+      "Shot 12 follows with a fade transition from the previous shot, a wide eye-level dolly-out to the area beneath the scoreboard. The open space and tall structures re-establish scale. Rain streaks across the frame. The two appear smaller but more focused within the massive venue. Harmony continues to expand.",
+      "Shot 13 follows with a hard cut from the previous shot, a medium-close eye-level pan to the glass walkway. Water stains and reflections on the glass create foreground-background layers. Cool natural light passes through the glass, forming soft cold highlights. The camera slides laterally along the walkway, capturing raindrops and reflections.",
+      "Shot 14 follows with a hard cut from the previous shot, a medium-close eye-level dolly-in to center field. The two finally stand facing each other, duetting \"No mires atrás\". Background stands are blurred. Raindrops fall on their shoulders and microphone grills. The camera continuously pushes in, driving emotion to its peak.",
+      "Shot 15 follows with a fade-out transition from the previous shot, an extreme long overhead view slowly pulling back to encompass the entire scene. The vast stadium, wet shiny track, stands, and the two figures at center field remain centered in the frame. Wind and light rain regain dominance. The image naturally fades out in a cool misty haze."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, a wide overhead composition fully revealing the rain-soaked open plaza. The foreground shows reflective wet ground illuminated by rain, while the background features the stadium entrance. Two white singers, each holding a microphone, converge from both sides of the frame toward the entrance. The fine rain is compressed into a misty texture by cool natural light, and the wind gently lifts their clothing. The camera slowly lowers and slightly moves forward in an overhead tracking motion, establishing spatial awareness through",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 follows with a hard cut from the previous shot, using a medium-wide eye-level pan through the ticketing corridor. Depth lines guide the viewer’s gaze forward as the two pass metal turnstiles and glass walls. The background is softly blurred to retain the rain curtain.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 follows with a hard cut from the previous shot, a close-up eye-level shot focusing on the female singer at the glass door. Raindrops hang on the glass in the foreground. Focus locks on her face and microphone. Cool natural light highlights moisture on her skin. As she sustains the final syllable, the camera slightly pushes in. Wind",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 follows with a hard cut from the previous shot, a close-up low-angle dolly-in upward along the steps. Only the lower bodies of the two and the diagonal lines of the steps are visible. The camera pushes upward along the step direction.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 follows with a hard cut from the previous shot, a wide eye-level shot showing the empty seating area and aisle. The two stand on opposite sides of the seating passage. Side light slants down from the gray sky ceiling. Seats form repeating patterns in the background, creating leading lines that connect the two into a symmetrical relationship. The camera slightly pans to maintain spatial tension.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 follows with a hard cut from the previous shot, an extreme close-up eye-level shot locking on the male singer. The background seating is compressed into shallow depth-of-field color blocks. Rain threads occasionally cross the lens. Cool light outlines his nose bridge and jawline. The camera performs a very slight dolly-in, making the male",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 follows with a hard cut from the previous shot, a reverse-angle extreme close-up eye-level shot shifting to the female singer responding. Focus lands on her eyes, lips, and fingers gripping the mic. The background retains the same seating environment to maintain continuity. Wind blows her wet hair. The camera slightly shifts sideways to capture the amplitude of her head turn.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 follows with a hard cut from the previous shot, a medium eye-level shot entering the seating aisle. The two alternate passing the microphone between them in the narrow row. Chair backs occasionally pass in the foreground, creating layering. The camera smoothly pans to follow. Their bodies slightly lean toward each other. Handoffs and receptions are perfectly timed. Rain",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 follows with a hard cut from the previous shot, an overhead medium-wide shot landing on the track edge. The two walk side by side along the track. The red track is desaturated in the cool tone. Lines guide the viewer’s gaze forward. Steps are in unison. Cloaks flutter backward in the wind. The camera smoothly follows from above along their path.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 follows with a hard cut from the previous shot, a medium eye-level shot moving through the player tunnel. The tunnel forms a natural frame. Wind rushes in from the tunnel’s depth. The camera slightly pulls back, making the two approach the lens. Wind",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 follows with a hard cut from the previous shot, a close-up backlit silhouette showing the two briefly stopping and sharing one microphone. Bright daylight at the exit outlines their silhouettes. Reduced distance increases emotional intensity. The camera slowly circles half a step, reinforcing the intimate yet reserved duet dynamic.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 follows with a fade transition from the previous shot, a wide eye-level dolly-out to the area beneath the scoreboard. The open space and tall structures re-establish scale. Rain streaks across the frame. The two appear smaller but more focused within the massive venue. Harmony continues to expand.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 follows with a hard cut from the previous shot, a medium-close eye-level pan to the glass walkway. Water stains and reflections on the glass create foreground-background layers. Cool natural light passes through the glass, forming soft cold highlights. The camera slides laterally along the walkway, capturing raindrops and reflections.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 follows with a hard cut from the previous shot, a medium-close eye-level dolly-in to center field. The two finally stand facing each other, duetting \"No mires atrás\". Background stands are blurred. Raindrops fall on their shoulders and microphone grills. The camera continuously pushes in, driving emotion to its peak.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 15,
+        "prompt": "Shot 15 follows with a fade-out transition from the previous shot, an extreme long overhead view slowly pulling back to encompass the entire scene. The vast stadium, wet shiny track, stands, and the two figures at center field remain centered in the frame. Wind and light rain regain dominance. The image naturally fades out in a cool misty haze.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, a wide overhead composition fully revealing the rain-soaked open plaza. The foreground shows reflective wet ground illuminated by rain, while the background features the stadium entrance. Two white singers, each holding a microphone, converge from both sides of the frame toward the entrance. The fine rain is compressed into a misty texture by cool natural light, and the wind gently lifts their clothing. The camera slowly lowers and slightly moves forward in an overhead tracking motion, establishing spatial awareness through",
+      "The scene transitions. Shot 2 follows with a hard cut from the previous shot, using a medium-wide eye-level pan through the ticketing corridor. Depth lines guide the viewer’s gaze forward as the two pass metal turnstiles and glass walls. The background is softly blurred to retain the rain curtain.",
+      "The scene transitions. Shot 3 follows with a hard cut from the previous shot, a close-up eye-level shot focusing on the female singer at the glass door. Raindrops hang on the glass in the foreground. Focus locks on her face and microphone. Cool natural light highlights moisture on her skin. As she sustains the final syllable, the camera slightly pushes in. Wind",
+      "The scene transitions. Shot 4 follows with a hard cut from the previous shot, a close-up low-angle dolly-in upward along the steps. Only the lower bodies of the two and the diagonal lines of the steps are visible. The camera pushes upward along the step direction.",
+      "The scene transitions. Shot 5 follows with a hard cut from the previous shot, a wide eye-level shot showing the empty seating area and aisle. The two stand on opposite sides of the seating passage. Side light slants down from the gray sky ceiling. Seats form repeating patterns in the background, creating leading lines that connect the two into a symmetrical relationship. The camera slightly pans to maintain spatial tension.",
+      "The scene transitions. Shot 6 follows with a hard cut from the previous shot, an extreme close-up eye-level shot locking on the male singer. The background seating is compressed into shallow depth-of-field color blocks. Rain threads occasionally cross the lens. Cool light outlines his nose bridge and jawline. The camera performs a very slight dolly-in, making the male",
+      "The scene transitions. Shot 7 follows with a hard cut from the previous shot, a reverse-angle extreme close-up eye-level shot shifting to the female singer responding. Focus lands on her eyes, lips, and fingers gripping the mic. The background retains the same seating environment to maintain continuity. Wind blows her wet hair. The camera slightly shifts sideways to capture the amplitude of her head turn.",
+      "The scene transitions. Shot 8 follows with a hard cut from the previous shot, a medium eye-level shot entering the seating aisle. The two alternate passing the microphone between them in the narrow row. Chair backs occasionally pass in the foreground, creating layering. The camera smoothly pans to follow. Their bodies slightly lean toward each other. Handoffs and receptions are perfectly timed. Rain",
+      "The scene transitions. Shot 9 follows with a hard cut from the previous shot, an overhead medium-wide shot landing on the track edge. The two walk side by side along the track. The red track is desaturated in the cool tone. Lines guide the viewer’s gaze forward. Steps are in unison. Cloaks flutter backward in the wind. The camera smoothly follows from above along their path.",
+      "The scene transitions. Shot 10 follows with a hard cut from the previous shot, a medium eye-level shot moving through the player tunnel. The tunnel forms a natural frame. Wind rushes in from the tunnel’s depth. The camera slightly pulls back, making the two approach the lens. Wind",
+      "The scene transitions. Shot 11 follows with a hard cut from the previous shot, a close-up backlit silhouette showing the two briefly stopping and sharing one microphone. Bright daylight at the exit outlines their silhouettes. Reduced distance increases emotional intensity. The camera slowly circles half a step, reinforcing the intimate yet reserved duet dynamic.",
+      "The scene transitions. Shot 12 follows with a fade transition from the previous shot, a wide eye-level dolly-out to the area beneath the scoreboard. The open space and tall structures re-establish scale. Rain streaks across the frame. The two appear smaller but more focused within the massive venue. Harmony continues to expand.",
+      "The scene transitions. Shot 13 follows with a hard cut from the previous shot, a medium-close eye-level pan to the glass walkway. Water stains and reflections on the glass create foreground-background layers. Cool natural light passes through the glass, forming soft cold highlights. The camera slides laterally along the walkway, capturing raindrops and reflections.",
+      "The scene transitions. Shot 14 follows with a hard cut from the previous shot, a medium-close eye-level dolly-in to center field. The two finally stand facing each other, duetting \"No mires atrás\". Background stands are blurred. Raindrops fall on their shoulders and microphone grills. The camera continuously pushes in, driving emotion to its peak.",
+      "The scene transitions. Shot 15 follows with a fade-out transition from the previous shot, an extreme long overhead view slowly pulling back to encompass the entire scene. The vast stadium, wet shiny track, stands, and the two figures at center field remain centered in the frame. Wind and light rain regain dominance. The image naturally fades out in a cool misty haze."
+    ],
+    "num_output_frames": 120,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 75,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 185,
+    "sample_id": "185",
+    "prompts": [
+      "Shot 1 opens with a fade-in, wide eye-level composition placing the cafe entrance on the left and the window-side seat deep in the frame. The doorframe and rain curtain form leading lines. Streetlights outside reflect cold blue on wet pavement. A young girl with anime-style features enters, umbrella still dripping. Camera slowly pushes forward to establish her spatial relationship with the two waiting individuals inside.",
+      "Shot 2 hard cuts from previous shot, switching to medium eye-level. Girl sits by the window. Blurred cup rim in foreground and rain-blurred window in background frame her face. Cool lighting highlights damp hair. Camera makes a very slight lateral pan following her gaze.",
+      "Shallow depth of field compresses background, leaving only flowing rain streaks outside. Camera subtly pushes in to emphasize the probing tone.",
+      "Shot 4 hard cuts using reverse angle from previous shot, cutting to young man’s medium-close eye-level. Throat moves slightly, fingers pause at cup edge. A flash of cold light appears outside.",
+      "Shot 5 hard cuts from previous shot, switching to short-haired girl’s close-up eye-level. Warm white reflection from the table illuminates her jaw and back of hand. Background remains cold rain-streaked window. She leans forward slightly, first looking at the young girl, then briefly at the man. Her lips clearly add “先别怕”. Eyebrows relax, eyes attempt reassurance.",
+      "Shot 6 hard cuts from previous shot, overhead close-up of the medical form on the table. Three cups and a small puddle from the umbrella form a triangular composition. Edges of the paper are lit by the desk lamp. Title and table are not yet fully clear, but it is recognizable as a hospital check-up form. Man’s finger rests on one corner, short-haired girl’s palm lightly covers the other. Rain and cup clinks continue. Camera slowly pushes down, emphasizing unresolved information.",
+      "Shot 7 soft cuts back to scene from previous shot, medium overhead slightly angled eye-level, shot from above the table. Unused water cup in foreground, blurred rain window in background. Girl’s shoulders stiffen slightly, man looks down, short-haired girl exhales quietly. Camera is nearly static, descending extremely slowly to prolong silence.",
+      "Shot 8 hard cuts back to girl’s close-up, slightly upward angle to emphasize emotional peak. Rain streaks on window behind her are pulled into diagonal lines. After speaking, her gaze first lands on the man, then immediately shifts to the short-haired girl. Camera quickly pushes in slightly, stopping at the end of the question.",
+      "Shot 9 hard cuts from previous shot, switching to young man’s full medium eye-level. Composition uses table edge and chair back to form horizontal lines. He immediately stands, chair legs scraping floor with brief Picks up a cup of warm water and offers it to the girl. Movement is controlled but clearly soothing. Water surface ripples slightly with his steps. Rain continues. Camera transitions from static to short tracking lateral move, following the water delivery to complete spatial connection.",
+      "Shot 10 hard cuts from previous shot, switching to girl’s medium-close side eye-level. Out-of-focus water cup in foreground, focus on her eyes turning toward the short-haired girl. She does not immediately take the water, instead fully turning body and gaze toward her. Cold outdoor light outlines her nose and lashes.",
+      "Shot 11 hard cuts using reverse angle from previous shot, short-haired girl’s close-up eye-level centered in frame. Eyes do not avoid contact. Tone starts gently, ends with downward inflection. Camera gently pushes in to facial level, allowing reassurance to land directly.",
+      "Shot 12 hard cuts to overhead push-in close-up. Medical form is pushed to center of frame. Paper goes from blurry to sharp. Key result section clearly shows “正常”. Layout is neat, light creates soft reflection on paper. Man’s finger shifts from tightly pressing corner to slowly releasing. Short-haired girl’s fingertip also lifts. Water droplet on cup wall remains still and bright. Camera continues slow forward push, completing revelation of information.",
+      "Shot 13 soft cuts back to girl’s close-up eye-level. Depth of field is extremely shallow, retaining only blurred warm white bokeh and blue-gray outline of rain window in background. Fingers no longer tense when accepting the cup. Cup rim touches with crisp light Camera slowly pulls back slightly, creating space for emotional release.",
+      "Shot 14 hard cuts from previous shot to medium shot of all three eye-level. Table re-forms stable triangular composition. All three bodies lean inward slightly, distance visibly shortened. Listeners nod, blink, or subtly smile. Rain continues but no longer oppressive. Camera performs slow lateral pan, reweaving the three into a cohesive unit.",
+      "Shot 15 concludes with a fade-in/fade-out transition, returning to a wide eye-level shot by the window. The three individuals are seated near the window, the checklist on the table no longer the focal point, replaced instead by softer postures and closer body language. Rain continues to slide down the glass, the cold-colored reflections of streetlights still visible but balanced by the warmer, steadier indoor lighting. The camera slowly pulls back, making the entire café appear quiet and relaxed in the rainy night, finally settling on a calm, harmonious overall image."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, wide eye-level composition placing the cafe entrance on the left and the window-side seat deep in the frame. The doorframe and rain curtain form leading lines. Streetlights outside reflect cold blue on wet pavement. A young girl with anime-style features enters, umbrella still dripping. Camera slowly pushes forward to establish her spatial relationship with the two waiting individuals inside.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 hard cuts from previous shot, switching to medium eye-level. Girl sits by the window. Blurred cup rim in foreground and rain-blurred window in background frame her face. Cool lighting highlights damp hair. Camera makes a very slight lateral pan following her gaze.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shallow depth of field compresses background, leaving only flowing rain streaks outside. Camera subtly pushes in to emphasize the probing tone.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 hard cuts using reverse angle from previous shot, cutting to young man’s medium-close eye-level. Throat moves slightly, fingers pause at cup edge. A flash of cold light appears outside.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 hard cuts from previous shot, switching to short-haired girl’s close-up eye-level. Warm white reflection from the table illuminates her jaw and back of hand. Background remains cold rain-streaked window. She leans forward slightly, first looking at the young girl, then briefly at the man. Her lips clearly add “先别怕”. Eyebrows relax, eyes attempt reassurance.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 hard cuts from previous shot, overhead close-up of the medical form on the table. Three cups and a small puddle from the umbrella form a triangular composition. Edges of the paper are lit by the desk lamp. Title and table are not yet fully clear, but it is recognizable as a hospital check-up form. Man’s finger rests on one corner, short-haired girl’s palm lightly covers the other. Rain and cup clinks continue. Camera slowly pushes down, emphasizing unresolved information.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 soft cuts back to scene from previous shot, medium overhead slightly angled eye-level, shot from above the table. Unused water cup in foreground, blurred rain window in background. Girl’s shoulders stiffen slightly, man looks down, short-haired girl exhales quietly. Camera is nearly static, descending extremely slowly to prolong silence.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 hard cuts back to girl’s close-up, slightly upward angle to emphasize emotional peak. Rain streaks on window behind her are pulled into diagonal lines. After speaking, her gaze first lands on the man, then immediately shifts to the short-haired girl. Camera quickly pushes in slightly, stopping at the end of the question.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 hard cuts from previous shot, switching to young man’s full medium eye-level. Composition uses table edge and chair back to form horizontal lines. He immediately stands, chair legs scraping floor with brief Picks up a cup of warm water and offers it to the girl. Movement is controlled but clearly soothing. Water surface ripples slightly with his steps. Rain continues. Camera transitions from static to short tracking lateral move, following the water delivery to complete spatial connection.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 hard cuts from previous shot, switching to girl’s medium-close side eye-level. Out-of-focus water cup in foreground, focus on her eyes turning toward the short-haired girl. She does not immediately take the water, instead fully turning body and gaze toward her. Cold outdoor light outlines her nose and lashes.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 hard cuts using reverse angle from previous shot, short-haired girl’s close-up eye-level centered in frame. Eyes do not avoid contact. Tone starts gently, ends with downward inflection. Camera gently pushes in to facial level, allowing reassurance to land directly.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 hard cuts to overhead push-in close-up. Medical form is pushed to center of frame. Paper goes from blurry to sharp. Key result section clearly shows “正常”. Layout is neat, light creates soft reflection on paper. Man’s finger shifts from tightly pressing corner to slowly releasing. Short-haired girl’s fingertip also lifts. Water droplet on cup wall remains still and bright. Camera continues slow forward push, completing revelation of information.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 soft cuts back to girl’s close-up eye-level. Depth of field is extremely shallow, retaining only blurred warm white bokeh and blue-gray outline of rain window in background. Fingers no longer tense when accepting the cup. Cup rim touches with crisp light Camera slowly pulls back slightly, creating space for emotional release.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 hard cuts from previous shot to medium shot of all three eye-level. Table re-forms stable triangular composition. All three bodies lean inward slightly, distance visibly shortened. Listeners nod, blink, or subtly smile. Rain continues but no longer oppressive. Camera performs slow lateral pan, reweaving the three into a cohesive unit.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 15,
+        "prompt": "Shot 15 concludes with a fade-in/fade-out transition, returning to a wide eye-level shot by the window. The three individuals are seated near the window, the checklist on the table no longer the focal point, replaced instead by softer postures and closer body language. Rain continues to slide down the glass, the cold-colored reflections of streetlights still visible but balanced by the warmer, steadier indoor lighting. The camera slowly pulls back, making the entire café appear quiet and relaxed in the rainy night, finally settling on a calm, harmonious overall image.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, wide eye-level composition placing the cafe entrance on the left and the window-side seat deep in the frame. The doorframe and rain curtain form leading lines. Streetlights outside reflect cold blue on wet pavement. A young girl with anime-style features enters, umbrella still dripping. Camera slowly pushes forward to establish her spatial relationship with the two waiting individuals inside.",
+      "The scene transitions. Shot 2 hard cuts from previous shot, switching to medium eye-level. Girl sits by the window. Blurred cup rim in foreground and rain-blurred window in background frame her face. Cool lighting highlights damp hair. Camera makes a very slight lateral pan following her gaze.",
+      "The scene transitions. Shallow depth of field compresses background, leaving only flowing rain streaks outside. Camera subtly pushes in to emphasize the probing tone.",
+      "The scene transitions. Shot 4 hard cuts using reverse angle from previous shot, cutting to young man’s medium-close eye-level. Throat moves slightly, fingers pause at cup edge. A flash of cold light appears outside.",
+      "The scene transitions. Shot 5 hard cuts from previous shot, switching to short-haired girl’s close-up eye-level. Warm white reflection from the table illuminates her jaw and back of hand. Background remains cold rain-streaked window. She leans forward slightly, first looking at the young girl, then briefly at the man. Her lips clearly add “先别怕”. Eyebrows relax, eyes attempt reassurance.",
+      "The scene transitions. Shot 6 hard cuts from previous shot, overhead close-up of the medical form on the table. Three cups and a small puddle from the umbrella form a triangular composition. Edges of the paper are lit by the desk lamp. Title and table are not yet fully clear, but it is recognizable as a hospital check-up form. Man’s finger rests on one corner, short-haired girl’s palm lightly covers the other. Rain and cup clinks continue. Camera slowly pushes down, emphasizing unresolved information.",
+      "The scene transitions. Shot 7 soft cuts back to scene from previous shot, medium overhead slightly angled eye-level, shot from above the table. Unused water cup in foreground, blurred rain window in background. Girl’s shoulders stiffen slightly, man looks down, short-haired girl exhales quietly. Camera is nearly static, descending extremely slowly to prolong silence.",
+      "The scene transitions. Shot 8 hard cuts back to girl’s close-up, slightly upward angle to emphasize emotional peak. Rain streaks on window behind her are pulled into diagonal lines. After speaking, her gaze first lands on the man, then immediately shifts to the short-haired girl. Camera quickly pushes in slightly, stopping at the end of the question.",
+      "The scene transitions. Shot 9 hard cuts from previous shot, switching to young man’s full medium eye-level. Composition uses table edge and chair back to form horizontal lines. He immediately stands, chair legs scraping floor with brief Picks up a cup of warm water and offers it to the girl. Movement is controlled but clearly soothing. Water surface ripples slightly with his steps. Rain continues. Camera transitions from static to short tracking lateral move, following the water delivery to complete spatial connection.",
+      "The scene transitions. Shot 10 hard cuts from previous shot, switching to girl’s medium-close side eye-level. Out-of-focus water cup in foreground, focus on her eyes turning toward the short-haired girl. She does not immediately take the water, instead fully turning body and gaze toward her. Cold outdoor light outlines her nose and lashes.",
+      "The scene transitions. Shot 11 hard cuts using reverse angle from previous shot, short-haired girl’s close-up eye-level centered in frame. Eyes do not avoid contact. Tone starts gently, ends with downward inflection. Camera gently pushes in to facial level, allowing reassurance to land directly.",
+      "The scene transitions. Shot 12 hard cuts to overhead push-in close-up. Medical form is pushed to center of frame. Paper goes from blurry to sharp. Key result section clearly shows “正常”. Layout is neat, light creates soft reflection on paper. Man’s finger shifts from tightly pressing corner to slowly releasing. Short-haired girl’s fingertip also lifts. Water droplet on cup wall remains still and bright. Camera continues slow forward push, completing revelation of information.",
+      "The scene transitions. Shot 13 soft cuts back to girl’s close-up eye-level. Depth of field is extremely shallow, retaining only blurred warm white bokeh and blue-gray outline of rain window in background. Fingers no longer tense when accepting the cup. Cup rim touches with crisp light Camera slowly pulls back slightly, creating space for emotional release.",
+      "The scene transitions. Shot 14 hard cuts from previous shot to medium shot of all three eye-level. Table re-forms stable triangular composition. All three bodies lean inward slightly, distance visibly shortened. Listeners nod, blink, or subtly smile. Rain continues but no longer oppressive. Camera performs slow lateral pan, reweaving the three into a cohesive unit.",
+      "The scene transitions. Shot 15 concludes with a fade-in/fade-out transition, returning to a wide eye-level shot by the window. The three individuals are seated near the window, the checklist on the table no longer the focal point, replaced instead by softer postures and closer body language. Rain continues to slide down the glass, the cold-colored reflections of streetlights still visible but balanced by the warmer, steadier indoor lighting. The camera slowly pulls back, making the entire café appear quiet and relaxed in the rainy night, finally settling on a calm, harmonious overall image."
+    ],
+    "num_output_frames": 120,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 75,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 259,
+    "sample_id": "259",
+    "prompts": [
+      "Shot 1 starts with a hard cut from black, wide eye-level composition. Studio anchor positioned center-left, foreground news desk, background screen displays heavy rain and flooding with minimal graphics. Deep depth of field preserves studio space details. Camera performs a very slight push-in, establishing a formal live connection start.",
+      "Shot 2 follows previous shot with hard cut, medium close-up eye-level shot of a middle-aged Asian female reporter standing in the rain on a street. Subject dominates frame, background blurred showing caution tape and flooded road. Raincoat and microphone form clear visual focus. Overcast natural light hits her face, moisture reflection enhances cool tones.",
+      "Shot 3 hard cut from previous shot, wide overhead view of flooded street intersection. Foreground shows reflective puddles, midground half-submerged sidewalk and slowly detouring people, background flashing warning lights and temporary barriers. Cool gray sky and wet pavement create uniform color temperature. Puddle textures subtly spread with wind and rain. Camera performs small horizontal pan from high angle, fully establishing scene scope.",
+      "The reporter moves from the right side of the frame to the left, with occasional pedestrians holding umbrellas passing in the foreground, creating depth. In the background are shop roller shutters and stacked sandbags. Under natural overcast lighting, raindrops hang from her hair and shoulders. The camera pans smoothly to follow her movement, with slight tilting adjustments, enhancing the authenticity of the on-the-move report.",
+      "Shot 5 hard cut from previous shot, close-up eye-level focusing on reporter’s microphone windscreen and rolling raindrops. Foreground rain threads blurred into fine lines by shallow depth of field. Background streetlights and reflections blur into cool bokeh. Water beads continuously gather and slide off microphone edge, material wetness clearly visible. No new only close-range rain impact, distant water pump gradually becoming clearer mechanical drone. Camera performs extremely slow push-in, compressing on-site tension into detail.",
+      "Shot 6 hard cut from previous shot, close-up eye-level shot of interviewee resident standing on doorstep steps. Foreground shows soaked doorframe and stacked bags. Face and hand gestures are focal points. Background reveals water stains. Under cool natural light, skin and rain reflections appear realistic and subdued. After speaking, eyes pause briefly. Rain Camera gently pushes in to capture emotion.",
+      "Foreground has raindrops brushing lens edge. Background shows rain-soaked shop signs and passing residents. Reporter leans forward slightly, asking “眼下最急的是哪件事”; resident immediately turns head to reply “先把水排出去”. Camera performs minor lateral dolly move, enhancing on-site interview feel.",
+      "Shot 8 follows reporter’s gaze direction with whip pan transition, far-medium eye-level sweep across water pump operation zone. Foreground shows water sucked into pipe forming vortex. Midground worker in raincoat operates equipment. Background reflects wet road and onlookers. Mist and humidity in cold air add depth. Pump hose vibrates slightly, water continuously removed. only amplified water pump roar, rain, and low crowd murmurs. Camera maintains continuous pan, showcasing work area and spatial relationships.",
+      "Shot 9 hard cut from previous shot, close-up eye-level focused on a worker. Behind shoulder, operating water pump remains visible. Foreground shows orange safety helmet edge with water droplets. Background machinery blurred but identifiable. Low contrast under rainy light emphasizes realism. Worker raises Water pump Camera slightly tilts up and stabilizes, emphasizing work intensity.",
+      "Shot 10 fade cut from previous shot, overhead medium shot focusing on volunteer supply distribution table and human flow. Foreground shows cases of bottled water and food. Midground volunteers hand supplies to queued residents. Background includes temporary tents and wet ground. Lighting remains dominated by overcast diffuse light. Cardboard boxes, plastic packaging, and umbrellas show realistic reflections. Actions proceed in sequence: pass, receive, turn away. Camera slowly lowers then slightly pans, highlighting order.",
+      "Shot 11 cuts hard from the previous shot, a medium eye-level shot entering the shelter, showing an elderly person seated on a folding chair being interviewed. In the foreground, the reporter's microphone enters the frame; in the background, simple beds, blankets, and volunteers moving about are visible. Indoor cool white lighting blends with natural overcast daylight filtering in from outside, creating soft illumination that remains cool in tone. The reporter listens quietly off-camera. The camera performs a slight push-in, capturing the stable mood within the shelter.",
+      "Shot 12 matches cut to a close-up overhead shot of a child holding a steaming paper cup with both hands. The foreground features reddened fingertips and steam rising from the cup’s rim, while the background blurs into blankets and chair legs. In the cool environment, the hot water vapor becomes the only soft visual change. Tiny droplets condense on the surface of the paper cup, and the child's fingers slightly tighten. There is no only the subtle The camera remains nearly still, making only an extremely slight push-in at the end.",
+      "Shot 13 cuts abruptly from the previous shot, presenting a medium two-shot at eye level of the reporter and the community official standing at the entrance of the relief center, engaged in conversation. The partially open door frame in the foreground naturally frames the scene, while in the background, staff members are seen transporting supplies and light rain continues to fall outside. Cold white light and natural daylight converge on the subjects' faces. The reporter begins speaking “目前物资和清淤进展如何”, followed immediately by the community official's response “物资已补齐，今晚继续清理低洼点”. In the The camera performs a slight over-the-shoulder pan between the two individuals, enhancing the sense of information exchange.",
+      "Shot 14 transitions from the previous shot via fade-in/fade-out, a wide overhead shot slowly pulling back to reveal the neighborhood’s recovery progress. Foreground puddles visibly shallow, roadside shops begin cleaning, mid-ground water pumps continue operating, and background pedestrians resume orderly movement. The sky remains overcast but rainfall lessens. The cool color tone remains consistent, ground reflections are no longer intense, and motion shifts from chaos to order. The camera pulls back while slightly elevating, providing a summarizing spatial context of recovery progress.",
+      "Shot 15 cuts hard back to the reporter facing the camera, framed in a medium-close eye-level shot centered in the frame. The background shows the neighborhood still being cleaned and staff moving about. Cool natural light illuminates her face; raindrops occasionally slide down her coat, but overall she appears more composed. The camera makes a very slight push-in then stabilizes, forming a professional and reserved news conclusion."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 starts with a hard cut from black, wide eye-level composition. Studio anchor positioned center-left, foreground news desk, background screen displays heavy rain and flooding with minimal graphics. Deep depth of field preserves studio space details. Camera performs a very slight push-in, establishing a formal live connection start.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 follows previous shot with hard cut, medium close-up eye-level shot of a middle-aged Asian female reporter standing in the rain on a street. Subject dominates frame, background blurred showing caution tape and flooded road. Raincoat and microphone form clear visual focus. Overcast natural light hits her face, moisture reflection enhances cool tones.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 hard cut from previous shot, wide overhead view of flooded street intersection. Foreground shows reflective puddles, midground half-submerged sidewalk and slowly detouring people, background flashing warning lights and temporary barriers. Cool gray sky and wet pavement create uniform color temperature. Puddle textures subtly spread with wind and rain. Camera performs small horizontal pan from high angle, fully establishing scene scope.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "The reporter moves from the right side of the frame to the left, with occasional pedestrians holding umbrellas passing in the foreground, creating depth. In the background are shop roller shutters and stacked sandbags. Under natural overcast lighting, raindrops hang from her hair and shoulders. The camera pans smoothly to follow her movement, with slight tilting adjustments, enhancing the authenticity of the on-the-move report.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 hard cut from previous shot, close-up eye-level focusing on reporter’s microphone windscreen and rolling raindrops. Foreground rain threads blurred into fine lines by shallow depth of field. Background streetlights and reflections blur into cool bokeh. Water beads continuously gather and slide off microphone edge, material wetness clearly visible. No new only close-range rain impact, distant water pump gradually becoming clearer mechanical drone. Camera performs extremely slow push-in, compressing on-site tension into detail.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 hard cut from previous shot, close-up eye-level shot of interviewee resident standing on doorstep steps. Foreground shows soaked doorframe and stacked bags. Face and hand gestures are focal points. Background reveals water stains. Under cool natural light, skin and rain reflections appear realistic and subdued. After speaking, eyes pause briefly. Rain Camera gently pushes in to capture emotion.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Foreground has raindrops brushing lens edge. Background shows rain-soaked shop signs and passing residents. Reporter leans forward slightly, asking “眼下最急的是哪件事”; resident immediately turns head to reply “先把水排出去”. Camera performs minor lateral dolly move, enhancing on-site interview feel.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 follows reporter’s gaze direction with whip pan transition, far-medium eye-level sweep across water pump operation zone. Foreground shows water sucked into pipe forming vortex. Midground worker in raincoat operates equipment. Background reflects wet road and onlookers. Mist and humidity in cold air add depth. Pump hose vibrates slightly, water continuously removed. only amplified water pump roar, rain, and low crowd murmurs. Camera maintains continuous pan, showcasing work area and spatial relationships.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 hard cut from previous shot, close-up eye-level focused on a worker. Behind shoulder, operating water pump remains visible. Foreground shows orange safety helmet edge with water droplets. Background machinery blurred but identifiable. Low contrast under rainy light emphasizes realism. Worker raises Water pump Camera slightly tilts up and stabilizes, emphasizing work intensity.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 fade cut from previous shot, overhead medium shot focusing on volunteer supply distribution table and human flow. Foreground shows cases of bottled water and food. Midground volunteers hand supplies to queued residents. Background includes temporary tents and wet ground. Lighting remains dominated by overcast diffuse light. Cardboard boxes, plastic packaging, and umbrellas show realistic reflections. Actions proceed in sequence: pass, receive, turn away. Camera slowly lowers then slightly pans, highlighting order.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts hard from the previous shot, a medium eye-level shot entering the shelter, showing an elderly person seated on a folding chair being interviewed. In the foreground, the reporter's microphone enters the frame; in the background, simple beds, blankets, and volunteers moving about are visible. Indoor cool white lighting blends with natural overcast daylight filtering in from outside, creating soft illumination that remains cool in tone. The reporter listens quietly off-camera. The camera performs a slight push-in, capturing the stable mood within the shelter.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 matches cut to a close-up overhead shot of a child holding a steaming paper cup with both hands. The foreground features reddened fingertips and steam rising from the cup’s rim, while the background blurs into blankets and chair legs. In the cool environment, the hot water vapor becomes the only soft visual change. Tiny droplets condense on the surface of the paper cup, and the child's fingers slightly tighten. There is no only the subtle The camera remains nearly still, making only an extremely slight push-in at the end.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts abruptly from the previous shot, presenting a medium two-shot at eye level of the reporter and the community official standing at the entrance of the relief center, engaged in conversation. The partially open door frame in the foreground naturally frames the scene, while in the background, staff members are seen transporting supplies and light rain continues to fall outside. Cold white light and natural daylight converge on the subjects' faces. The reporter begins speaking “目前物资和清淤进展如何”, followed immediately by the community official's response “物资已补齐，今晚继续清理低洼点”. In the The camera performs a slight over-the-shoulder pan between the two individuals, enhancing the sense of information exchange.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 14,
+        "prompt": "Shot 14 transitions from the previous shot via fade-in/fade-out, a wide overhead shot slowly pulling back to reveal the neighborhood’s recovery progress. Foreground puddles visibly shallow, roadside shops begin cleaning, mid-ground water pumps continue operating, and background pedestrians resume orderly movement. The sky remains overcast but rainfall lessens. The cool color tone remains consistent, ground reflections are no longer intense, and motion shifts from chaos to order. The camera pulls back while slightly elevating, providing a summarizing spatial context of recovery progress.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 15,
+        "prompt": "Shot 15 cuts hard back to the reporter facing the camera, framed in a medium-close eye-level shot centered in the frame. The background shows the neighborhood still being cleaned and staff moving about. Cool natural light illuminates her face; raindrops occasionally slide down her coat, but overall she appears more composed. The camera makes a very slight push-in then stabilizes, forming a professional and reserved news conclusion.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 starts with a hard cut from black, wide eye-level composition. Studio anchor positioned center-left, foreground news desk, background screen displays heavy rain and flooding with minimal graphics. Deep depth of field preserves studio space details. Camera performs a very slight push-in, establishing a formal live connection start.",
+      "The scene transitions. Shot 2 follows previous shot with hard cut, medium close-up eye-level shot of a middle-aged Asian female reporter standing in the rain on a street. Subject dominates frame, background blurred showing caution tape and flooded road. Raincoat and microphone form clear visual focus. Overcast natural light hits her face, moisture reflection enhances cool tones.",
+      "The scene transitions. Shot 3 hard cut from previous shot, wide overhead view of flooded street intersection. Foreground shows reflective puddles, midground half-submerged sidewalk and slowly detouring people, background flashing warning lights and temporary barriers. Cool gray sky and wet pavement create uniform color temperature. Puddle textures subtly spread with wind and rain. Camera performs small horizontal pan from high angle, fully establishing scene scope.",
+      "The scene transitions. The reporter moves from the right side of the frame to the left, with occasional pedestrians holding umbrellas passing in the foreground, creating depth. In the background are shop roller shutters and stacked sandbags. Under natural overcast lighting, raindrops hang from her hair and shoulders. The camera pans smoothly to follow her movement, with slight tilting adjustments, enhancing the authenticity of the on-the-move report.",
+      "The scene transitions. Shot 5 hard cut from previous shot, close-up eye-level focusing on reporter’s microphone windscreen and rolling raindrops. Foreground rain threads blurred into fine lines by shallow depth of field. Background streetlights and reflections blur into cool bokeh. Water beads continuously gather and slide off microphone edge, material wetness clearly visible. No new only close-range rain impact, distant water pump gradually becoming clearer mechanical drone. Camera performs extremely slow push-in, compressing on-site tension into detail.",
+      "The scene transitions. Shot 6 hard cut from previous shot, close-up eye-level shot of interviewee resident standing on doorstep steps. Foreground shows soaked doorframe and stacked bags. Face and hand gestures are focal points. Background reveals water stains. Under cool natural light, skin and rain reflections appear realistic and subdued. After speaking, eyes pause briefly. Rain Camera gently pushes in to capture emotion.",
+      "The scene transitions. Foreground has raindrops brushing lens edge. Background shows rain-soaked shop signs and passing residents. Reporter leans forward slightly, asking “眼下最急的是哪件事”; resident immediately turns head to reply “先把水排出去”. Camera performs minor lateral dolly move, enhancing on-site interview feel.",
+      "The scene transitions. Shot 8 follows reporter’s gaze direction with whip pan transition, far-medium eye-level sweep across water pump operation zone. Foreground shows water sucked into pipe forming vortex. Midground worker in raincoat operates equipment. Background reflects wet road and onlookers. Mist and humidity in cold air add depth. Pump hose vibrates slightly, water continuously removed. only amplified water pump roar, rain, and low crowd murmurs. Camera maintains continuous pan, showcasing work area and spatial relationships.",
+      "The scene transitions. Shot 9 hard cut from previous shot, close-up eye-level focused on a worker. Behind shoulder, operating water pump remains visible. Foreground shows orange safety helmet edge with water droplets. Background machinery blurred but identifiable. Low contrast under rainy light emphasizes realism. Worker raises Water pump Camera slightly tilts up and stabilizes, emphasizing work intensity.",
+      "The scene transitions. Shot 10 fade cut from previous shot, overhead medium shot focusing on volunteer supply distribution table and human flow. Foreground shows cases of bottled water and food. Midground volunteers hand supplies to queued residents. Background includes temporary tents and wet ground. Lighting remains dominated by overcast diffuse light. Cardboard boxes, plastic packaging, and umbrellas show realistic reflections. Actions proceed in sequence: pass, receive, turn away. Camera slowly lowers then slightly pans, highlighting order.",
+      "The scene transitions. Shot 11 cuts hard from the previous shot, a medium eye-level shot entering the shelter, showing an elderly person seated on a folding chair being interviewed. In the foreground, the reporter's microphone enters the frame; in the background, simple beds, blankets, and volunteers moving about are visible. Indoor cool white lighting blends with natural overcast daylight filtering in from outside, creating soft illumination that remains cool in tone. The reporter listens quietly off-camera. The camera performs a slight push-in, capturing the stable mood within the shelter.",
+      "The scene transitions. Shot 12 matches cut to a close-up overhead shot of a child holding a steaming paper cup with both hands. The foreground features reddened fingertips and steam rising from the cup’s rim, while the background blurs into blankets and chair legs. In the cool environment, the hot water vapor becomes the only soft visual change. Tiny droplets condense on the surface of the paper cup, and the child's fingers slightly tighten. There is no only the subtle The camera remains nearly still, making only an extremely slight push-in at the end.",
+      "The scene transitions. Shot 13 cuts abruptly from the previous shot, presenting a medium two-shot at eye level of the reporter and the community official standing at the entrance of the relief center, engaged in conversation. The partially open door frame in the foreground naturally frames the scene, while in the background, staff members are seen transporting supplies and light rain continues to fall outside. Cold white light and natural daylight converge on the subjects' faces. The reporter begins speaking “目前物资和清淤进展如何”, followed immediately by the community official's response “物资已补齐，今晚继续清理低洼点”. In the The camera performs a slight over-the-shoulder pan between the two individuals, enhancing the sense of information exchange.",
+      "The scene transitions. Shot 14 transitions from the previous shot via fade-in/fade-out, a wide overhead shot slowly pulling back to reveal the neighborhood’s recovery progress. Foreground puddles visibly shallow, roadside shops begin cleaning, mid-ground water pumps continue operating, and background pedestrians resume orderly movement. The sky remains overcast but rainfall lessens. The cool color tone remains consistent, ground reflections are no longer intense, and motion shifts from chaos to order. The camera pulls back while slightly elevating, providing a summarizing spatial context of recovery progress.",
+      "The scene transitions. Shot 15 cuts hard back to the reporter facing the camera, framed in a medium-close eye-level shot centered in the frame. The background shows the neighborhood still being cleaned and staff moving about. Cool natural light illuminates her face; raindrops occasionally slide down her coat, but overall she appears more composed. The camera makes a very slight push-in then stabilizes, forming a professional and reserved news conclusion."
+    ],
+    "num_output_frames": 120,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 75,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  }
+]

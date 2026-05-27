@@ -1,0 +1,942 @@
+[
+  {
+    "idx": 41,
+    "sample_id": "41",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition placing tide pool rocks at the bottom of the frame and the dark silhouette of coastal pines along the distant top edge. Wet rock surfaces and shallow water areas show fine sparkling highlights within the low-saturation pixel texture. Its landing synchronizes precisely with a nearby wave crash. The camera slowly lowers from a high position and slightly follows the landing point, establishing the transition from environment to action initiation.",
+      "Shot 2 connects to the previous shot via a hard cut, using a medium eye-level framing with the driftwood horizontally centered. The background retains wind-blown pine needles and blurred distant waves, while the foreground includes scattered sand grains and wood grain for depth. Side lighting creates soft highlights along the subject's scales. The fish quickly stabilizes, pressing the pencil firmly with one pectoral fin and adjusting grip with the other using the shell knife. The pencil initially rolls slightly before being held steady under pressure. The preparation motion is compact and precise. The The camera performs a slight push-in to intensify the sense of impending detailed operation.",
+      "Shot 3 transitions from the previous shot via a match cut along the pencil axis into a close-up push-in. Focus centers on the shell knife’s edge, pencil wood grain, and pectoral fin pressure point. The background coastline and pines are compressed into low-resolution, cool-toned blurred blocks. Side-backlighting sweeps over the blade and newly exposed pale wood core. The subject begins rapid rotation shaving, with the shell knife smoothly gliding along the pencil shaft, the pectoral fin maintaining constant pressure, and the tail subtly swaying at the edge of the frame to balance. Wood shavings continuously curl from the blade. The action formally transitions from preparation to climax. The camera slowly pushes in while making a very slight same-direction follow, simultaneously conveying speed and control.",
+      "Shot 4 shifts via a hard cut to an overhead shot of the sand. Composition places the curled wood shavings in the center, with only partial pencil and shell knife entering the upper edge. Moist sand and scattered pebbles form fine textures. Uniform natural daylight enhances the light color of the shavings. The focus is on material transformation: freshly shaved wood curls down layer by layer into thin ring bands, then disturbed by a gust of wind, edges lift first and then disperse, lifting fine sand to leave faint dragging traces. This physical change in the environment directly results from the high-speed action in the prior shot. The wind The camera remains stable in overhead position, only making minimal lateral shift, emphasizing observational documentation.",
+      "Shot 5 enters via a quick whip cut following the wind direction into a close-up side view. Driftwood occupies the lower foreground, the subject and pencil positioned at the middle focal plane, distant waves and pines compressed into soft color blocks in the background. Side-backlight continues to outline the fish tail, shell knife edge, and remaining wood fragments. The subject enters the final refinement stage: first, a brief tail flick adjusts body angle, then the shell knife makes two to three micro-adjustments. Pectoral fin pressure gradually eases from tight to relaxed. The motion clearly shifts from high speed to controlled precision. Shavings no longer fly off in sheets but fall as extremely fine particles along the pencil shaft. The camera performs a short lateral move along the subject’s side with slight orbiting, highlighting the accuracy of final calibration.",
+      "Shot 6 transitions via a hard cut that matches the action into a close-up lateral pan. The shot starts near the subject’s hand and pencil shaft, then smoothly slides horizontally to the pencil tip, completing focus shift. Composition places the sharply formed tip slightly right of the frame’s third. Background shows the wind-smoothed gray-blue sea and dark band of pine forest. Uniform diffused lighting reveals clean layers of newly shaved wood core and cross-section. The subject slowly retracts the shell knife, tail stops moving, pectoral fin releases the pencil. After a brief pause, it looks at the finished product with satisfaction. The entire performance concludes in stillness. After the pan completes, the camera briefly pauses, letting the sharp tip and sense of completion serve as the final visual anchor."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide overhead composition placing tide pool rocks at the bottom of the frame and the dark silhouette of coastal pines along the distant top edge. Wet rock surfaces and shallow water areas show fine sparkling highlights within the low-saturation pixel texture. Its landing synchronizes precisely with a nearby wave crash. The camera slowly lowers from a high position and slightly follows the landing point, establishing the transition from environment to action initiation.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects to the previous shot via a hard cut, using a medium eye-level framing with the driftwood horizontally centered. The background retains wind-blown pine needles and blurred distant waves, while the foreground includes scattered sand grains and wood grain for depth. Side lighting creates soft highlights along the subject's scales. The fish quickly stabilizes, pressing the pencil firmly with one pectoral fin and adjusting grip with the other using the shell knife. The pencil initially rolls slightly before being held steady under pressure. The preparation motion is compact and precise. The The camera performs a slight push-in to intensify the sense of impending detailed operation.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions from the previous shot via a match cut along the pencil axis into a close-up push-in. Focus centers on the shell knife’s edge, pencil wood grain, and pectoral fin pressure point. The background coastline and pines are compressed into low-resolution, cool-toned blurred blocks. Side-backlighting sweeps over the blade and newly exposed pale wood core. The subject begins rapid rotation shaving, with the shell knife smoothly gliding along the pencil shaft, the pectoral fin maintaining constant pressure, and the tail subtly swaying at the edge of the frame to balance. Wood shavings continuously curl from the blade. The action formally transitions from preparation to climax. The camera slowly pushes in while making a very slight same-direction follow, simultaneously conveying speed and control.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 shifts via a hard cut to an overhead shot of the sand. Composition places the curled wood shavings in the center, with only partial pencil and shell knife entering the upper edge. Moist sand and scattered pebbles form fine textures. Uniform natural daylight enhances the light color of the shavings. The focus is on material transformation: freshly shaved wood curls down layer by layer into thin ring bands, then disturbed by a gust of wind, edges lift first and then disperse, lifting fine sand to leave faint dragging traces. This physical change in the environment directly results from the high-speed action in the prior shot. The wind The camera remains stable in overhead position, only making minimal lateral shift, emphasizing observational documentation.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 enters via a quick whip cut following the wind direction into a close-up side view. Driftwood occupies the lower foreground, the subject and pencil positioned at the middle focal plane, distant waves and pines compressed into soft color blocks in the background. Side-backlight continues to outline the fish tail, shell knife edge, and remaining wood fragments. The subject enters the final refinement stage: first, a brief tail flick adjusts body angle, then the shell knife makes two to three micro-adjustments. Pectoral fin pressure gradually eases from tight to relaxed. The motion clearly shifts from high speed to controlled precision. Shavings no longer fly off in sheets but fall as extremely fine particles along the pencil shaft. The camera performs a short lateral move along the subject’s side with slight orbiting, highlighting the accuracy of final calibration.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 transitions via a hard cut that matches the action into a close-up lateral pan. The shot starts near the subject’s hand and pencil shaft, then smoothly slides horizontally to the pencil tip, completing focus shift. Composition places the sharply formed tip slightly right of the frame’s third. Background shows the wind-smoothed gray-blue sea and dark band of pine forest. Uniform diffused lighting reveals clean layers of newly shaved wood core and cross-section. The subject slowly retracts the shell knife, tail stops moving, pectoral fin releases the pencil. After a brief pause, it looks at the finished product with satisfaction. The entire performance concludes in stillness. After the pan completes, the camera briefly pauses, letting the sharp tip and sense of completion serve as the final visual anchor.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition placing tide pool rocks at the bottom of the frame and the dark silhouette of coastal pines along the distant top edge. Wet rock surfaces and shallow water areas show fine sparkling highlights within the low-saturation pixel texture. Its landing synchronizes precisely with a nearby wave crash. The camera slowly lowers from a high position and slightly follows the landing point, establishing the transition from environment to action initiation.",
+      "The scene transitions. Shot 2 connects to the previous shot via a hard cut, using a medium eye-level framing with the driftwood horizontally centered. The background retains wind-blown pine needles and blurred distant waves, while the foreground includes scattered sand grains and wood grain for depth. Side lighting creates soft highlights along the subject's scales. The fish quickly stabilizes, pressing the pencil firmly with one pectoral fin and adjusting grip with the other using the shell knife. The pencil initially rolls slightly before being held steady under pressure. The preparation motion is compact and precise. The The camera performs a slight push-in to intensify the sense of impending detailed operation.",
+      "The scene transitions. Shot 3 transitions from the previous shot via a match cut along the pencil axis into a close-up push-in. Focus centers on the shell knife’s edge, pencil wood grain, and pectoral fin pressure point. The background coastline and pines are compressed into low-resolution, cool-toned blurred blocks. Side-backlighting sweeps over the blade and newly exposed pale wood core. The subject begins rapid rotation shaving, with the shell knife smoothly gliding along the pencil shaft, the pectoral fin maintaining constant pressure, and the tail subtly swaying at the edge of the frame to balance. Wood shavings continuously curl from the blade. The action formally transitions from preparation to climax. The camera slowly pushes in while making a very slight same-direction follow, simultaneously conveying speed and control.",
+      "The scene transitions. Shot 4 shifts via a hard cut to an overhead shot of the sand. Composition places the curled wood shavings in the center, with only partial pencil and shell knife entering the upper edge. Moist sand and scattered pebbles form fine textures. Uniform natural daylight enhances the light color of the shavings. The focus is on material transformation: freshly shaved wood curls down layer by layer into thin ring bands, then disturbed by a gust of wind, edges lift first and then disperse, lifting fine sand to leave faint dragging traces. This physical change in the environment directly results from the high-speed action in the prior shot. The wind The camera remains stable in overhead position, only making minimal lateral shift, emphasizing observational documentation.",
+      "The scene transitions. Shot 5 enters via a quick whip cut following the wind direction into a close-up side view. Driftwood occupies the lower foreground, the subject and pencil positioned at the middle focal plane, distant waves and pines compressed into soft color blocks in the background. Side-backlight continues to outline the fish tail, shell knife edge, and remaining wood fragments. The subject enters the final refinement stage: first, a brief tail flick adjusts body angle, then the shell knife makes two to three micro-adjustments. Pectoral fin pressure gradually eases from tight to relaxed. The motion clearly shifts from high speed to controlled precision. Shavings no longer fly off in sheets but fall as extremely fine particles along the pencil shaft. The camera performs a short lateral move along the subject’s side with slight orbiting, highlighting the accuracy of final calibration.",
+      "The scene transitions. Shot 6 transitions via a hard cut that matches the action into a close-up lateral pan. The shot starts near the subject’s hand and pencil shaft, then smoothly slides horizontally to the pencil tip, completing focus shift. Composition places the sharply formed tip slightly right of the frame’s third. Background shows the wind-smoothed gray-blue sea and dark band of pine forest. Uniform diffused lighting reveals clean layers of newly shaved wood core and cross-section. The subject slowly retracts the shell knife, tail stops moving, pectoral fin releases the pencil. After a brief pause, it looks at the finished product with satisfaction. The entire performance concludes in stillness. After the pan completes, the camera briefly pauses, letting the sharp tip and sense of completion serve as the final visual anchor."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 69,
+    "sample_id": "69",
+    "prompts": [
+      "Shot 1 begins with a fade-in from black, wide-angle upward view. Foreground: edge of crosswalk and traffic light pole; midground: a girl child carrying an old telescope; background: overhead wires spanning the street, densely populated with pigeons. Focus gradually shifts from the street to the birds in the sky. The morning air is slightly cool; The camera slowly pushes in and slightly tilts upward.",
+      "Shot 2 cuts hard from the previous shot, full shot eye-level tracking. Focus lies between the girl running quickly and the pigeons flying low ahead of her. The environment shifts to the side of the street lined with shops. Lighting remains primarily natural morning light, with signs casting slight shadows. The girl runs close to storefronts, the old telescope bouncing slightly on her back. The camera moves with a handheld feel, panning and slightly pushing forward, maintaining the pursuit dynamic within consistent motion direction.",
+      "Shot 3 connects via action cut to the previous shot, wide-angle overhead view. From above a pedestrian overpass, traffic and pedestrians form linear patterns. Foreground: blurred railing forming a framing device; midground: pigeons crossing over traffic; background: road extending into an alley. Focus follows the birds as they move from the wide road into the narrow alley entrance. The urban space suddenly expands. The cool, neutral morning tone remains consistent. Vehicle reflections shimmer faintly on the road. The girl runs from the bottom of the frame to the bridge edge and stops, hands gripping the railing as she leans forward. The flock flies en masse over the traffic, clearly turning right into the alley. The camera starts fixed overhead, then slowly pans horizontally, tracing the birds' turn path and naturally leading to the next closer observation point.",
+      "Shot 4 transitions with a soft fade from the previous shot to medium-close eye-level. The camera angle is lowered. Foreground: scattered cardboard boxes and plastic bags at the edge of a trash station; midground: a stray cat creeping low to the ground; background: out-of-focus girl stopping and the wall of the alley. The setting enters a narrow alley edge. Lighting remains natural but softer and colder due to building shadows. The cat’s body is extremely low, tail tip trembling, paws moving silently forward. The camera moves extremely slowly forward and slightly tilts down, creating a non-interventionist observational distance typical of documentaries.",
+      "Shot 5 cuts hard from the previous shot into a close-up to near-extreme close-up, low-angle eye-level. Focus locks on the sudden burst of the pounce action on the ground. Foreground: pavement debris and scattered feathers; midground: the cat’s sudden forward lunge trajectory; background: other pigeons startled into flight, appearing rapidly blurred. Under natural light, feather edges are sharply defined. At the moment the cat lunges at the lone chick, feathers explode across the street, surrounding pigeons simultaneously take off. Documentary observation remains reserved—no bloodshed is emphasized, only the suddenness and chaos of the instant change. The camera makes a very brief follow-through surge, then immediately stabilizes, preserving the abruptness of a real street event.",
+      "Shot 6 connects via a slow-paced fade-in/fade-out from the previous shot, medium shot eye-level with slight distance. Foreground: roadside railing and sidewalk edge; midground: the girl standing by the curb carefully opening her notebook; background: the remaining pigeons flying toward the next street, gradually shrinking. Focus first rests on her recording gesture, then smoothly follows the departing birds. Light returns to a more open morning street, neutral tones remain stable. The girl does not chase them but quickly records her observations. The old telescope hangs loosely at her side, swaying slightly. She glances once more at the distant flying pigeons, then lowers her head to complete her final note. The ending is reserved and contained. The camera slowly pulls back and slightly pans, repositioning the character and city within the same calm street scene, concluding with a documentary-style non-judgmental stance."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 begins with a fade-in from black, wide-angle upward view. Foreground: edge of crosswalk and traffic light pole; midground: a girl child carrying an old telescope; background: overhead wires spanning the street, densely populated with pigeons. Focus gradually shifts from the street to the birds in the sky. The morning air is slightly cool; The camera slowly pushes in and slightly tilts upward.",
+        "source_video_frames": 39,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot, full shot eye-level tracking. Focus lies between the girl running quickly and the pigeons flying low ahead of her. The environment shifts to the side of the street lined with shops. Lighting remains primarily natural morning light, with signs casting slight shadows. The girl runs close to storefronts, the old telescope bouncing slightly on her back. The camera moves with a handheld feel, panning and slightly pushing forward, maintaining the pursuit dynamic within consistent motion direction.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 connects via action cut to the previous shot, wide-angle overhead view. From above a pedestrian overpass, traffic and pedestrians form linear patterns. Foreground: blurred railing forming a framing device; midground: pigeons crossing over traffic; background: road extending into an alley. Focus follows the birds as they move from the wide road into the narrow alley entrance. The urban space suddenly expands. The cool, neutral morning tone remains consistent. Vehicle reflections shimmer faintly on the road. The girl runs from the bottom of the frame to the bridge edge and stops, hands gripping the railing as she leans forward. The flock flies en masse over the traffic, clearly turning right into the alley. The camera starts fixed overhead, then slowly pans horizontally, tracing the birds' turn path and naturally leading to the next closer observation point.",
+        "source_video_frames": 41,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 transitions with a soft fade from the previous shot to medium-close eye-level. The camera angle is lowered. Foreground: scattered cardboard boxes and plastic bags at the edge of a trash station; midground: a stray cat creeping low to the ground; background: out-of-focus girl stopping and the wall of the alley. The setting enters a narrow alley edge. Lighting remains natural but softer and colder due to building shadows. The cat’s body is extremely low, tail tip trembling, paws moving silently forward. The camera moves extremely slowly forward and slightly tilts down, creating a non-interventionist observational distance typical of documentaries.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard from the previous shot into a close-up to near-extreme close-up, low-angle eye-level. Focus locks on the sudden burst of the pounce action on the ground. Foreground: pavement debris and scattered feathers; midground: the cat’s sudden forward lunge trajectory; background: other pigeons startled into flight, appearing rapidly blurred. Under natural light, feather edges are sharply defined. At the moment the cat lunges at the lone chick, feathers explode across the street, surrounding pigeons simultaneously take off. Documentary observation remains reserved—no bloodshed is emphasized, only the suddenness and chaos of the instant change. The camera makes a very brief follow-through surge, then immediately stabilizes, preserving the abruptness of a real street event.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 connects via a slow-paced fade-in/fade-out from the previous shot, medium shot eye-level with slight distance. Foreground: roadside railing and sidewalk edge; midground: the girl standing by the curb carefully opening her notebook; background: the remaining pigeons flying toward the next street, gradually shrinking. Focus first rests on her recording gesture, then smoothly follows the departing birds. Light returns to a more open morning street, neutral tones remain stable. The girl does not chase them but quickly records her observations. The old telescope hangs loosely at her side, swaying slightly. She glances once more at the distant flying pigeons, then lowers her head to complete her final note. The ending is reserved and contained. The camera slowly pulls back and slightly pans, repositioning the character and city within the same calm street scene, concluding with a documentary-style non-judgmental stance.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      39,
+      40,
+      41,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 begins with a fade-in from black, wide-angle upward view. Foreground: edge of crosswalk and traffic light pole; midground: a girl child carrying an old telescope; background: overhead wires spanning the street, densely populated with pigeons. Focus gradually shifts from the street to the birds in the sky. The morning air is slightly cool; The camera slowly pushes in and slightly tilts upward.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot, full shot eye-level tracking. Focus lies between the girl running quickly and the pigeons flying low ahead of her. The environment shifts to the side of the street lined with shops. Lighting remains primarily natural morning light, with signs casting slight shadows. The girl runs close to storefronts, the old telescope bouncing slightly on her back. The camera moves with a handheld feel, panning and slightly pushing forward, maintaining the pursuit dynamic within consistent motion direction.",
+      "The scene transitions. Shot 3 connects via action cut to the previous shot, wide-angle overhead view. From above a pedestrian overpass, traffic and pedestrians form linear patterns. Foreground: blurred railing forming a framing device; midground: pigeons crossing over traffic; background: road extending into an alley. Focus follows the birds as they move from the wide road into the narrow alley entrance. The urban space suddenly expands. The cool, neutral morning tone remains consistent. Vehicle reflections shimmer faintly on the road. The girl runs from the bottom of the frame to the bridge edge and stops, hands gripping the railing as she leans forward. The flock flies en masse over the traffic, clearly turning right into the alley. The camera starts fixed overhead, then slowly pans horizontally, tracing the birds' turn path and naturally leading to the next closer observation point.",
+      "The scene transitions. Shot 4 transitions with a soft fade from the previous shot to medium-close eye-level. The camera angle is lowered. Foreground: scattered cardboard boxes and plastic bags at the edge of a trash station; midground: a stray cat creeping low to the ground; background: out-of-focus girl stopping and the wall of the alley. The setting enters a narrow alley edge. Lighting remains natural but softer and colder due to building shadows. The cat’s body is extremely low, tail tip trembling, paws moving silently forward. The camera moves extremely slowly forward and slightly tilts down, creating a non-interventionist observational distance typical of documentaries.",
+      "The scene transitions. Shot 5 cuts hard from the previous shot into a close-up to near-extreme close-up, low-angle eye-level. Focus locks on the sudden burst of the pounce action on the ground. Foreground: pavement debris and scattered feathers; midground: the cat’s sudden forward lunge trajectory; background: other pigeons startled into flight, appearing rapidly blurred. Under natural light, feather edges are sharply defined. At the moment the cat lunges at the lone chick, feathers explode across the street, surrounding pigeons simultaneously take off. Documentary observation remains reserved—no bloodshed is emphasized, only the suddenness and chaos of the instant change. The camera makes a very brief follow-through surge, then immediately stabilizes, preserving the abruptness of a real street event.",
+      "The scene transitions. Shot 6 connects via a slow-paced fade-in/fade-out from the previous shot, medium shot eye-level with slight distance. Foreground: roadside railing and sidewalk edge; midground: the girl standing by the curb carefully opening her notebook; background: the remaining pigeons flying toward the next street, gradually shrinking. Focus first rests on her recording gesture, then smoothly follows the departing birds. Light returns to a more open morning street, neutral tones remain stable. The girl does not chase them but quickly records her observations. The old telescope hangs loosely at her side, swaying slightly. She glances once more at the distant flying pigeons, then lowers her head to complete her final note. The ending is reserved and contained. The camera slowly pulls back and slightly pans, repositioning the character and city within the same calm street scene, concluding with a documentary-style non-judgmental stance."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 111,
+    "sample_id": "111",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition slowly descending from above the museum entrance storage area. Foreground features directional railings and a corner information sign; midground shows the counter and lost items zone; background extends into a quiet corridor. Floor guide lines draw attention to a pile of disordered lost items. Deep depth of field allows scattered umbrellas, rolled maps, toys, spare bags, and tilted small boxes to be clearly visible simultaneously. Soft ceiling lights evenly illuminate the space with a cool, neutral tone, retaining slight shadows in corners. The anthropomorphic elephant stands beside the counter, scanning the chaotic area first, posture steady, trunk slightly raised in preparation. The camera gently lowers and slowly pushes forward, establishing clear spatial relationships for subsequent actions.",
+      "Shot 2 cuts hard from the previous shot to a close-up eye-level view focused on the counter’s working surface. Foreground shows the cleared edge of the counter; midground highlights the elephant’s hands and trunk working together; background blurs into museum walls and storage compartments. Shallow depth of field keeps attention locked on the work area. Under consistent cool gray diffused lighting, it moves scattered small items to a temporary holding area, then neatly arranges three storage boxes, a stack of blank labels, and a marker pen. Movements are clean and precise; each box lands with a crisp but not overly loud soft thud. ” The sentence ends precisely when the last box is placed. The camera performs a slight push-in, reinforcing the formal start of the tutorial.",
+      "Shot 3 transitions via match cut on object motion to a close-up tracking shot moving left to right along the counter. Foreground occasionally sweeps past box edges for layering; midground stays tightly on the elephant’s hands and trunk tip; background compresses into soft color blocks. Under the same soft ceiling light, umbrellas, maps, and toys are picked up, assessed, and placed one by one into their respective boxes. Umbrella handles touch box walls, map scrolls laid flat, plush toys gently pressed into shape. Each step emphasizes accuracy in touch, movement, and placement. The camera maintains smooth lateral movement, ensuring classification logic is immediately understandable.",
+      "Shot 4 cuts hard to a medium eye-level shot with slow push-in. Composition fills most of the frame with the storage rack. Foreground shows box edges and a corner of label paper; midground captures the elephant lifting frequently used items from the counter and placing them onto chest-height shelves; background reveals previously sorted boxes neatly arranged, creating a clear before-and-after contrast. Lighting remains consistent, with only a soft reflection on the label. One hand stabilizes the box while the other applies a label reading “Objets quotidiens. ” The sticker is pressed from edge to center, its physical change from slightly curled to fully flat clearly visible. French voiceover pauses, leaving only the soft The camera push-in ends when the label is fully smoothed, focus sharply on the text.",
+      "Shot 5 transitions via a label sweeping across the lens to an overhead tracking shot moving from the storage unit toward the passage. Foreground shows folded spare bag; midground shows the elephant flattening and stacking the bag into a side compartment, then vertically placing long-handled items into upright storage slots; background reveals the gradually opening storage passage. Floor lines and cabinet edges form clear guiding lines. Consistent ceiling diffused lighting makes width changes highly visible. Long-handled items shift from leaning to upright, spare bags from puffed to flattened—space usage visibly reduced. French The camera uses stable overhead tracking to fully document the clearing process.",
+      "Shot 6 cuts hard back to a wide shot with slow pull-out, mirroring the opening setup. The camera again looks down slightly from above the storage area, but now foreground shows aligned labels and a clean counter; midground displays clearly zoned boxes, upright long-handled items, and open pathways; background extends to the quiet museum entrance. Before-and-after contrast is clearly evident within the same spatial composition. The low-saturation cool gray and beige tone remains unchanged; surfaces reflect more cleanly after tidying. The anthropomorphic elephant stands slightly right of center, smiling gently, raising a hand to indicate the result, trunk lightly pointing to the organized zones and pathway. ” Each word synchronizes with its sequential pointing to “看得见、整洁、方便拿取” the areas."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide overhead composition slowly descending from above the museum entrance storage area. Foreground features directional railings and a corner information sign; midground shows the counter and lost items zone; background extends into a quiet corridor. Floor guide lines draw attention to a pile of disordered lost items. Deep depth of field allows scattered umbrellas, rolled maps, toys, spare bags, and tilted small boxes to be clearly visible simultaneously. Soft ceiling lights evenly illuminate the space with a cool, neutral tone, retaining slight shadows in corners. The anthropomorphic elephant stands beside the counter, scanning the chaotic area first, posture steady, trunk slightly raised in preparation. The camera gently lowers and slowly pushes forward, establishing clear spatial relationships for subsequent actions.",
+        "source_video_frames": 36,
+        "latent_frames": 10,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot to a close-up eye-level view focused on the counter’s working surface. Foreground shows the cleared edge of the counter; midground highlights the elephant’s hands and trunk working together; background blurs into museum walls and storage compartments. Shallow depth of field keeps attention locked on the work area. Under consistent cool gray diffused lighting, it moves scattered small items to a temporary holding area, then neatly arranges three storage boxes, a stack of blank labels, and a marker pen. Movements are clean and precise; each box lands with a crisp but not overly loud soft thud. ” The sentence ends precisely when the last box is placed. The camera performs a slight push-in, reinforcing the formal start of the tutorial.",
+        "source_video_frames": 41,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions via match cut on object motion to a close-up tracking shot moving left to right along the counter. Foreground occasionally sweeps past box edges for layering; midground stays tightly on the elephant’s hands and trunk tip; background compresses into soft color blocks. Under the same soft ceiling light, umbrellas, maps, and toys are picked up, assessed, and placed one by one into their respective boxes. Umbrella handles touch box walls, map scrolls laid flat, plush toys gently pressed into shape. Each step emphasizes accuracy in touch, movement, and placement. The camera maintains smooth lateral movement, ensuring classification logic is immediately understandable.",
+        "source_video_frames": 39,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts hard to a medium eye-level shot with slow push-in. Composition fills most of the frame with the storage rack. Foreground shows box edges and a corner of label paper; midground captures the elephant lifting frequently used items from the counter and placing them onto chest-height shelves; background reveals previously sorted boxes neatly arranged, creating a clear before-and-after contrast. Lighting remains consistent, with only a soft reflection on the label. One hand stabilizes the box while the other applies a label reading “Objets quotidiens. ” The sticker is pressed from edge to center, its physical change from slightly curled to fully flat clearly visible. French voiceover pauses, leaving only the soft The camera push-in ends when the label is fully smoothed, focus sharply on the text.",
+        "source_video_frames": 41,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 transitions via a label sweeping across the lens to an overhead tracking shot moving from the storage unit toward the passage. Foreground shows folded spare bag; midground shows the elephant flattening and stacking the bag into a side compartment, then vertically placing long-handled items into upright storage slots; background reveals the gradually opening storage passage. Floor lines and cabinet edges form clear guiding lines. Consistent ceiling diffused lighting makes width changes highly visible. Long-handled items shift from leaning to upright, spare bags from puffed to flattened—space usage visibly reduced. French The camera uses stable overhead tracking to fully document the clearing process.",
+        "source_video_frames": 42,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 cuts hard back to a wide shot with slow pull-out, mirroring the opening setup. The camera again looks down slightly from above the storage area, but now foreground shows aligned labels and a clean counter; midground displays clearly zoned boxes, upright long-handled items, and open pathways; background extends to the quiet museum entrance. Before-and-after contrast is clearly evident within the same spatial composition. The low-saturation cool gray and beige tone remains unchanged; surfaces reflect more cleanly after tidying. The anthropomorphic elephant stands slightly right of center, smiling gently, raising a hand to indicate the result, trunk lightly pointing to the organized zones and pathway. ” Each word synchronizes with its sequential pointing to “看得见、整洁、方便拿取” the areas.",
+        "source_video_frames": 41,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      36,
+      41,
+      39,
+      41,
+      42,
+      41
+    ],
+    "latent_frames_per_shot": [
+      10,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead composition slowly descending from above the museum entrance storage area. Foreground features directional railings and a corner information sign; midground shows the counter and lost items zone; background extends into a quiet corridor. Floor guide lines draw attention to a pile of disordered lost items. Deep depth of field allows scattered umbrellas, rolled maps, toys, spare bags, and tilted small boxes to be clearly visible simultaneously. Soft ceiling lights evenly illuminate the space with a cool, neutral tone, retaining slight shadows in corners. The anthropomorphic elephant stands beside the counter, scanning the chaotic area first, posture steady, trunk slightly raised in preparation. The camera gently lowers and slowly pushes forward, establishing clear spatial relationships for subsequent actions.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot to a close-up eye-level view focused on the counter’s working surface. Foreground shows the cleared edge of the counter; midground highlights the elephant’s hands and trunk working together; background blurs into museum walls and storage compartments. Shallow depth of field keeps attention locked on the work area. Under consistent cool gray diffused lighting, it moves scattered small items to a temporary holding area, then neatly arranges three storage boxes, a stack of blank labels, and a marker pen. Movements are clean and precise; each box lands with a crisp but not overly loud soft thud. ” The sentence ends precisely when the last box is placed. The camera performs a slight push-in, reinforcing the formal start of the tutorial.",
+      "The scene transitions. Shot 3 transitions via match cut on object motion to a close-up tracking shot moving left to right along the counter. Foreground occasionally sweeps past box edges for layering; midground stays tightly on the elephant’s hands and trunk tip; background compresses into soft color blocks. Under the same soft ceiling light, umbrellas, maps, and toys are picked up, assessed, and placed one by one into their respective boxes. Umbrella handles touch box walls, map scrolls laid flat, plush toys gently pressed into shape. Each step emphasizes accuracy in touch, movement, and placement. The camera maintains smooth lateral movement, ensuring classification logic is immediately understandable.",
+      "The scene transitions. Shot 4 cuts hard to a medium eye-level shot with slow push-in. Composition fills most of the frame with the storage rack. Foreground shows box edges and a corner of label paper; midground captures the elephant lifting frequently used items from the counter and placing them onto chest-height shelves; background reveals previously sorted boxes neatly arranged, creating a clear before-and-after contrast. Lighting remains consistent, with only a soft reflection on the label. One hand stabilizes the box while the other applies a label reading “Objets quotidiens. ” The sticker is pressed from edge to center, its physical change from slightly curled to fully flat clearly visible. French voiceover pauses, leaving only the soft The camera push-in ends when the label is fully smoothed, focus sharply on the text.",
+      "The scene transitions. Shot 5 transitions via a label sweeping across the lens to an overhead tracking shot moving from the storage unit toward the passage. Foreground shows folded spare bag; midground shows the elephant flattening and stacking the bag into a side compartment, then vertically placing long-handled items into upright storage slots; background reveals the gradually opening storage passage. Floor lines and cabinet edges form clear guiding lines. Consistent ceiling diffused lighting makes width changes highly visible. Long-handled items shift from leaning to upright, spare bags from puffed to flattened—space usage visibly reduced. French The camera uses stable overhead tracking to fully document the clearing process.",
+      "The scene transitions. Shot 6 cuts hard back to a wide shot with slow pull-out, mirroring the opening setup. The camera again looks down slightly from above the storage area, but now foreground shows aligned labels and a clean counter; midground displays clearly zoned boxes, upright long-handled items, and open pathways; background extends to the quiet museum entrance. Before-and-after contrast is clearly evident within the same spatial composition. The low-saturation cool gray and beige tone remains unchanged; surfaces reflect more cleanly after tidying. The anthropomorphic elephant stands slightly right of center, smiling gently, raising a hand to indicate the result, trunk lightly pointing to the organized zones and pathway. ” Each word synchronizes with its sequential pointing to “看得见、整洁、方便拿取” the areas."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 65,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 117,
+    "sample_id": "117",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide low-angle composition to establish the full view of the outer courtyard at dusk. Castle walls, flags, fountain, and glowing runes form depth-leading lines in the frame. Slightly blurred stone columns in the foreground emphasize the subject in the background—an elephant wearing a star-patterned cloak standing before the runes, serving as the visual focal point. Golden-orange evening light outlines its silhouette from behind and to the side, while cool-toned rune glow subtly illuminates facial and trunk edges. Ear flaps gently sway, chest rises and falls, and the cloak hem flutters in the wind.",
+      "Shot 2 connects to the previous shot via a hard cut, transitioning to a close-up eye-level tracking shot as the subject crosses the drawbridge toward the archway. Composition uses bridge ropes and arch stonework to create converging perspective. The subject occupies the center of the frame in profile, with flags and fire pits in the background showing slight motion blur. Dusk light persists, but bluish-purple magical reflections become more visible inside the archway. Star patterns on the cloak shimmer with each step. The camera pans smoothly along its path.",
+      "Shot 3 follows the previous shot with a smooth match cut, entering the magical corridor in an extreme close-up eye-level shot. Background vaulted ceiling and floating candles are blurred into shallow depth-of-field bokeh. Cool blue magical glow serves as primary illumination, with subtle warm reflections retained at edges to maintain tonal unity. The subject pauses slightly, gaze becoming more determined. Ears retract, eyes tighten, and the tip of the trunk lifts slightly to amplify emotion. The camera slowly pushes in, compressing the lyrical segment into an emotional focus. Wind",
+      "Shot 4 enters the hall beneath the crystal chandelier via a hard cut from the previous shot, starting at a slightly elevated downward angle, then tilting upward to elevate the mood. Composition places the chandelier centrally above, with floor insignia and flanking pillars forming solemn symmetry. Fountain echoes are replaced by indoor reverberation. Stained glass windows cast colorful warm and cool light beams. Forelimbs raise, shoulders engage, cloak suddenly spreads wide.",
+      "Foreground features curling flag ribbons, background shows stars gradually brightening and distant city walls. Overall lighting consists of blue-purple night tones and residual golden backlight. The subject stands at the balcony edge, cloak dramatically billowing in strong wind. Trunk lifts upward, body leans forward then stabilizes. Wind drives cloak and flags into continuous directional motion lines. The camera begins slow pull-out, expanding personal emotion into a response from the entire magical castle. Wind",
+      "Shot 6 connects to the previous shot via a matching cut following wind direction, arriving at a wide circular shot of the roof battlements. The camera moves in a semi-circular path around the subject while gradually tightening focus. Castle spires, night sky, distant thin clouds, and dispersing starfire magic form multiple layers of depth. Primary lighting remains cool blue night tone, supplemented by golden starfire glow radiating from the subject. The image reaches climax through warm-cool contrast. Cloak edges, ears, and flags continue to flutter in the howling wind."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide low-angle composition to establish the full view of the outer courtyard at dusk. Castle walls, flags, fountain, and glowing runes form depth-leading lines in the frame. Slightly blurred stone columns in the foreground emphasize the subject in the background—an elephant wearing a star-patterned cloak standing before the runes, serving as the visual focal point. Golden-orange evening light outlines its silhouette from behind and to the side, while cool-toned rune glow subtly illuminates facial and trunk edges. Ear flaps gently sway, chest rises and falls, and the cloak hem flutters in the wind.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects to the previous shot via a hard cut, transitioning to a close-up eye-level tracking shot as the subject crosses the drawbridge toward the archway. Composition uses bridge ropes and arch stonework to create converging perspective. The subject occupies the center of the frame in profile, with flags and fire pits in the background showing slight motion blur. Dusk light persists, but bluish-purple magical reflections become more visible inside the archway. Star patterns on the cloak shimmer with each step. The camera pans smoothly along its path.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 follows the previous shot with a smooth match cut, entering the magical corridor in an extreme close-up eye-level shot. Background vaulted ceiling and floating candles are blurred into shallow depth-of-field bokeh. Cool blue magical glow serves as primary illumination, with subtle warm reflections retained at edges to maintain tonal unity. The subject pauses slightly, gaze becoming more determined. Ears retract, eyes tighten, and the tip of the trunk lifts slightly to amplify emotion. The camera slowly pushes in, compressing the lyrical segment into an emotional focus. Wind",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 enters the hall beneath the crystal chandelier via a hard cut from the previous shot, starting at a slightly elevated downward angle, then tilting upward to elevate the mood. Composition places the chandelier centrally above, with floor insignia and flanking pillars forming solemn symmetry. Fountain echoes are replaced by indoor reverberation. Stained glass windows cast colorful warm and cool light beams. Forelimbs raise, shoulders engage, cloak suddenly spreads wide.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Foreground features curling flag ribbons, background shows stars gradually brightening and distant city walls. Overall lighting consists of blue-purple night tones and residual golden backlight. The subject stands at the balcony edge, cloak dramatically billowing in strong wind. Trunk lifts upward, body leans forward then stabilizes. Wind drives cloak and flags into continuous directional motion lines. The camera begins slow pull-out, expanding personal emotion into a response from the entire magical castle. Wind",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 connects to the previous shot via a matching cut following wind direction, arriving at a wide circular shot of the roof battlements. The camera moves in a semi-circular path around the subject while gradually tightening focus. Castle spires, night sky, distant thin clouds, and dispersing starfire magic form multiple layers of depth. Primary lighting remains cool blue night tone, supplemented by golden starfire glow radiating from the subject. The image reaches climax through warm-cool contrast. Cloak edges, ears, and flags continue to flutter in the howling wind.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide low-angle composition to establish the full view of the outer courtyard at dusk. Castle walls, flags, fountain, and glowing runes form depth-leading lines in the frame. Slightly blurred stone columns in the foreground emphasize the subject in the background—an elephant wearing a star-patterned cloak standing before the runes, serving as the visual focal point. Golden-orange evening light outlines its silhouette from behind and to the side, while cool-toned rune glow subtly illuminates facial and trunk edges. Ear flaps gently sway, chest rises and falls, and the cloak hem flutters in the wind.",
+      "The scene transitions. Shot 2 connects to the previous shot via a hard cut, transitioning to a close-up eye-level tracking shot as the subject crosses the drawbridge toward the archway. Composition uses bridge ropes and arch stonework to create converging perspective. The subject occupies the center of the frame in profile, with flags and fire pits in the background showing slight motion blur. Dusk light persists, but bluish-purple magical reflections become more visible inside the archway. Star patterns on the cloak shimmer with each step. The camera pans smoothly along its path.",
+      "The scene transitions. Shot 3 follows the previous shot with a smooth match cut, entering the magical corridor in an extreme close-up eye-level shot. Background vaulted ceiling and floating candles are blurred into shallow depth-of-field bokeh. Cool blue magical glow serves as primary illumination, with subtle warm reflections retained at edges to maintain tonal unity. The subject pauses slightly, gaze becoming more determined. Ears retract, eyes tighten, and the tip of the trunk lifts slightly to amplify emotion. The camera slowly pushes in, compressing the lyrical segment into an emotional focus. Wind",
+      "The scene transitions. Shot 4 enters the hall beneath the crystal chandelier via a hard cut from the previous shot, starting at a slightly elevated downward angle, then tilting upward to elevate the mood. Composition places the chandelier centrally above, with floor insignia and flanking pillars forming solemn symmetry. Fountain echoes are replaced by indoor reverberation. Stained glass windows cast colorful warm and cool light beams. Forelimbs raise, shoulders engage, cloak suddenly spreads wide.",
+      "The scene transitions. Foreground features curling flag ribbons, background shows stars gradually brightening and distant city walls. Overall lighting consists of blue-purple night tones and residual golden backlight. The subject stands at the balcony edge, cloak dramatically billowing in strong wind. Trunk lifts upward, body leans forward then stabilizes. Wind drives cloak and flags into continuous directional motion lines. The camera begins slow pull-out, expanding personal emotion into a response from the entire magical castle. Wind",
+      "The scene transitions. Shot 6 connects to the previous shot via a matching cut following wind direction, arriving at a wide circular shot of the roof battlements. The camera moves in a semi-circular path around the subject while gradually tightening focus. Castle spires, night sky, distant thin clouds, and dispersing starfire magic form multiple layers of depth. Primary lighting remains cool blue night tone, supplemented by golden starfire glow radiating from the subject. The image reaches climax through warm-cool contrast. Cloak edges, ears, and flags continue to flutter in the howling wind."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 137,
+    "sample_id": "137",
+    "prompts": [
+      "Shot 1 fades in from black, starting with a wide overhead shot. A forest clearing is filled with pixelated morning mist and warm golden sunlight. Foreground shows dew-drenched grass blades shimmering; background features layered tree trunks forming leading lines. Five big-eyed elves run in from different edges of the frame toward the center. Composition shifts from scattered to semi-circular convergence. Lighting is soft natural morning light, with subtle golden rims on faces and ear tips. They begin with gentle humming to establish harmony.",
+      "Shot 2 connects with previous shot via hard cut into a medium eye-level tracking shot. The formation naturally extends along a stream winding through the forest. Foreground water flows with flickering bright pixel highlights; background tree shadows rapidly recede, creating depth. The low When hearing “亮”, one elf looks up toward a beam of light piercing through the treetops.",
+      "Shot 3 transitions via match cut on water surface highlights to seaside rocks, using a wide-level eye-level slightly low-angle shot. Foreground shows wet reflective rock edges; midground features elves split into left and right groups; background includes warm-toned pixel sea and crashing waves. The scene continues morning light but with more noticeable sea breeze. Lighting remains consistent soft warm natural light.",
+      "Shot 4 enters the grassy hillside via a slight whip pan hard cut from previous shot, using a moving shot transitioning from medium-close overhead to eye-level. Foreground shows grass blades bent by wind and springing back; background faintly reveals higher ridgelines. Warm tone remains consistent, sunlight becomes more abundant but not overly harsh.",
+      "Shot 5 transitions via fade-in match upward to the mountain peak, using a wide extreme long shot with slight upward angle. The summit is open, sky illuminated by warm orange backlight. Five big-eyed elves stand at the edge in a low-to-high triangular composition. Foreground grass tips are outlined in gold by backlight; background distant mountains and sea compress into glowing pixel layers. Lighting reaches its strongest point in the film but maintains consistent golden backlight style.",
+      "Foreground shows thin snow-covered rock surfaces and fine snow particles gently swept by wind; midground shows five elves standing closely together; background features snow slopes and sky bathed in warm afterglow. Though at high altitude, the color tone remains warm gold-orange, avoiding cold aesthetics. They cease large movements and stand shoulder-to-shoulder steadily, gently extending the final note’s ending. The low Lips transition from full opening to gradual closure, eyes shift from gazing at mountains and sea to meeting each other. Wind The camera continues pulling back, slowly integrating them from clear subjects into the grand snowy landscape, holding the lingering echo and backlight silhouette for the final half-second to complete the conclusion."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 fades in from black, starting with a wide overhead shot. A forest clearing is filled with pixelated morning mist and warm golden sunlight. Foreground shows dew-drenched grass blades shimmering; background features layered tree trunks forming leading lines. Five big-eyed elves run in from different edges of the frame toward the center. Composition shifts from scattered to semi-circular convergence. Lighting is soft natural morning light, with subtle golden rims on faces and ear tips. They begin with gentle humming to establish harmony.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects with previous shot via hard cut into a medium eye-level tracking shot. The formation naturally extends along a stream winding through the forest. Foreground water flows with flickering bright pixel highlights; background tree shadows rapidly recede, creating depth. The low When hearing “亮”, one elf looks up toward a beam of light piercing through the treetops.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions via match cut on water surface highlights to seaside rocks, using a wide-level eye-level slightly low-angle shot. Foreground shows wet reflective rock edges; midground features elves split into left and right groups; background includes warm-toned pixel sea and crashing waves. The scene continues morning light but with more noticeable sea breeze. Lighting remains consistent soft warm natural light.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 enters the grassy hillside via a slight whip pan hard cut from previous shot, using a moving shot transitioning from medium-close overhead to eye-level. Foreground shows grass blades bent by wind and springing back; background faintly reveals higher ridgelines. Warm tone remains consistent, sunlight becomes more abundant but not overly harsh.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 transitions via fade-in match upward to the mountain peak, using a wide extreme long shot with slight upward angle. The summit is open, sky illuminated by warm orange backlight. Five big-eyed elves stand at the edge in a low-to-high triangular composition. Foreground grass tips are outlined in gold by backlight; background distant mountains and sea compress into glowing pixel layers. Lighting reaches its strongest point in the film but maintains consistent golden backlight style.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Foreground shows thin snow-covered rock surfaces and fine snow particles gently swept by wind; midground shows five elves standing closely together; background features snow slopes and sky bathed in warm afterglow. Though at high altitude, the color tone remains warm gold-orange, avoiding cold aesthetics. They cease large movements and stand shoulder-to-shoulder steadily, gently extending the final note’s ending. The low Lips transition from full opening to gradual closure, eyes shift from gazing at mountains and sea to meeting each other. Wind The camera continues pulling back, slowly integrating them from clear subjects into the grand snowy landscape, holding the lingering echo and backlight silhouette for the final half-second to complete the conclusion.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 fades in from black, starting with a wide overhead shot. A forest clearing is filled with pixelated morning mist and warm golden sunlight. Foreground shows dew-drenched grass blades shimmering; background features layered tree trunks forming leading lines. Five big-eyed elves run in from different edges of the frame toward the center. Composition shifts from scattered to semi-circular convergence. Lighting is soft natural morning light, with subtle golden rims on faces and ear tips. They begin with gentle humming to establish harmony.",
+      "The scene transitions. Shot 2 connects with previous shot via hard cut into a medium eye-level tracking shot. The formation naturally extends along a stream winding through the forest. Foreground water flows with flickering bright pixel highlights; background tree shadows rapidly recede, creating depth. The low When hearing “亮”, one elf looks up toward a beam of light piercing through the treetops.",
+      "The scene transitions. Shot 3 transitions via match cut on water surface highlights to seaside rocks, using a wide-level eye-level slightly low-angle shot. Foreground shows wet reflective rock edges; midground features elves split into left and right groups; background includes warm-toned pixel sea and crashing waves. The scene continues morning light but with more noticeable sea breeze. Lighting remains consistent soft warm natural light.",
+      "The scene transitions. Shot 4 enters the grassy hillside via a slight whip pan hard cut from previous shot, using a moving shot transitioning from medium-close overhead to eye-level. Foreground shows grass blades bent by wind and springing back; background faintly reveals higher ridgelines. Warm tone remains consistent, sunlight becomes more abundant but not overly harsh.",
+      "The scene transitions. Shot 5 transitions via fade-in match upward to the mountain peak, using a wide extreme long shot with slight upward angle. The summit is open, sky illuminated by warm orange backlight. Five big-eyed elves stand at the edge in a low-to-high triangular composition. Foreground grass tips are outlined in gold by backlight; background distant mountains and sea compress into glowing pixel layers. Lighting reaches its strongest point in the film but maintains consistent golden backlight style.",
+      "The scene transitions. Foreground shows thin snow-covered rock surfaces and fine snow particles gently swept by wind; midground shows five elves standing closely together; background features snow slopes and sky bathed in warm afterglow. Though at high altitude, the color tone remains warm gold-orange, avoiding cold aesthetics. They cease large movements and stand shoulder-to-shoulder steadily, gently extending the final note’s ending. The low Lips transition from full opening to gradual closure, eyes shift from gazing at mountains and sea to meeting each other. Wind The camera continues pulling back, slowly integrating them from clear subjects into the grand snowy landscape, holding the lingering echo and backlight silhouette for the final half-second to complete the conclusion."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 149,
+    "sample_id": "149",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a medium-close eye-level composition. The character is positioned on the left third of the frame, with a misty forest edge behind him. Tree trunks and ground foliage form soft leading lines. Shallow depth of field focuses on the glowing prosthetic eye and bow. Cold white morning mist surrounds the scene, and the eye emits a faint blue glow. A cyberpunk-style violinist lowers his head to adjust the eye's parameters while gently twisting the bow between thumb and index finger to check hair tension. His shoulder and wrist movements are small yet precise. The camera slowly pushes in toward his face and hands, emphasizing the calm calibration beginning.",
+      "Shot 2 follows the previous shot with a hard cut, transitioning to a wide slightly high-angle view. A forest path extends from foreground to background. The damp ground reflects a pale blue cold light. The character walks forward from deep in the frame. Mist and tree shadows create layered depth. Focus tracks the right hand holding the bow. The environment maintains the cold mist natural lighting. While walking, he lets the bow tip lightly brush the strings, producing fragmented and controlled short notes that sync precisely with each step. His clothing edges and strap sway slightly with each stride. The eye’s light occasionally flickers on his cheek. The The camera performs a smooth lateral follow shot, slightly tilting down to the feet, then back to the arm, ensuring perfect synchronization between steps, bow motion, and",
+      "Shot 3 connects to the previous shot via action-matched hard cut—the upward lift of the bow tip leads into a half-body medium eye-level shot on a rocky seaside outcrop. The character stands on wet rocks, with the horizon stretching horizontally. Distant waves and clouds form a broad background. Blurred wavelets occasionally pass through the foreground. Composition places the violin body and bowing hand slightly right of center. Cold blue sea light and slight backlighting create a watercolor-like pale white outline around the silhouette. His left hand presses strings more firmly. Shoulder and neck muscles shift from restraint to expansion. The camera first moves slightly sideways parallel to the bow direction, then gently pushes in to the face, capturing the transition from concentration to excitement in his eyes.",
+      "Shot 4 follows with a quick hard cut, entering a wide-to-medium combined slightly low-angle shot. The character stands at a windy high point, with cold blue sky dominating the background. Wind blows his clothing, hair, and small decorative elements at the end of the bow in unison. Lighting remains dominated by high-altitude cold light and edge backlighting. After stabilizing his stance, he plays with greater intensity. Right-arm bowing amplitude increases, left-hand vibrato speeds up.",
+      "Shot 5 transitions via bow-speed action match to a close-up low-angle shot. The snowy mountain background is heavily blurred into large areas of cold white and icy blue. Foreground retains only shallow depth-of-field elements: bow hair, strings, and finger tips pressing strings. Composition centers the vibrating bow hair horizontally. Finger shifting traces a diagonal trajectory across the fingerboard. Backlight creates fine, bright fiber texture along the bow hair edges. The image strongly emphasizes material and speed. He completes a higher-difficulty rapid position shift and continuous vibrato. Subtle forces travel through knuckles, wrists, and forearms. The The camera performs macro-level close tracking, sliding from bow hair to fingertips, then instantly pulling back slightly, ensuring every position change aligns perceptibly with pitch jumps.",
+      "Shot 6 follows the previous shot with a brief fade transition, switching to a full wide eye-level shot with slight upward tilt. The mountain summit platform spreads across the lower part of the frame. Layered distant mountains and thin daylight extend to the horizon. The character is placed slightly left of center, leaving space on the right for the gaze’s endpoint. Cool tones remain consistent, but sky brightness slightly increases, creating a clear, resolved feeling after climax. He stabilizes his posture and draws out a long, pure concluding note. Bow speed slows but remains even. Shoulders gradually relax. Wind gently fills the pause. Emotion shifts from passion to resolute calm. The camera slowly pulls back and slightly rises, freezing the character, summit, sky, and distant landscape together in a cold blue watercolor finale."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a medium-close eye-level composition. The character is positioned on the left third of the frame, with a misty forest edge behind him. Tree trunks and ground foliage form soft leading lines. Shallow depth of field focuses on the glowing prosthetic eye and bow. Cold white morning mist surrounds the scene, and the eye emits a faint blue glow. A cyberpunk-style violinist lowers his head to adjust the eye's parameters while gently twisting the bow between thumb and index finger to check hair tension. His shoulder and wrist movements are small yet precise. The camera slowly pushes in toward his face and hands, emphasizing the calm calibration beginning.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 follows the previous shot with a hard cut, transitioning to a wide slightly high-angle view. A forest path extends from foreground to background. The damp ground reflects a pale blue cold light. The character walks forward from deep in the frame. Mist and tree shadows create layered depth. Focus tracks the right hand holding the bow. The environment maintains the cold mist natural lighting. While walking, he lets the bow tip lightly brush the strings, producing fragmented and controlled short notes that sync precisely with each step. His clothing edges and strap sway slightly with each stride. The eye’s light occasionally flickers on his cheek. The The camera performs a smooth lateral follow shot, slightly tilting down to the feet, then back to the arm, ensuring perfect synchronization between steps, bow motion, and",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 connects to the previous shot via action-matched hard cut—the upward lift of the bow tip leads into a half-body medium eye-level shot on a rocky seaside outcrop. The character stands on wet rocks, with the horizon stretching horizontally. Distant waves and clouds form a broad background. Blurred wavelets occasionally pass through the foreground. Composition places the violin body and bowing hand slightly right of center. Cold blue sea light and slight backlighting create a watercolor-like pale white outline around the silhouette. His left hand presses strings more firmly. Shoulder and neck muscles shift from restraint to expansion. The camera first moves slightly sideways parallel to the bow direction, then gently pushes in to the face, capturing the transition from concentration to excitement in his eyes.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 follows with a quick hard cut, entering a wide-to-medium combined slightly low-angle shot. The character stands at a windy high point, with cold blue sky dominating the background. Wind blows his clothing, hair, and small decorative elements at the end of the bow in unison. Lighting remains dominated by high-altitude cold light and edge backlighting. After stabilizing his stance, he plays with greater intensity. Right-arm bowing amplitude increases, left-hand vibrato speeds up.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 transitions via bow-speed action match to a close-up low-angle shot. The snowy mountain background is heavily blurred into large areas of cold white and icy blue. Foreground retains only shallow depth-of-field elements: bow hair, strings, and finger tips pressing strings. Composition centers the vibrating bow hair horizontally. Finger shifting traces a diagonal trajectory across the fingerboard. Backlight creates fine, bright fiber texture along the bow hair edges. The image strongly emphasizes material and speed. He completes a higher-difficulty rapid position shift and continuous vibrato. Subtle forces travel through knuckles, wrists, and forearms. The The camera performs macro-level close tracking, sliding from bow hair to fingertips, then instantly pulling back slightly, ensuring every position change aligns perceptibly with pitch jumps.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 follows the previous shot with a brief fade transition, switching to a full wide eye-level shot with slight upward tilt. The mountain summit platform spreads across the lower part of the frame. Layered distant mountains and thin daylight extend to the horizon. The character is placed slightly left of center, leaving space on the right for the gaze’s endpoint. Cool tones remain consistent, but sky brightness slightly increases, creating a clear, resolved feeling after climax. He stabilizes his posture and draws out a long, pure concluding note. Bow speed slows but remains even. Shoulders gradually relax. Wind gently fills the pause. Emotion shifts from passion to resolute calm. The camera slowly pulls back and slightly rises, freezing the character, summit, sky, and distant landscape together in a cold blue watercolor finale.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a medium-close eye-level composition. The character is positioned on the left third of the frame, with a misty forest edge behind him. Tree trunks and ground foliage form soft leading lines. Shallow depth of field focuses on the glowing prosthetic eye and bow. Cold white morning mist surrounds the scene, and the eye emits a faint blue glow. A cyberpunk-style violinist lowers his head to adjust the eye's parameters while gently twisting the bow between thumb and index finger to check hair tension. His shoulder and wrist movements are small yet precise. The camera slowly pushes in toward his face and hands, emphasizing the calm calibration beginning.",
+      "The scene transitions. Shot 2 follows the previous shot with a hard cut, transitioning to a wide slightly high-angle view. A forest path extends from foreground to background. The damp ground reflects a pale blue cold light. The character walks forward from deep in the frame. Mist and tree shadows create layered depth. Focus tracks the right hand holding the bow. The environment maintains the cold mist natural lighting. While walking, he lets the bow tip lightly brush the strings, producing fragmented and controlled short notes that sync precisely with each step. His clothing edges and strap sway slightly with each stride. The eye’s light occasionally flickers on his cheek. The The camera performs a smooth lateral follow shot, slightly tilting down to the feet, then back to the arm, ensuring perfect synchronization between steps, bow motion, and",
+      "The scene transitions. Shot 3 connects to the previous shot via action-matched hard cut—the upward lift of the bow tip leads into a half-body medium eye-level shot on a rocky seaside outcrop. The character stands on wet rocks, with the horizon stretching horizontally. Distant waves and clouds form a broad background. Blurred wavelets occasionally pass through the foreground. Composition places the violin body and bowing hand slightly right of center. Cold blue sea light and slight backlighting create a watercolor-like pale white outline around the silhouette. His left hand presses strings more firmly. Shoulder and neck muscles shift from restraint to expansion. The camera first moves slightly sideways parallel to the bow direction, then gently pushes in to the face, capturing the transition from concentration to excitement in his eyes.",
+      "The scene transitions. Shot 4 follows with a quick hard cut, entering a wide-to-medium combined slightly low-angle shot. The character stands at a windy high point, with cold blue sky dominating the background. Wind blows his clothing, hair, and small decorative elements at the end of the bow in unison. Lighting remains dominated by high-altitude cold light and edge backlighting. After stabilizing his stance, he plays with greater intensity. Right-arm bowing amplitude increases, left-hand vibrato speeds up.",
+      "The scene transitions. Shot 5 transitions via bow-speed action match to a close-up low-angle shot. The snowy mountain background is heavily blurred into large areas of cold white and icy blue. Foreground retains only shallow depth-of-field elements: bow hair, strings, and finger tips pressing strings. Composition centers the vibrating bow hair horizontally. Finger shifting traces a diagonal trajectory across the fingerboard. Backlight creates fine, bright fiber texture along the bow hair edges. The image strongly emphasizes material and speed. He completes a higher-difficulty rapid position shift and continuous vibrato. Subtle forces travel through knuckles, wrists, and forearms. The The camera performs macro-level close tracking, sliding from bow hair to fingertips, then instantly pulling back slightly, ensuring every position change aligns perceptibly with pitch jumps.",
+      "The scene transitions. Shot 6 follows the previous shot with a brief fade transition, switching to a full wide eye-level shot with slight upward tilt. The mountain summit platform spreads across the lower part of the frame. Layered distant mountains and thin daylight extend to the horizon. The character is placed slightly left of center, leaving space on the right for the gaze’s endpoint. Cool tones remain consistent, but sky brightness slightly increases, creating a clear, resolved feeling after climax. He stabilizes his posture and draws out a long, pure concluding note. Bow speed slows but remains even. Shoulders gradually relax. Wind gently fills the pause. Emotion shifts from passion to resolute calm. The camera slowly pulls back and slightly rises, freezing the character, summit, sky, and distant landscape together in a cold blue watercolor finale."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 170,
+    "sample_id": "170",
+    "prompts": [
+      "Shot 1 opens with a fade-in, featuring a close-up eye-level shot positioned at the edge of the overturned school bus’s shadow. The foreground shows a cracked tire and dangling rubber strips, while the background blurs into tilted windows and swirling dust. Composition places the black-backed dog’s snout on the left side of the frame and the white dog’s ear as the right focal point. The bus’s underside shadow dominates the frame, while high-saturation orange-yellow dust sweeps from outside. \" The white dog’s ear first tenses, then slightly folds back to indicate reception. The camera performs a minimal push-in.",
+      "Shot 2 connects to the previous shot via a hard cut. An extreme close-up overhead angle looks through the cracked window gap at the white dog’s profile. Glass cracks in the foreground create diagonal lines that add oppressive guidance. In the background, pages flutter in the wind and distant skewed steel frames are visible. Lighting remains warm diffuse light reflected from outside dust. The white dog maintains a crouched posture, quickly scanning ahead before returning to the black-backed dog’s ear. The camera makes a small pan along the broken window edge.",
+      "Shot 3 enters from the previous shot via a hard cut into a medium-close eye-level tracking shot. The scene shifts to the interior of the collapsed convenience store, where the two dogs squeeze sideways through shelves and scattered cans. Foreground includes swaying price tags and hanging wires; background reveals the dim yellow dust curtain outside. Composition uses shelf beams to compress space into a narrow corridor, enhancing stealth. Shadows are still divided by scattered daylight from the damaged roof, but lighting logic remains consistent with prior shots. The white dog continues squeezing through shelves, briefly responding with eyes. The shelf wobbles slightly as touched. The camera performs a short lateral tracking move.",
+      "Shot 4 transitions from the previous shot via a very light fade-in/fade-out to the area beneath the collapsed bridge. A close-up low-angle shot peers upward through gaps in exposed rebar. Foreground features rough concrete edges and rusted steel bars; background blurs into high-saturation dusty sky. The white dog occupies the main focus, with the black-backed dog partially obstructing the foreground. Lighting remains diffuse daylight and shelter shadows. \" As the The camera slowly tilts up and gently pushes in, amplifying the sense of trust within the oppressive environment.",
+      "Shot 5 cuts hard to the rear of a rusted truck. A medium eye-level slightly angled shot shows the truck’s broken door forming a left-side obstruction, with a half-buried tire and cracked signboard on the right. Foreground and background layers are distinct. Warm yellow dust reflects off the truck’s rust-red surface, shadows keeping overall brightness low. The black-backed dog lowers its body, peeks half-head out from the rear, confirms the bunker direction, then quickly retreats, briefly brushing shoulders with the white dog. The white dog immediately nods slightly, limbs coiling. The camera first pulls in slightly, then smoothly pans to position both side-by-side.",
+      "Shot 6 directly enters the climax via a hard cut from the previous shot. An extreme close-up eye-level shot stops just before the half-buried bunker entrance. The two dogs’ noses almost touch, centered in the frame. Foreground shows swirling fine sand and gravel; background features the dark bunker entrance and crooked steel outlines. Lighting remains consistent—external warm dust light versus cold dark shadow at the entrance—without stylistic shift. Both dogs lower their bodies, muscles tensed, tails pressed to ground. The camera holds steady during the first two counts, then rapidly surges forward as they dive into the bunker together. The film ends with a tense yet trusting coordinated action."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, featuring a close-up eye-level shot positioned at the edge of the overturned school bus’s shadow. The foreground shows a cracked tire and dangling rubber strips, while the background blurs into tilted windows and swirling dust. Composition places the black-backed dog’s snout on the left side of the frame and the white dog’s ear as the right focal point. The bus’s underside shadow dominates the frame, while high-saturation orange-yellow dust sweeps from outside. \" The white dog’s ear first tenses, then slightly folds back to indicate reception. The camera performs a minimal push-in.",
+        "source_video_frames": 39,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects to the previous shot via a hard cut. An extreme close-up overhead angle looks through the cracked window gap at the white dog’s profile. Glass cracks in the foreground create diagonal lines that add oppressive guidance. In the background, pages flutter in the wind and distant skewed steel frames are visible. Lighting remains warm diffuse light reflected from outside dust. The white dog maintains a crouched posture, quickly scanning ahead before returning to the black-backed dog’s ear. The camera makes a small pan along the broken window edge.",
+        "source_video_frames": 38,
+        "latent_frames": 10,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 enters from the previous shot via a hard cut into a medium-close eye-level tracking shot. The scene shifts to the interior of the collapsed convenience store, where the two dogs squeeze sideways through shelves and scattered cans. Foreground includes swaying price tags and hanging wires; background reveals the dim yellow dust curtain outside. Composition uses shelf beams to compress space into a narrow corridor, enhancing stealth. Shadows are still divided by scattered daylight from the damaged roof, but lighting logic remains consistent with prior shots. The white dog continues squeezing through shelves, briefly responding with eyes. The shelf wobbles slightly as touched. The camera performs a short lateral tracking move.",
+        "source_video_frames": 42,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 transitions from the previous shot via a very light fade-in/fade-out to the area beneath the collapsed bridge. A close-up low-angle shot peers upward through gaps in exposed rebar. Foreground features rough concrete edges and rusted steel bars; background blurs into high-saturation dusty sky. The white dog occupies the main focus, with the black-backed dog partially obstructing the foreground. Lighting remains diffuse daylight and shelter shadows. \" As the The camera slowly tilts up and gently pushes in, amplifying the sense of trust within the oppressive environment.",
+        "source_video_frames": 41,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard to the rear of a rusted truck. A medium eye-level slightly angled shot shows the truck’s broken door forming a left-side obstruction, with a half-buried tire and cracked signboard on the right. Foreground and background layers are distinct. Warm yellow dust reflects off the truck’s rust-red surface, shadows keeping overall brightness low. The black-backed dog lowers its body, peeks half-head out from the rear, confirms the bunker direction, then quickly retreats, briefly brushing shoulders with the white dog. The white dog immediately nods slightly, limbs coiling. The camera first pulls in slightly, then smoothly pans to position both side-by-side.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 directly enters the climax via a hard cut from the previous shot. An extreme close-up eye-level shot stops just before the half-buried bunker entrance. The two dogs’ noses almost touch, centered in the frame. Foreground shows swirling fine sand and gravel; background features the dark bunker entrance and crooked steel outlines. Lighting remains consistent—external warm dust light versus cold dark shadow at the entrance—without stylistic shift. Both dogs lower their bodies, muscles tensed, tails pressed to ground. The camera holds steady during the first two counts, then rapidly surges forward as they dive into the bunker together. The film ends with a tense yet trusting coordinated action.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      39,
+      38,
+      42,
+      41,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      10,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, featuring a close-up eye-level shot positioned at the edge of the overturned school bus’s shadow. The foreground shows a cracked tire and dangling rubber strips, while the background blurs into tilted windows and swirling dust. Composition places the black-backed dog’s snout on the left side of the frame and the white dog’s ear as the right focal point. The bus’s underside shadow dominates the frame, while high-saturation orange-yellow dust sweeps from outside. \" The white dog’s ear first tenses, then slightly folds back to indicate reception. The camera performs a minimal push-in.",
+      "The scene transitions. Shot 2 connects to the previous shot via a hard cut. An extreme close-up overhead angle looks through the cracked window gap at the white dog’s profile. Glass cracks in the foreground create diagonal lines that add oppressive guidance. In the background, pages flutter in the wind and distant skewed steel frames are visible. Lighting remains warm diffuse light reflected from outside dust. The white dog maintains a crouched posture, quickly scanning ahead before returning to the black-backed dog’s ear. The camera makes a small pan along the broken window edge.",
+      "The scene transitions. Shot 3 enters from the previous shot via a hard cut into a medium-close eye-level tracking shot. The scene shifts to the interior of the collapsed convenience store, where the two dogs squeeze sideways through shelves and scattered cans. Foreground includes swaying price tags and hanging wires; background reveals the dim yellow dust curtain outside. Composition uses shelf beams to compress space into a narrow corridor, enhancing stealth. Shadows are still divided by scattered daylight from the damaged roof, but lighting logic remains consistent with prior shots. The white dog continues squeezing through shelves, briefly responding with eyes. The shelf wobbles slightly as touched. The camera performs a short lateral tracking move.",
+      "The scene transitions. Shot 4 transitions from the previous shot via a very light fade-in/fade-out to the area beneath the collapsed bridge. A close-up low-angle shot peers upward through gaps in exposed rebar. Foreground features rough concrete edges and rusted steel bars; background blurs into high-saturation dusty sky. The white dog occupies the main focus, with the black-backed dog partially obstructing the foreground. Lighting remains diffuse daylight and shelter shadows. \" As the The camera slowly tilts up and gently pushes in, amplifying the sense of trust within the oppressive environment.",
+      "The scene transitions. Shot 5 cuts hard to the rear of a rusted truck. A medium eye-level slightly angled shot shows the truck’s broken door forming a left-side obstruction, with a half-buried tire and cracked signboard on the right. Foreground and background layers are distinct. Warm yellow dust reflects off the truck’s rust-red surface, shadows keeping overall brightness low. The black-backed dog lowers its body, peeks half-head out from the rear, confirms the bunker direction, then quickly retreats, briefly brushing shoulders with the white dog. The white dog immediately nods slightly, limbs coiling. The camera first pulls in slightly, then smoothly pans to position both side-by-side.",
+      "The scene transitions. Shot 6 directly enters the climax via a hard cut from the previous shot. An extreme close-up eye-level shot stops just before the half-buried bunker entrance. The two dogs’ noses almost touch, centered in the frame. Foreground shows swirling fine sand and gravel; background features the dark bunker entrance and crooked steel outlines. Lighting remains consistent—external warm dust light versus cold dark shadow at the entrance—without stylistic shift. Both dogs lower their bodies, muscles tensed, tails pressed to ground. The camera holds steady during the first two counts, then rapidly surges forward as they dive into the bunker together. The film ends with a tense yet trusting coordinated action."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 65,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 189,
+    "sample_id": "189",
+    "prompts": [
+      "Shot 1 fades in from black, wide-angle overhead shot reveals an evening forest path. Foreground shows leaves gently swaying in the wind; background reveals string lights and sea reflections at the cliffside reception. Two companions naturally walk up beside him; their clothing and tree shadows flutter slightly in the breeze. his",
+      "Shot 2 hard cuts from previous shot to full-frame eye-level view at the seaside long table. The table stretches horizontally along the cliff edge; glassware and bottles reflect high-saturation light in the fading glow. Foreground features the elder and two companions; background shows sea and blurred guests. The camera makes a slight lateral pan to follow them seating. Then focus smoothly shifts to the elder, who raises his glass slightly forward, smiling, replying §DLG0012§. Background chatter is lowered to avoid interfering with foreground",
+      "Shot 3 transitions seamlessly to medium-close side angle, slightly low-angle shot. Elder positioned at right third of frame; blurred wine glasses and candlelight in left foreground create depth. Background shows sunset-lit coastline and gently moving figures. Camera performs slow lateral tracking to keep his face and raised hand in focus. Nearby guests softly clap along; Wind blows his collar and tablecloth edges, adding natural motion.",
+      "Shot 4 transitions via brief fade-in/fade-out to medium eye-level shot by the campfire. Warm orange firelight dominates illumination; seaside darkness deepens. Foreground features blurred dancing flames. In mid-ground, elder turns toward fire; a friend leans in from left side, forming a slight diagonal composition. Camera first slightly pushes in on the friend’s profile as Then gently pans without cutting to elder’s face, who smiles back §DLG0014§. Listener’s eyes, nods, and smile lines are clearly visible.",
+      "Shot 5 hard cuts into close-up shot. Slight low-angle, focus locked on several glasses clinking at center. High-saturation interplay of warm and cool reflections on glass surfaces is striking. Elder’s half-face appears in focus on right. Liquid sway, flame reflection, and finger tension are all clearly visible. Background crowd is soft-focused, erupting in indistinct but recognizable cheers. Foreground",
+      "Shot 6 uses clink Camera rapidly pulls back from close-up to wide eye-level to slightly elevated position, capturing full cliffside night scene. Group forms a semi-circle around elder. Campfire, string lights, and coastline create layered nighttime setting. Camera continuously retreats, including entire reception and deep blue sea. Composition shifts from human group to night sea and sky. Mood transitions from intense to expansive closure."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 fades in from black, wide-angle overhead shot reveals an evening forest path. Foreground shows leaves gently swaying in the wind; background reveals string lights and sea reflections at the cliffside reception. Two companions naturally walk up beside him; their clothing and tree shadows flutter slightly in the breeze. his",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 hard cuts from previous shot to full-frame eye-level view at the seaside long table. The table stretches horizontally along the cliff edge; glassware and bottles reflect high-saturation light in the fading glow. Foreground features the elder and two companions; background shows sea and blurred guests. The camera makes a slight lateral pan to follow them seating. Then focus smoothly shifts to the elder, who raises his glass slightly forward, smiling, replying §DLG0012§. Background chatter is lowered to avoid interfering with foreground",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions seamlessly to medium-close side angle, slightly low-angle shot. Elder positioned at right third of frame; blurred wine glasses and candlelight in left foreground create depth. Background shows sunset-lit coastline and gently moving figures. Camera performs slow lateral tracking to keep his face and raised hand in focus. Nearby guests softly clap along; Wind blows his collar and tablecloth edges, adding natural motion.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 transitions via brief fade-in/fade-out to medium eye-level shot by the campfire. Warm orange firelight dominates illumination; seaside darkness deepens. Foreground features blurred dancing flames. In mid-ground, elder turns toward fire; a friend leans in from left side, forming a slight diagonal composition. Camera first slightly pushes in on the friend’s profile as Then gently pans without cutting to elder’s face, who smiles back §DLG0014§. Listener’s eyes, nods, and smile lines are clearly visible.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 hard cuts into close-up shot. Slight low-angle, focus locked on several glasses clinking at center. High-saturation interplay of warm and cool reflections on glass surfaces is striking. Elder’s half-face appears in focus on right. Liquid sway, flame reflection, and finger tension are all clearly visible. Background crowd is soft-focused, erupting in indistinct but recognizable cheers. Foreground",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 uses clink Camera rapidly pulls back from close-up to wide eye-level to slightly elevated position, capturing full cliffside night scene. Group forms a semi-circle around elder. Campfire, string lights, and coastline create layered nighttime setting. Camera continuously retreats, including entire reception and deep blue sea. Composition shifts from human group to night sea and sky. Mood transitions from intense to expansive closure.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 fades in from black, wide-angle overhead shot reveals an evening forest path. Foreground shows leaves gently swaying in the wind; background reveals string lights and sea reflections at the cliffside reception. Two companions naturally walk up beside him; their clothing and tree shadows flutter slightly in the breeze. his",
+      "The scene transitions. Shot 2 hard cuts from previous shot to full-frame eye-level view at the seaside long table. The table stretches horizontally along the cliff edge; glassware and bottles reflect high-saturation light in the fading glow. Foreground features the elder and two companions; background shows sea and blurred guests. The camera makes a slight lateral pan to follow them seating. Then focus smoothly shifts to the elder, who raises his glass slightly forward, smiling, replying §DLG0012§. Background chatter is lowered to avoid interfering with foreground",
+      "The scene transitions. Shot 3 transitions seamlessly to medium-close side angle, slightly low-angle shot. Elder positioned at right third of frame; blurred wine glasses and candlelight in left foreground create depth. Background shows sunset-lit coastline and gently moving figures. Camera performs slow lateral tracking to keep his face and raised hand in focus. Nearby guests softly clap along; Wind blows his collar and tablecloth edges, adding natural motion.",
+      "The scene transitions. Shot 4 transitions via brief fade-in/fade-out to medium eye-level shot by the campfire. Warm orange firelight dominates illumination; seaside darkness deepens. Foreground features blurred dancing flames. In mid-ground, elder turns toward fire; a friend leans in from left side, forming a slight diagonal composition. Camera first slightly pushes in on the friend’s profile as Then gently pans without cutting to elder’s face, who smiles back §DLG0014§. Listener’s eyes, nods, and smile lines are clearly visible.",
+      "The scene transitions. Shot 5 hard cuts into close-up shot. Slight low-angle, focus locked on several glasses clinking at center. High-saturation interplay of warm and cool reflections on glass surfaces is striking. Elder’s half-face appears in focus on right. Liquid sway, flame reflection, and finger tension are all clearly visible. Background crowd is soft-focused, erupting in indistinct but recognizable cheers. Foreground",
+      "The scene transitions. Shot 6 uses clink Camera rapidly pulls back from close-up to wide eye-level to slightly elevated position, capturing full cliffside night scene. Group forms a semi-circle around elder. Campfire, string lights, and coastline create layered nighttime setting. Camera continuously retreats, including entire reception and deep blue sea. Composition shifts from human group to night sea and sky. Mood transitions from intense to expansive closure."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 235,
+    "sample_id": "235",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead dolly-in composition. A blueberry stream winds from the lower left toward the center depth, with giant strawberries, macaron trees, and icing-covered moss layered to form clear leading lines. Foreground leaves sparkle with sugar crystals, while a faint cold-white reflection of the ring appears in the background as a visual focal point. Soft daylight mixed with sugar surface reflections makes the entire forest translucent and radiant. A big-eyed fairy leaps from the foreground into the edge of the stream, running joyfully toward that glimmer. In the upper-left corner, semi-transparent 3D text with refractive texture densely displays \"折射每一束目光\", while \"火彩一触即亮\" emerges along the stream’s flow in the lower-right, edges adorned with fine rainbow trim and subtly flickering as the lens advances. The camera slowly lowers and pushes forward overhead.",
+      "Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level follow shot. The fairy leaps upward along a thick cookie tree root. Tree bark texture and baking cracks rush past in the near foreground, creating a sense of speed. The background continues the blueberry stream and icing moss, maintaining natural continuity. A warm golden side light sweeps across the end of the root, precisely revealing the metal outline of the band and several prong settings. The ring remains partially hidden. Composition places the fairy on the left moving right, positioning the band’s silhouette in the right highlight zone as the chase target. The camera tracks horizontally close to ground level with slight upward tilt. Clothing and wings flutter with motion.",
+      "Shot 3 cuts hard at the action point, using a close-up low-angle shot. The fairy lands on a sugar crystal rock beside the ring. Blurred sugar particles in the foreground create shallow depth of field. Focus locks on its extended fingertip and the top of the main stone. Warm side light outlines the hand, while cool white highlights inside the diamond build clear internal layers. As the fingertip gently touches the main stone, multi-faceted refraction instantly explodes into rainbow fire, radiating fine beams that illuminate surrounding strawberry skin and icing moss. Large text \"高折射\" pops up slightly above center, rendered in mirror-crystal chrome material, appearing with a brief zoom and sparkling trail. The camera first slightly pushes in, then subtly tilts up, amplifying the shock of the diamond’s expansion.",
+      "Shot 4 transitions via a flash-white fire burst, cutting to an extreme close-up nearly macro eye-level shot. The lens faces directly at the diamond surface, which fills most of the frame. The background blurs into soft cream-colored bokeh. Focus penetrates the facets, revealing the fairy’s enlarged, surprised face and shining eyes. Cool white highlights glide across the facets. The camera continues an extremely slow push-in with ultra-shallow depth of field, immersing viewers as if entering the diamond’s interior.",
+      "Shot 5 cuts hard from the previous shot, entering a macro orbit shot. The ring hovers above sugar crystal pollen, rotating slowly. Floating golden sugar particles and translucent pollen clusters in the foreground create layering. Background shows softly blurred macaron treetops and berry-colored forest. Composition centers the ring slightly right of the axis, keeping the diamond as the visual core. Side-backlight creates a thin bright outline along the band’s edge, clearly showing metal curvature and facet lines. The camera orbits clockwise in micro-macro motion, matching the ring’s rotation. Pollen lifts with airflow, forming delicate streams. Along the bottom, following the ring’s arc, sequential subtitles \"净透 切工 火彩\" appear one by one.",
+      "Shot 6 transitions via a highlight flash cut, landing on a hero close-up. Using a near close-up slightly low-angle composition, the ring stands centered on a caramel-textured pedestal. The platform’s edge features detailed pulled-sugar textures and amber-like transparent reflections. Giant strawberries and icing moss in the background blur into soft high-saturation color blocks. All attention is drawn to the central main stone. Warm golden key light from the back-right casts a noble silhouette. Cool white fill light makes the diamond’s fire jump and sparkle in layers. The camera first moves extremely slowly forward, then slightly rises, finally freezing at the fullest fire angle. It fades in from mist and settles steadily. The background The entire ad concludes with a freeze-frame featuring product, slogan, and brand together."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide overhead dolly-in composition. A blueberry stream winds from the lower left toward the center depth, with giant strawberries, macaron trees, and icing-covered moss layered to form clear leading lines. Foreground leaves sparkle with sugar crystals, while a faint cold-white reflection of the ring appears in the background as a visual focal point. Soft daylight mixed with sugar surface reflections makes the entire forest translucent and radiant. A big-eyed fairy leaps from the foreground into the edge of the stream, running joyfully toward that glimmer. In the upper-left corner, semi-transparent 3D text with refractive texture densely displays \"折射每一束目光\", while \"火彩一触即亮\" emerges along the stream’s flow in the lower-right, edges adorned with fine rainbow trim and subtly flickering as the lens advances. The camera slowly lowers and pushes forward overhead.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level follow shot. The fairy leaps upward along a thick cookie tree root. Tree bark texture and baking cracks rush past in the near foreground, creating a sense of speed. The background continues the blueberry stream and icing moss, maintaining natural continuity. A warm golden side light sweeps across the end of the root, precisely revealing the metal outline of the band and several prong settings. The ring remains partially hidden. Composition places the fairy on the left moving right, positioning the band’s silhouette in the right highlight zone as the chase target. The camera tracks horizontally close to ground level with slight upward tilt. Clothing and wings flutter with motion.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 cuts hard at the action point, using a close-up low-angle shot. The fairy lands on a sugar crystal rock beside the ring. Blurred sugar particles in the foreground create shallow depth of field. Focus locks on its extended fingertip and the top of the main stone. Warm side light outlines the hand, while cool white highlights inside the diamond build clear internal layers. As the fingertip gently touches the main stone, multi-faceted refraction instantly explodes into rainbow fire, radiating fine beams that illuminate surrounding strawberry skin and icing moss. Large text \"高折射\" pops up slightly above center, rendered in mirror-crystal chrome material, appearing with a brief zoom and sparkling trail. The camera first slightly pushes in, then subtly tilts up, amplifying the shock of the diamond’s expansion.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 transitions via a flash-white fire burst, cutting to an extreme close-up nearly macro eye-level shot. The lens faces directly at the diamond surface, which fills most of the frame. The background blurs into soft cream-colored bokeh. Focus penetrates the facets, revealing the fairy’s enlarged, surprised face and shining eyes. Cool white highlights glide across the facets. The camera continues an extremely slow push-in with ultra-shallow depth of field, immersing viewers as if entering the diamond’s interior.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard from the previous shot, entering a macro orbit shot. The ring hovers above sugar crystal pollen, rotating slowly. Floating golden sugar particles and translucent pollen clusters in the foreground create layering. Background shows softly blurred macaron treetops and berry-colored forest. Composition centers the ring slightly right of the axis, keeping the diamond as the visual core. Side-backlight creates a thin bright outline along the band’s edge, clearly showing metal curvature and facet lines. The camera orbits clockwise in micro-macro motion, matching the ring’s rotation. Pollen lifts with airflow, forming delicate streams. Along the bottom, following the ring’s arc, sequential subtitles \"净透 切工 火彩\" appear one by one.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 transitions via a highlight flash cut, landing on a hero close-up. Using a near close-up slightly low-angle composition, the ring stands centered on a caramel-textured pedestal. The platform’s edge features detailed pulled-sugar textures and amber-like transparent reflections. Giant strawberries and icing moss in the background blur into soft high-saturation color blocks. All attention is drawn to the central main stone. Warm golden key light from the back-right casts a noble silhouette. Cool white fill light makes the diamond’s fire jump and sparkle in layers. The camera first moves extremely slowly forward, then slightly rises, finally freezing at the fullest fire angle. It fades in from mist and settles steadily. The background The entire ad concludes with a freeze-frame featuring product, slogan, and brand together.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide overhead dolly-in composition. A blueberry stream winds from the lower left toward the center depth, with giant strawberries, macaron trees, and icing-covered moss layered to form clear leading lines. Foreground leaves sparkle with sugar crystals, while a faint cold-white reflection of the ring appears in the background as a visual focal point. Soft daylight mixed with sugar surface reflections makes the entire forest translucent and radiant. A big-eyed fairy leaps from the foreground into the edge of the stream, running joyfully toward that glimmer. In the upper-left corner, semi-transparent 3D text with refractive texture densely displays \"折射每一束目光\", while \"火彩一触即亮\" emerges along the stream’s flow in the lower-right, edges adorned with fine rainbow trim and subtly flickering as the lens advances. The camera slowly lowers and pushes forward overhead.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level follow shot. The fairy leaps upward along a thick cookie tree root. Tree bark texture and baking cracks rush past in the near foreground, creating a sense of speed. The background continues the blueberry stream and icing moss, maintaining natural continuity. A warm golden side light sweeps across the end of the root, precisely revealing the metal outline of the band and several prong settings. The ring remains partially hidden. Composition places the fairy on the left moving right, positioning the band’s silhouette in the right highlight zone as the chase target. The camera tracks horizontally close to ground level with slight upward tilt. Clothing and wings flutter with motion.",
+      "The scene transitions. Shot 3 cuts hard at the action point, using a close-up low-angle shot. The fairy lands on a sugar crystal rock beside the ring. Blurred sugar particles in the foreground create shallow depth of field. Focus locks on its extended fingertip and the top of the main stone. Warm side light outlines the hand, while cool white highlights inside the diamond build clear internal layers. As the fingertip gently touches the main stone, multi-faceted refraction instantly explodes into rainbow fire, radiating fine beams that illuminate surrounding strawberry skin and icing moss. Large text \"高折射\" pops up slightly above center, rendered in mirror-crystal chrome material, appearing with a brief zoom and sparkling trail. The camera first slightly pushes in, then subtly tilts up, amplifying the shock of the diamond’s expansion.",
+      "The scene transitions. Shot 4 transitions via a flash-white fire burst, cutting to an extreme close-up nearly macro eye-level shot. The lens faces directly at the diamond surface, which fills most of the frame. The background blurs into soft cream-colored bokeh. Focus penetrates the facets, revealing the fairy’s enlarged, surprised face and shining eyes. Cool white highlights glide across the facets. The camera continues an extremely slow push-in with ultra-shallow depth of field, immersing viewers as if entering the diamond’s interior.",
+      "The scene transitions. Shot 5 cuts hard from the previous shot, entering a macro orbit shot. The ring hovers above sugar crystal pollen, rotating slowly. Floating golden sugar particles and translucent pollen clusters in the foreground create layering. Background shows softly blurred macaron treetops and berry-colored forest. Composition centers the ring slightly right of the axis, keeping the diamond as the visual core. Side-backlight creates a thin bright outline along the band’s edge, clearly showing metal curvature and facet lines. The camera orbits clockwise in micro-macro motion, matching the ring’s rotation. Pollen lifts with airflow, forming delicate streams. Along the bottom, following the ring’s arc, sequential subtitles \"净透 切工 火彩\" appear one by one.",
+      "The scene transitions. Shot 6 transitions via a highlight flash cut, landing on a hero close-up. Using a near close-up slightly low-angle composition, the ring stands centered on a caramel-textured pedestal. The platform’s edge features detailed pulled-sugar textures and amber-like transparent reflections. Giant strawberries and icing moss in the background blur into soft high-saturation color blocks. All attention is drawn to the central main stone. Warm golden key light from the back-right casts a noble silhouette. Cool white fill light makes the diamond’s fire jump and sparkle in layers. The camera first moves extremely slowly forward, then slightly rises, finally freezing at the fullest fire angle. It fades in from mist and settles steadily. The background The entire ad concludes with a freeze-frame featuring product, slogan, and brand together."
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 271,
+    "sample_id": "271",
+    "prompts": [
+      "Shot 1 opens with a fade-in, using a wide eye-level composition that includes the piano, bench, and classroom background. She first gently adjusts her distance from the keyboard, then lifts both hands naturally above the keys to demonstrate standard hand position—wrist stable, arms relaxed—with clear visibility of body-to-keyboard alignment. Chinese The camera performs a very slight push-in to enhance instructional focus.",
+      "Shot 2 cuts hard from the previous shot to an overhead close-up, where the frame is almost entirely composed of the right hand and a section of the keyboard. With shallow depth of field, focus is tightly locked on the curvature of the fingertips and the location of middle C. The arrangement of black and white keys forms clear horizontal leading lines. Warm light evenly illuminates knuckles and key surfaces. After hovering, the fingers slowly descend near middle C, sequentially demonstrating natural finger curvature, fingertip support, and arched palm. The physical feedback of slight key depression is clearly visible. Chinese Piano The camera remains stable in overhead view without movement, emphasizing instructional accuracy.",
+      "Shot 3 transitions via hard cut to a side close-up, filmed from a slightly low angle at eye level from the right side of the keys. The foreground features a continuous stretch of white keys, with focus on the sequential lifting and pressing of the right-hand fingers. Side lighting enhances the texture of knuckle movement and key press depth. Wrist remains stable without excessive motion. Chinese Original piano The camera performs minimal lateral follow to help viewers track finger movement paths.",
+      "Shot 4 cuts hard into left-hand instruction, using a medium close-up with combined overhead and side angles, shot slightly from the side above the bass register. Composition includes the left hand, bass keys, and part of the piano edge. Focus centers on the rhythmic pattern of the left hand pressing bass accompaniment. Warm natural light continues to unify the scene. Soft reflection on the piano’s black lacquer enhances texture. The relationship between key depression and rebound is clearly visible.",
+      "Shot 5 returns via natural hard cut to a front-facing medium close-up, framing the subject’s upper body and both hands. The piano keyboard extends horizontally across the frame, with both face and hands clearly visible. Focus prioritizes the coordination of both hands in the middle register. Background remains quiet and simple to avoid distraction. Soft window light illuminates the face and back of the hands. Finger movements emphasize coordination. Viewers can simultaneously observe speaking and keying actions. The camera slowly pushes in, gradually shifting attention from overall posture to hand coordination.",
+      "Shot 6 connects smoothly with a slow pull-out from the previous shot, returning to a wider full-frame eye-level shot that re-incorporates the subject, entire keyboard segment, and classroom environment. Foreground retains perspective lines of the keys. Subject is positioned slightly left of center for stable composition. Warm natural light maintains consistent atmosphere throughout. Both hands coordinate naturally with even dynamics. After the final note, fingers rest lightly. Pedal and trailing tone naturally dissipate in the room. Chinese Piano resonance and quiet indoor The camera continues to slowly pull back at the end, allowing image and"
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, using a wide eye-level composition that includes the piano, bench, and classroom background. She first gently adjusts her distance from the keyboard, then lifts both hands naturally above the keys to demonstrate standard hand position—wrist stable, arms relaxed—with clear visibility of body-to-keyboard alignment. Chinese The camera performs a very slight push-in to enhance instructional focus.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot to an overhead close-up, where the frame is almost entirely composed of the right hand and a section of the keyboard. With shallow depth of field, focus is tightly locked on the curvature of the fingertips and the location of middle C. The arrangement of black and white keys forms clear horizontal leading lines. Warm light evenly illuminates knuckles and key surfaces. After hovering, the fingers slowly descend near middle C, sequentially demonstrating natural finger curvature, fingertip support, and arched palm. The physical feedback of slight key depression is clearly visible. Chinese Piano The camera remains stable in overhead view without movement, emphasizing instructional accuracy.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions via hard cut to a side close-up, filmed from a slightly low angle at eye level from the right side of the keys. The foreground features a continuous stretch of white keys, with focus on the sequential lifting and pressing of the right-hand fingers. Side lighting enhances the texture of knuckle movement and key press depth. Wrist remains stable without excessive motion. Chinese Original piano The camera performs minimal lateral follow to help viewers track finger movement paths.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts hard into left-hand instruction, using a medium close-up with combined overhead and side angles, shot slightly from the side above the bass register. Composition includes the left hand, bass keys, and part of the piano edge. Focus centers on the rhythmic pattern of the left hand pressing bass accompaniment. Warm natural light continues to unify the scene. Soft reflection on the piano’s black lacquer enhances texture. The relationship between key depression and rebound is clearly visible.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 returns via natural hard cut to a front-facing medium close-up, framing the subject’s upper body and both hands. The piano keyboard extends horizontally across the frame, with both face and hands clearly visible. Focus prioritizes the coordination of both hands in the middle register. Background remains quiet and simple to avoid distraction. Soft window light illuminates the face and back of the hands. Finger movements emphasize coordination. Viewers can simultaneously observe speaking and keying actions. The camera slowly pushes in, gradually shifting attention from overall posture to hand coordination.",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 connects smoothly with a slow pull-out from the previous shot, returning to a wider full-frame eye-level shot that re-incorporates the subject, entire keyboard segment, and classroom environment. Foreground retains perspective lines of the keys. Subject is positioned slightly left of center for stable composition. Warm natural light maintains consistent atmosphere throughout. Both hands coordinate naturally with even dynamics. After the final note, fingers rest lightly. Pedal and trailing tone naturally dissipate in the room. Chinese Piano resonance and quiet indoor The camera continues to slowly pull back at the end, allowing image and",
+        "source_video_frames": 40,
+        "latent_frames": 11,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "latent_frames_per_shot": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, using a wide eye-level composition that includes the piano, bench, and classroom background. She first gently adjusts her distance from the keyboard, then lifts both hands naturally above the keys to demonstrate standard hand position—wrist stable, arms relaxed—with clear visibility of body-to-keyboard alignment. Chinese The camera performs a very slight push-in to enhance instructional focus.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot to an overhead close-up, where the frame is almost entirely composed of the right hand and a section of the keyboard. With shallow depth of field, focus is tightly locked on the curvature of the fingertips and the location of middle C. The arrangement of black and white keys forms clear horizontal leading lines. Warm light evenly illuminates knuckles and key surfaces. After hovering, the fingers slowly descend near middle C, sequentially demonstrating natural finger curvature, fingertip support, and arched palm. The physical feedback of slight key depression is clearly visible. Chinese Piano The camera remains stable in overhead view without movement, emphasizing instructional accuracy.",
+      "The scene transitions. Shot 3 transitions via hard cut to a side close-up, filmed from a slightly low angle at eye level from the right side of the keys. The foreground features a continuous stretch of white keys, with focus on the sequential lifting and pressing of the right-hand fingers. Side lighting enhances the texture of knuckle movement and key press depth. Wrist remains stable without excessive motion. Chinese Original piano The camera performs minimal lateral follow to help viewers track finger movement paths.",
+      "The scene transitions. Shot 4 cuts hard into left-hand instruction, using a medium close-up with combined overhead and side angles, shot slightly from the side above the bass register. Composition includes the left hand, bass keys, and part of the piano edge. Focus centers on the rhythmic pattern of the left hand pressing bass accompaniment. Warm natural light continues to unify the scene. Soft reflection on the piano’s black lacquer enhances texture. The relationship between key depression and rebound is clearly visible.",
+      "The scene transitions. Shot 5 returns via natural hard cut to a front-facing medium close-up, framing the subject’s upper body and both hands. The piano keyboard extends horizontally across the frame, with both face and hands clearly visible. Focus prioritizes the coordination of both hands in the middle register. Background remains quiet and simple to avoid distraction. Soft window light illuminates the face and back of the hands. Finger movements emphasize coordination. Viewers can simultaneously observe speaking and keying actions. The camera slowly pushes in, gradually shifting attention from overall posture to hand coordination.",
+      "The scene transitions. Shot 6 connects smoothly with a slow pull-out from the previous shot, returning to a wider full-frame eye-level shot that re-incorporates the subject, entire keyboard segment, and classroom environment. Foreground retains perspective lines of the keys. Subject is positioned slightly left of center for stable composition. Warm natural light maintains consistent atmosphere throughout. Both hands coordinate naturally with even dynamics. After the final note, fingers rest lightly. Pedal and trailing tone naturally dissipate in the room. Chinese Piano resonance and quiet indoor The camera continues to slowly pull back at the end, allowing image and"
+    ],
+    "num_output_frames": 48,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 66,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  }
+]

@@ -1,0 +1,1426 @@
+[
+  {
+    "idx": 17,
+    "sample_id": "17",
+    "prompts": [
+      "Shot 1: Opening shot cuts directly to a wide overhead composition placing the corner half-court at the bottom of the frame, with traffic forming diagonal leading lines along the road. Foreground includes streetlights and building edges, background extends into the city block. Pale gray sky and concrete ground create a subdued neutral layering. A young male stands at the edge of the half-court warming up shoulders, neck, and ankles, the ball rolling gently beside his feet. The camera slowly lowers and slightly pushes in, establishing the environment and the character's imminent activation.",
+      "Shot 2: Hard cut from previous shot. Close-up eye-level focus on shoe surface and hands. Low camera angle emphasizes knees and sneakers as main subjects. Fine sand grains and worn white lines on the ground provide clear texture. The young male leans down quickly to tie his laces. At the moment the laces are pulled taut, ankle muscles tighten, clothing flutters slightly. Electric guitar enters with a sharp pluck synchronized with the lace-tightening motion. The camera subtly pushes in, emphasizing the authenticity of the preparation.",
+      "Shot 3: Hard cut from previous shot. Extreme close-up high-angle shot looking up from beneath the basketball toward the palm. Palm lines, ball surface texture, and rubber edge patterns are clearly visible under natural light. Background is blurred buildings and overhead wires. The young male presses the ball with one hand, fingers gradually applying force to cause slight deformation before releasing it quickly. The ball rebounds, kicking up a faint dust trail.",
+      "Shot 4: Hard cut from previous shot. Medium shot panning into a graffiti-covered alley. Wall murals and ground arrows form strong directional lines. Foreground occasionally sweeps past metal grilles and bollards, while the alley exit glows brightly in the background. Lighting remains neutral and realistic. The young male transitions from warm-up to active dribbling, lowering his center of gravity, leaning forward, and moving continuously with directional changes. As the ball switches between hands, shirt corners and shorts edges exhibit delayed sway. Mechanical hums and dribble rhythms become denser. The camera closely follows with a parallel move, maintaining spatial continuity of motion.",
+      "Shot 5: Hard cut from previous shot. Close-up high-angle shot locking onto lower limbs and ball. The lens enters from below the knee. Foreground features rapidly advancing sneakers, background shows elongated graffiti walls. The young male suddenly stops, lowers his center of gravity, and completes a between-the-legs dribble. The camera performs a brief lateral whip pan then stabilizes, reinforcing the explosive stop.",
+      "Shot 6: Hard cut from previous shot. Extreme close-up overhead shot focused on the edge of a manhole cover. Circular manhole texture and asphalt cracks form geometric patterns. The basketball falls rapidly from above, skims the edge of the manhole, and rebounds. Rubber surface brushing against metal produces slight vibration and directional change. Dust and tiny water stains are disturbed. Ambient light slides across the ball’s curved surface. Dribble The camera remains fixed overhead with minimal follow, ensuring clarity of physical rebound.",
+      "Shot 7: Hard cut from previous shot. Medium tracking shot from behind and slightly to the side, following the subject. The bright alley exit serves as the frame’s exit point. Foreground occasionally sweeps past wall corners, creating speed layers. The young male uses the rebound momentum to accelerate out of the alley. The camera surges forward and slightly tilts upward, conveying the release from a confined space into open street terrain.",
+      "Shot 8: Hard cut from previous shot. Wide pull-out revealing full view of the street-side half-court. Backboard, chain-link fence, parking lines, and sidewalk trees are fully included. The character enters the center of the frame from the alley. Traffic in the urban background continues moving, creating parallel motion. Lighting remains dominated by natural daylight. The camera retreats and pulls back, establishing the new space and leaving room for imagined next confrontation.",
+      "Shot 9: Hard cut from previous shot. Close-up push-in focusing on upper body and ball-handling side. Slightly low eye-level angle. Blurred foreground railing forms a framing device. Focus rests on eyes and shoulder feint. Body tension compresses into a single instant. The camera continues pushing in, compressing tension into face and hands.",
+      "Shot 10: Hard cut from previous shot. Extreme close-up eye-level shot capturing sweat droplets and fingertip control. Sweat slides from temple to jawline. Fingertips rapidly adjust angles on the ball’s textured surface. Background backboard is compressed into shallow depth of field, becoming a blurred target. Skin highlights and ball reflections remain realistic without exaggeration. The young male breathes heavily but eyes grow more determined. Electric guitar here uses rapid plucking synchronized with fingertip adjustments. The camera makes a very slight circular movement, emphasizing final control before decision.",
+      "Shot 11: Hard cut from previous shot. Medium pan capturing accelerated breakthrough. Lens positioned side-front. Ground sideline converges toward the basket, forming strong leading lines. Foreground occasionally sweeps past backboard supports, creating speed obstruction. The young male suddenly drops his center of gravity, plants one foot, and explodes forward. Two consecutive steps accelerate in a crossover-style drive. Shorts and tank top edges flutter visibly due to sprint. The camera moves rapidly with a slight forward lean, keeping player and ball centered in the frame.",
+      "Shot 12: Hard cut from previous shot. Close-up high-angle shot capturing the moment of release under the basket. Hoop and sky occupy the upper space. The figure leaps from the bottom of the frame, knees rising, core tightening, shooting arm fully extended. Non-shooting hand naturally opens to maintain balance. As the ball leaves fingertips, final details of wrist snap and finger flick are visible. Sweat droplets are carried away by motion, forming brief parabolic arcs. Guitar reaches its strongest note at the release moment. Subway low-frequency synchronizes with takeoff and landing points. The camera rapidly lifts from chest height and slightly pushes in, amplifying the height and power of the jump.",
+      "Shot 13: Seamless hard cut from previous shot to wide static closure. Wide eye-level shot fully presents backboard, net, and the character’s posture after landing and looking back. The ball arcs cleanly and swishes through the net. Net stretches rapidly then recoils. Backboard vibrates slightly. Ground shadow wavers gently. The young male takes two steps to stabilize, shoulders heaving with brief silence of success. Electric guitar draws out a bright sustained tone at the moment of net entry. Ambient fan, traffic, and mechanical hums re-emerge, grounding the exhilaration back into real urban air. The camera slightly pulls back and stabilizes, concluding the entire breakthrough shot sequence with restraint and lingering resonance."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1: Opening shot cuts directly to a wide overhead composition placing the corner half-court at the bottom of the frame, with traffic forming diagonal leading lines along the road. Foreground includes streetlights and building edges, background extends into the city block. Pale gray sky and concrete ground create a subdued neutral layering. A young male stands at the edge of the half-court warming up shoulders, neck, and ankles, the ball rolling gently beside his feet. The camera slowly lowers and slightly pushes in, establishing the environment and the character's imminent activation.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2: Hard cut from previous shot. Close-up eye-level focus on shoe surface and hands. Low camera angle emphasizes knees and sneakers as main subjects. Fine sand grains and worn white lines on the ground provide clear texture. The young male leans down quickly to tie his laces. At the moment the laces are pulled taut, ankle muscles tighten, clothing flutters slightly. Electric guitar enters with a sharp pluck synchronized with the lace-tightening motion. The camera subtly pushes in, emphasizing the authenticity of the preparation.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3: Hard cut from previous shot. Extreme close-up high-angle shot looking up from beneath the basketball toward the palm. Palm lines, ball surface texture, and rubber edge patterns are clearly visible under natural light. Background is blurred buildings and overhead wires. The young male presses the ball with one hand, fingers gradually applying force to cause slight deformation before releasing it quickly. The ball rebounds, kicking up a faint dust trail.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4: Hard cut from previous shot. Medium shot panning into a graffiti-covered alley. Wall murals and ground arrows form strong directional lines. Foreground occasionally sweeps past metal grilles and bollards, while the alley exit glows brightly in the background. Lighting remains neutral and realistic. The young male transitions from warm-up to active dribbling, lowering his center of gravity, leaning forward, and moving continuously with directional changes. As the ball switches between hands, shirt corners and shorts edges exhibit delayed sway. Mechanical hums and dribble rhythms become denser. The camera closely follows with a parallel move, maintaining spatial continuity of motion.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5: Hard cut from previous shot. Close-up high-angle shot locking onto lower limbs and ball. The lens enters from below the knee. Foreground features rapidly advancing sneakers, background shows elongated graffiti walls. The young male suddenly stops, lowers his center of gravity, and completes a between-the-legs dribble. The camera performs a brief lateral whip pan then stabilizes, reinforcing the explosive stop.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6: Hard cut from previous shot. Extreme close-up overhead shot focused on the edge of a manhole cover. Circular manhole texture and asphalt cracks form geometric patterns. The basketball falls rapidly from above, skims the edge of the manhole, and rebounds. Rubber surface brushing against metal produces slight vibration and directional change. Dust and tiny water stains are disturbed. Ambient light slides across the ball’s curved surface. Dribble The camera remains fixed overhead with minimal follow, ensuring clarity of physical rebound.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7: Hard cut from previous shot. Medium tracking shot from behind and slightly to the side, following the subject. The bright alley exit serves as the frame’s exit point. Foreground occasionally sweeps past wall corners, creating speed layers. The young male uses the rebound momentum to accelerate out of the alley. The camera surges forward and slightly tilts upward, conveying the release from a confined space into open street terrain.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8: Hard cut from previous shot. Wide pull-out revealing full view of the street-side half-court. Backboard, chain-link fence, parking lines, and sidewalk trees are fully included. The character enters the center of the frame from the alley. Traffic in the urban background continues moving, creating parallel motion. Lighting remains dominated by natural daylight. The camera retreats and pulls back, establishing the new space and leaving room for imagined next confrontation.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9: Hard cut from previous shot. Close-up push-in focusing on upper body and ball-handling side. Slightly low eye-level angle. Blurred foreground railing forms a framing device. Focus rests on eyes and shoulder feint. Body tension compresses into a single instant. The camera continues pushing in, compressing tension into face and hands.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10: Hard cut from previous shot. Extreme close-up eye-level shot capturing sweat droplets and fingertip control. Sweat slides from temple to jawline. Fingertips rapidly adjust angles on the ball’s textured surface. Background backboard is compressed into shallow depth of field, becoming a blurred target. Skin highlights and ball reflections remain realistic without exaggeration. The young male breathes heavily but eyes grow more determined. Electric guitar here uses rapid plucking synchronized with fingertip adjustments. The camera makes a very slight circular movement, emphasizing final control before decision.",
+        "source_video_frames": 15,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11: Hard cut from previous shot. Medium pan capturing accelerated breakthrough. Lens positioned side-front. Ground sideline converges toward the basket, forming strong leading lines. Foreground occasionally sweeps past backboard supports, creating speed obstruction. The young male suddenly drops his center of gravity, plants one foot, and explodes forward. Two consecutive steps accelerate in a crossover-style drive. Shorts and tank top edges flutter visibly due to sprint. The camera moves rapidly with a slight forward lean, keeping player and ball centered in the frame.",
+        "source_video_frames": 25,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12: Hard cut from previous shot. Close-up high-angle shot capturing the moment of release under the basket. Hoop and sky occupy the upper space. The figure leaps from the bottom of the frame, knees rising, core tightening, shooting arm fully extended. Non-shooting hand naturally opens to maintain balance. As the ball leaves fingertips, final details of wrist snap and finger flick are visible. Sweat droplets are carried away by motion, forming brief parabolic arcs. Guitar reaches its strongest note at the release moment. Subway low-frequency synchronizes with takeoff and landing points. The camera rapidly lifts from chest height and slightly pushes in, amplifying the height and power of the jump.",
+        "source_video_frames": 24,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13: Seamless hard cut from previous shot to wide static closure. Wide eye-level shot fully presents backboard, net, and the character’s posture after landing and looking back. The ball arcs cleanly and swishes through the net. Net stretches rapidly then recoils. Backboard vibrates slightly. Ground shadow wavers gently. The young male takes two steps to stabilize, shoulders heaving with brief silence of success. Electric guitar draws out a bright sustained tone at the moment of net entry. Ambient fan, traffic, and mechanical hums re-emerge, grounding the exhilaration back into real urban air. The camera slightly pulls back and stabilizes, concluding the entire breakthrough shot sequence with restraint and lingering resonance.",
+        "source_video_frames": 27,
+        "latent_frames": 8,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      18,
+      14,
+      13,
+      21,
+      14,
+      13,
+      19,
+      20,
+      17,
+      15,
+      25,
+      24,
+      27
+    ],
+    "latent_frames_per_shot": [
+      5,
+      4,
+      4,
+      6,
+      4,
+      4,
+      6,
+      6,
+      5,
+      5,
+      7,
+      7,
+      8
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1: Opening shot cuts directly to a wide overhead composition placing the corner half-court at the bottom of the frame, with traffic forming diagonal leading lines along the road. Foreground includes streetlights and building edges, background extends into the city block. Pale gray sky and concrete ground create a subdued neutral layering. A young male stands at the edge of the half-court warming up shoulders, neck, and ankles, the ball rolling gently beside his feet. The camera slowly lowers and slightly pushes in, establishing the environment and the character's imminent activation.",
+      "The scene transitions. Shot 2: Hard cut from previous shot. Close-up eye-level focus on shoe surface and hands. Low camera angle emphasizes knees and sneakers as main subjects. Fine sand grains and worn white lines on the ground provide clear texture. The young male leans down quickly to tie his laces. At the moment the laces are pulled taut, ankle muscles tighten, clothing flutters slightly. Electric guitar enters with a sharp pluck synchronized with the lace-tightening motion. The camera subtly pushes in, emphasizing the authenticity of the preparation.",
+      "The scene transitions. Shot 3: Hard cut from previous shot. Extreme close-up high-angle shot looking up from beneath the basketball toward the palm. Palm lines, ball surface texture, and rubber edge patterns are clearly visible under natural light. Background is blurred buildings and overhead wires. The young male presses the ball with one hand, fingers gradually applying force to cause slight deformation before releasing it quickly. The ball rebounds, kicking up a faint dust trail.",
+      "The scene transitions. Shot 4: Hard cut from previous shot. Medium shot panning into a graffiti-covered alley. Wall murals and ground arrows form strong directional lines. Foreground occasionally sweeps past metal grilles and bollards, while the alley exit glows brightly in the background. Lighting remains neutral and realistic. The young male transitions from warm-up to active dribbling, lowering his center of gravity, leaning forward, and moving continuously with directional changes. As the ball switches between hands, shirt corners and shorts edges exhibit delayed sway. Mechanical hums and dribble rhythms become denser. The camera closely follows with a parallel move, maintaining spatial continuity of motion.",
+      "The scene transitions. Shot 5: Hard cut from previous shot. Close-up high-angle shot locking onto lower limbs and ball. The lens enters from below the knee. Foreground features rapidly advancing sneakers, background shows elongated graffiti walls. The young male suddenly stops, lowers his center of gravity, and completes a between-the-legs dribble. The camera performs a brief lateral whip pan then stabilizes, reinforcing the explosive stop.",
+      "The scene transitions. Shot 6: Hard cut from previous shot. Extreme close-up overhead shot focused on the edge of a manhole cover. Circular manhole texture and asphalt cracks form geometric patterns. The basketball falls rapidly from above, skims the edge of the manhole, and rebounds. Rubber surface brushing against metal produces slight vibration and directional change. Dust and tiny water stains are disturbed. Ambient light slides across the ball’s curved surface. Dribble The camera remains fixed overhead with minimal follow, ensuring clarity of physical rebound.",
+      "The scene transitions. Shot 7: Hard cut from previous shot. Medium tracking shot from behind and slightly to the side, following the subject. The bright alley exit serves as the frame’s exit point. Foreground occasionally sweeps past wall corners, creating speed layers. The young male uses the rebound momentum to accelerate out of the alley. The camera surges forward and slightly tilts upward, conveying the release from a confined space into open street terrain.",
+      "The scene transitions. Shot 8: Hard cut from previous shot. Wide pull-out revealing full view of the street-side half-court. Backboard, chain-link fence, parking lines, and sidewalk trees are fully included. The character enters the center of the frame from the alley. Traffic in the urban background continues moving, creating parallel motion. Lighting remains dominated by natural daylight. The camera retreats and pulls back, establishing the new space and leaving room for imagined next confrontation.",
+      "The scene transitions. Shot 9: Hard cut from previous shot. Close-up push-in focusing on upper body and ball-handling side. Slightly low eye-level angle. Blurred foreground railing forms a framing device. Focus rests on eyes and shoulder feint. Body tension compresses into a single instant. The camera continues pushing in, compressing tension into face and hands.",
+      "The scene transitions. Shot 10: Hard cut from previous shot. Extreme close-up eye-level shot capturing sweat droplets and fingertip control. Sweat slides from temple to jawline. Fingertips rapidly adjust angles on the ball’s textured surface. Background backboard is compressed into shallow depth of field, becoming a blurred target. Skin highlights and ball reflections remain realistic without exaggeration. The young male breathes heavily but eyes grow more determined. Electric guitar here uses rapid plucking synchronized with fingertip adjustments. The camera makes a very slight circular movement, emphasizing final control before decision.",
+      "The scene transitions. Shot 11: Hard cut from previous shot. Medium pan capturing accelerated breakthrough. Lens positioned side-front. Ground sideline converges toward the basket, forming strong leading lines. Foreground occasionally sweeps past backboard supports, creating speed obstruction. The young male suddenly drops his center of gravity, plants one foot, and explodes forward. Two consecutive steps accelerate in a crossover-style drive. Shorts and tank top edges flutter visibly due to sprint. The camera moves rapidly with a slight forward lean, keeping player and ball centered in the frame.",
+      "The scene transitions. Shot 12: Hard cut from previous shot. Close-up high-angle shot capturing the moment of release under the basket. Hoop and sky occupy the upper space. The figure leaps from the bottom of the frame, knees rising, core tightening, shooting arm fully extended. Non-shooting hand naturally opens to maintain balance. As the ball leaves fingertips, final details of wrist snap and finger flick are visible. Sweat droplets are carried away by motion, forming brief parabolic arcs. Guitar reaches its strongest note at the release moment. Subway low-frequency synchronizes with takeoff and landing points. The camera rapidly lifts from chest height and slightly pushes in, amplifying the height and power of the jump.",
+      "The scene transitions. Shot 13: Seamless hard cut from previous shot to wide static closure. Wide eye-level shot fully presents backboard, net, and the character’s posture after landing and looking back. The ball arcs cleanly and swishes through the net. Net stretches rapidly then recoils. Backboard vibrates slightly. Ground shadow wavers gently. The young male takes two steps to stabilize, shoulders heaving with brief silence of success. Electric guitar draws out a bright sustained tone at the moment of net entry. Ambient fan, traffic, and mechanical hums re-emerge, grounding the exhilaration back into real urban air. The camera slightly pulls back and stabilizes, concluding the entire breakthrough shot sequence with restraint and lingering resonance."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 79,
+    "sample_id": "79",
+    "prompts": [
+      "Rain curtain serves as foreground, lightning streaks across stone walls creating high-contrast silhouettes.",
+      "Shot 2 connects with a hard cut from the previous shot, entering the torch-lit corridor with a wide eye-level shot. Torches on both sides form regular vanishing points. Foreground shows a heavy iron door being pushed open. Midground features several attendants urgently pushing a metal cart carrying the car. Background reveals the surgery archway. Torchlight reflects dynamically on the wet car surface. The camera retreats while panning backward, keeping the car’s front in focus.",
+      "Shot 3 connects via action-matched hard cut, showing a close-up upward angle focused on the cracked engine hood. Torn metal edges dominate the foreground, steam continuously escaping from gaps. A physician leans in to inspect and shouts loudly toward the back: \"¡Rápido, al quirófano!\". Blurred figures move quickly in the background, forming motion layers. Warm torchlight and cold steam interweave. The camera makes a short push-in, compressing the sense of crisis immediately.",
+      "Shot 4 cuts sharply to alchemy preparation, a medium-close overhead shot of the alchemy table. Glassware, metal tongs, pestle, and glowing powder form a dense foreground. A pair of gloved hands quickly prepares blue liquid, swirling brightly in the flask. Surrounding crystals reflect cold blue highlights. The camera performs a slight orbit, making the alchemy liquid color the visual focus of this shot.",
+      "Shot 5 connects via color-matched hard cut from the previous shot, an extreme close-up eye-level shot of one side of the car’s headlight. Shallow depth of field blurs the rest of the body. The headlight flickers like a dying pupil, its surface raindrops and dust cut into tiny bright spots by high-saturation blue-orange reflections. Distant echoes of cart and tool impacts remain. The camera slowly pushes in, bringing the near-extinction state to the forefront.",
+      "Shot 6 cuts sharply into repair, a close-up overhead composition focused on the car body on the operating table. Hands wearing rune-gloves slice along existing cracks, small sparks and faint rune glows spreading along the incision. Foreground shows lifted metal plate. Background shows hazy torchlight. The cutting action has clear beginning, development, turn, and conclusion. The camera horizontally slides following hand movement, slightly faster, reinforcing surgical urgency.",
+      "Shot 7 cuts sharply into internal status, an extreme close-up eye-level shot of gears and crystal core components inside the car body. Foreground gear teeth are coated with moisture and dust. Midground blue-glowing crystal flickers intermittently. Background shows blurred dancing firelight. Several parts gradually lose stability under low-frequency vibrations. Tiny tremors and stutters are magnified by macro lens. The camera makes an extremely short forward move, letting viewers directly feel the worsening malfunction.",
+      "An assistant urgently leans in from the right side of the frame, reporting to the physician: \"Pulso inestable\". Warm torchlight outlines edges, blue internal light illuminates the lower half of the assistant’s face. Background tool rack is slightly blurred. The camera first focuses on the speaker, then quickly shifts focus to the physician’s hand movement, creating immediate pressure.",
+      "Shot 9 cuts sharply into climax, a close-up overhead shot of the core position. Two conductor devices aim at the core inside the car body. A blue-white electric arc suddenly discharges. Electric light instantly illuminates the entire metal cavity. Crystal surface shows pulse-like changes from dark to bright. Gears are briefly lifted by current, then re-engaged. In the The camera first rapidly dives down, then slightly tilts up, creating a clear sense of energy release.",
+      "Shot 10 cuts sharply into character reaction, a close-up low angle shot of the lead physician. Half his face is lit by torchlight, the other half sliced by blue electric glow. Sweat on his forehead reflects highlight. Background figures continue busy motions. The camera slightly handheld pushes in, focusing emotion from chaotic surroundings onto a single command.",
+      "Shot 11 connects via action-continuous hard cut, shifting to a medium-wide eye-level view of collaborative work around the operating table. Several attendants and assistants seal the car body from multiple directions. Foreground shows a panel about to be snapped into place. Midground displays multiple hands simultaneously tightening, pressing, and aligning. Background reveals torches and stone vaults. Blue runes briefly flow along seams before stabilizing. The camera performs a semi-circular orbit around the table, showcasing group collaboration.",
+      "Shot 12 cuts sharply to awakening signal, a close-up eye-level shot of the dashboard. Foreground needle stops momentarily then trembles. Midground symbols and markings light up one by one, becoming the visual core. Background shows blurred figures pausing, then exhaling relief. Cold blue dashboard light and external warm torchlight jointly illuminate the interior frame. The camera slowly pushes in, grounding the change in “恢复生命体征”.",
+      "Shot 13 concludes with a brief fade-in/fade-out, transitioning emotionally. A wide low-angle shot from outside the operating room looks into the castle courtyard bathed in morning light. Foreground shows the heavy iron door being pushed open, ground still bearing traces of night rain. Golden dawn light pours through the gap, naturally blending with the persistent cold blue tone. Midground shows the recently revived car slowly driving out of the operating room at controlled, steady speed. Background shows people standing inside, watching. Torchlight gradually gives way to dawn light. The camera slowly pulls back and gently rises, ending this magical emergency with a tense yet lingeringly warm finale."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Rain curtain serves as foreground, lightning streaks across stone walls creating high-contrast silhouettes.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects with a hard cut from the previous shot, entering the torch-lit corridor with a wide eye-level shot. Torches on both sides form regular vanishing points. Foreground shows a heavy iron door being pushed open. Midground features several attendants urgently pushing a metal cart carrying the car. Background reveals the surgery archway. Torchlight reflects dynamically on the wet car surface. The camera retreats while panning backward, keeping the car’s front in focus.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 connects via action-matched hard cut, showing a close-up upward angle focused on the cracked engine hood. Torn metal edges dominate the foreground, steam continuously escaping from gaps. A physician leans in to inspect and shouts loudly toward the back: \"¡Rápido, al quirófano!\". Blurred figures move quickly in the background, forming motion layers. Warm torchlight and cold steam interweave. The camera makes a short push-in, compressing the sense of crisis immediately.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts sharply to alchemy preparation, a medium-close overhead shot of the alchemy table. Glassware, metal tongs, pestle, and glowing powder form a dense foreground. A pair of gloved hands quickly prepares blue liquid, swirling brightly in the flask. Surrounding crystals reflect cold blue highlights. The camera performs a slight orbit, making the alchemy liquid color the visual focus of this shot.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 connects via color-matched hard cut from the previous shot, an extreme close-up eye-level shot of one side of the car’s headlight. Shallow depth of field blurs the rest of the body. The headlight flickers like a dying pupil, its surface raindrops and dust cut into tiny bright spots by high-saturation blue-orange reflections. Distant echoes of cart and tool impacts remain. The camera slowly pushes in, bringing the near-extinction state to the forefront.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 cuts sharply into repair, a close-up overhead composition focused on the car body on the operating table. Hands wearing rune-gloves slice along existing cracks, small sparks and faint rune glows spreading along the incision. Foreground shows lifted metal plate. Background shows hazy torchlight. The cutting action has clear beginning, development, turn, and conclusion. The camera horizontally slides following hand movement, slightly faster, reinforcing surgical urgency.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 cuts sharply into internal status, an extreme close-up eye-level shot of gears and crystal core components inside the car body. Foreground gear teeth are coated with moisture and dust. Midground blue-glowing crystal flickers intermittently. Background shows blurred dancing firelight. Several parts gradually lose stability under low-frequency vibrations. Tiny tremors and stutters are magnified by macro lens. The camera makes an extremely short forward move, letting viewers directly feel the worsening malfunction.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "An assistant urgently leans in from the right side of the frame, reporting to the physician: \"Pulso inestable\". Warm torchlight outlines edges, blue internal light illuminates the lower half of the assistant’s face. Background tool rack is slightly blurred. The camera first focuses on the speaker, then quickly shifts focus to the physician’s hand movement, creating immediate pressure.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 cuts sharply into climax, a close-up overhead shot of the core position. Two conductor devices aim at the core inside the car body. A blue-white electric arc suddenly discharges. Electric light instantly illuminates the entire metal cavity. Crystal surface shows pulse-like changes from dark to bright. Gears are briefly lifted by current, then re-engaged. In the The camera first rapidly dives down, then slightly tilts up, creating a clear sense of energy release.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts sharply into character reaction, a close-up low angle shot of the lead physician. Half his face is lit by torchlight, the other half sliced by blue electric glow. Sweat on his forehead reflects highlight. Background figures continue busy motions. The camera slightly handheld pushes in, focusing emotion from chaotic surroundings onto a single command.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 connects via action-continuous hard cut, shifting to a medium-wide eye-level view of collaborative work around the operating table. Several attendants and assistants seal the car body from multiple directions. Foreground shows a panel about to be snapped into place. Midground displays multiple hands simultaneously tightening, pressing, and aligning. Background reveals torches and stone vaults. Blue runes briefly flow along seams before stabilizing. The camera performs a semi-circular orbit around the table, showcasing group collaboration.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 cuts sharply to awakening signal, a close-up eye-level shot of the dashboard. Foreground needle stops momentarily then trembles. Midground symbols and markings light up one by one, becoming the visual core. Background shows blurred figures pausing, then exhaling relief. Cold blue dashboard light and external warm torchlight jointly illuminate the interior frame. The camera slowly pushes in, grounding the change in “恢复生命体征”.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 concludes with a brief fade-in/fade-out, transitioning emotionally. A wide low-angle shot from outside the operating room looks into the castle courtyard bathed in morning light. Foreground shows the heavy iron door being pushed open, ground still bearing traces of night rain. Golden dawn light pours through the gap, naturally blending with the persistent cold blue tone. Midground shows the recently revived car slowly driving out of the operating room at controlled, steady speed. Background shows people standing inside, watching. Torchlight gradually gives way to dawn light. The camera slowly pulls back and gently rises, ending this magical emergency with a tense yet lingeringly warm finale.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      20,
+      17,
+      18,
+      18,
+      16,
+      19,
+      18,
+      17,
+      21,
+      16,
+      20,
+      19,
+      21
+    ],
+    "latent_frames_per_shot": [
+      6,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      5,
+      6,
+      5,
+      6,
+      6,
+      6
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Rain curtain serves as foreground, lightning streaks across stone walls creating high-contrast silhouettes.",
+      "The scene transitions. Shot 2 connects with a hard cut from the previous shot, entering the torch-lit corridor with a wide eye-level shot. Torches on both sides form regular vanishing points. Foreground shows a heavy iron door being pushed open. Midground features several attendants urgently pushing a metal cart carrying the car. Background reveals the surgery archway. Torchlight reflects dynamically on the wet car surface. The camera retreats while panning backward, keeping the car’s front in focus.",
+      "The scene transitions. Shot 3 connects via action-matched hard cut, showing a close-up upward angle focused on the cracked engine hood. Torn metal edges dominate the foreground, steam continuously escaping from gaps. A physician leans in to inspect and shouts loudly toward the back: \"¡Rápido, al quirófano!\". Blurred figures move quickly in the background, forming motion layers. Warm torchlight and cold steam interweave. The camera makes a short push-in, compressing the sense of crisis immediately.",
+      "The scene transitions. Shot 4 cuts sharply to alchemy preparation, a medium-close overhead shot of the alchemy table. Glassware, metal tongs, pestle, and glowing powder form a dense foreground. A pair of gloved hands quickly prepares blue liquid, swirling brightly in the flask. Surrounding crystals reflect cold blue highlights. The camera performs a slight orbit, making the alchemy liquid color the visual focus of this shot.",
+      "The scene transitions. Shot 5 connects via color-matched hard cut from the previous shot, an extreme close-up eye-level shot of one side of the car’s headlight. Shallow depth of field blurs the rest of the body. The headlight flickers like a dying pupil, its surface raindrops and dust cut into tiny bright spots by high-saturation blue-orange reflections. Distant echoes of cart and tool impacts remain. The camera slowly pushes in, bringing the near-extinction state to the forefront.",
+      "The scene transitions. Shot 6 cuts sharply into repair, a close-up overhead composition focused on the car body on the operating table. Hands wearing rune-gloves slice along existing cracks, small sparks and faint rune glows spreading along the incision. Foreground shows lifted metal plate. Background shows hazy torchlight. The cutting action has clear beginning, development, turn, and conclusion. The camera horizontally slides following hand movement, slightly faster, reinforcing surgical urgency.",
+      "The scene transitions. Shot 7 cuts sharply into internal status, an extreme close-up eye-level shot of gears and crystal core components inside the car body. Foreground gear teeth are coated with moisture and dust. Midground blue-glowing crystal flickers intermittently. Background shows blurred dancing firelight. Several parts gradually lose stability under low-frequency vibrations. Tiny tremors and stutters are magnified by macro lens. The camera makes an extremely short forward move, letting viewers directly feel the worsening malfunction.",
+      "The scene transitions. An assistant urgently leans in from the right side of the frame, reporting to the physician: \"Pulso inestable\". Warm torchlight outlines edges, blue internal light illuminates the lower half of the assistant’s face. Background tool rack is slightly blurred. The camera first focuses on the speaker, then quickly shifts focus to the physician’s hand movement, creating immediate pressure.",
+      "The scene transitions. Shot 9 cuts sharply into climax, a close-up overhead shot of the core position. Two conductor devices aim at the core inside the car body. A blue-white electric arc suddenly discharges. Electric light instantly illuminates the entire metal cavity. Crystal surface shows pulse-like changes from dark to bright. Gears are briefly lifted by current, then re-engaged. In the The camera first rapidly dives down, then slightly tilts up, creating a clear sense of energy release.",
+      "The scene transitions. Shot 10 cuts sharply into character reaction, a close-up low angle shot of the lead physician. Half his face is lit by torchlight, the other half sliced by blue electric glow. Sweat on his forehead reflects highlight. Background figures continue busy motions. The camera slightly handheld pushes in, focusing emotion from chaotic surroundings onto a single command.",
+      "The scene transitions. Shot 11 connects via action-continuous hard cut, shifting to a medium-wide eye-level view of collaborative work around the operating table. Several attendants and assistants seal the car body from multiple directions. Foreground shows a panel about to be snapped into place. Midground displays multiple hands simultaneously tightening, pressing, and aligning. Background reveals torches and stone vaults. Blue runes briefly flow along seams before stabilizing. The camera performs a semi-circular orbit around the table, showcasing group collaboration.",
+      "The scene transitions. Shot 12 cuts sharply to awakening signal, a close-up eye-level shot of the dashboard. Foreground needle stops momentarily then trembles. Midground symbols and markings light up one by one, becoming the visual core. Background shows blurred figures pausing, then exhaling relief. Cold blue dashboard light and external warm torchlight jointly illuminate the interior frame. The camera slowly pushes in, grounding the change in “恢复生命体征”.",
+      "The scene transitions. Shot 13 concludes with a brief fade-in/fade-out, transitioning emotionally. A wide low-angle shot from outside the operating room looks into the castle courtyard bathed in morning light. Foreground shows the heavy iron door being pushed open, ground still bearing traces of night rain. Golden dawn light pours through the gap, naturally blending with the persistent cold blue tone. Midground shows the recently revived car slowly driving out of the operating room at controlled, steady speed. Background shows people standing inside, watching. Torchlight gradually gives way to dawn light. The camera slowly pulls back and gently rises, ending this magical emergency with a tense yet lingeringly warm finale."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 132,
+    "sample_id": "132",
+    "prompts": [
+      "Shot 1 shows Elderly woman in Morning misty path at forest entrance, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Wide shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also prepare a natural visual connection toward Forest clearing.",
+      "Shot 2 shows Elderly woman in Forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Morning misty path at forest entrance and prepare a natural visual connection toward Another side of the same forest clearing.",
+      "Shot 3 shows Elderly woman in Another side of the same forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Forest clearing and prepare a natural visual connection toward Center of forest clearing.",
+      "Shot 4 shows Elderly woman in Center of forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Small circular movement camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Another side of the same forest clearing and prepare a natural visual connection toward Edge of wooden boardwalk leading to sea cliff.",
+      "Shot 5 shows Elderly woman in Edge of wooden boardwalk leading to sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Center of forest clearing and prepare a natural visual connection toward Other end of wooden boardwalk.",
+      "Shot 6 shows Elderly woman in Other end of wooden boardwalk, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slight pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of wooden boardwalk leading to sea cliff and prepare a natural visual connection toward Wooden boardwalk passing through forest.",
+      "Shot 7 shows Elderly woman in Wooden boardwalk passing through forest, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Natural light lighting. Use a Medium shot from a Side-on eye-level shot perspective, with Pan follow shot camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Other end of wooden boardwalk and prepare a natural visual connection toward Sea cliff viewing platform.",
+      "Shot 8 shows Elderly woman in Sea cliff viewing platform, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Wide shot from a Slight low-angle shot perspective, with Slow pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Wooden boardwalk passing through forest and prepare a natural visual connection toward Edge of sea cliff.",
+      "Shot 9 shows Elderly woman in Edge of sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Backlit silhouette lighting. Use a Medium shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Sea cliff viewing platform and prepare a natural visual connection toward Stone steps descending to seaside.",
+      "Shot 10 shows Elderly woman in Stone steps descending to seaside, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Close-up from an Overhead shot perspective, with Follow shot downward camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of sea cliff and prepare a natural visual connection toward Shallow beach area.",
+      "Shot 11 shows Elderly woman in Shallow beach area, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Stone steps descending to seaside and prepare a natural visual connection toward Wet sand before waves crashing ashore.",
+      "Shot 12 shows Elderly woman in Wet sand before waves crashing ashore, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft backlight lighting. Use a Close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Shallow beach area and prepare a natural visual connection toward Entire seaside under sunset.",
+      "Shot 13 fades out with a pull-back from the previous shot, wide eye-level static shot locks onto the sunset seaside, composition includes forest path, boardwalk, stone steps, and seaside space forming a complete retrospective view in the distance, two singers stand side by side as small silhouettes, surrounding audience still sparsely clapping, sea surface reflects warm and stable light, natural and backlight continue to unify the visual tone of the entire film,"
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 shows Elderly woman in Morning misty path at forest entrance, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Wide shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also prepare a natural visual connection toward Forest clearing.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 shows Elderly woman in Forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Morning misty path at forest entrance and prepare a natural visual connection toward Another side of the same forest clearing.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 shows Elderly woman in Another side of the same forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Forest clearing and prepare a natural visual connection toward Center of forest clearing.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 shows Elderly woman in Center of forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Small circular movement camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Another side of the same forest clearing and prepare a natural visual connection toward Edge of wooden boardwalk leading to sea cliff.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 shows Elderly woman in Edge of wooden boardwalk leading to sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Center of forest clearing and prepare a natural visual connection toward Other end of wooden boardwalk.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 shows Elderly woman in Other end of wooden boardwalk, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slight pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of wooden boardwalk leading to sea cliff and prepare a natural visual connection toward Wooden boardwalk passing through forest.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 shows Elderly woman in Wooden boardwalk passing through forest, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Natural light lighting. Use a Medium shot from a Side-on eye-level shot perspective, with Pan follow shot camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Other end of wooden boardwalk and prepare a natural visual connection toward Sea cliff viewing platform.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 shows Elderly woman in Sea cliff viewing platform, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Wide shot from a Slight low-angle shot perspective, with Slow pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Wooden boardwalk passing through forest and prepare a natural visual connection toward Edge of sea cliff.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 shows Elderly woman in Edge of sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Backlit silhouette lighting. Use a Medium shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Sea cliff viewing platform and prepare a natural visual connection toward Stone steps descending to seaside.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 shows Elderly woman in Stone steps descending to seaside, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Close-up from an Overhead shot perspective, with Follow shot downward camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of sea cliff and prepare a natural visual connection toward Shallow beach area.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 shows Elderly woman in Shallow beach area, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Stone steps descending to seaside and prepare a natural visual connection toward Wet sand before waves crashing ashore.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 shows Elderly woman in Wet sand before waves crashing ashore, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft backlight lighting. Use a Close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Shallow beach area and prepare a natural visual connection toward Entire seaside under sunset.",
+        "source_video_frames": 23,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 fades out with a pull-back from the previous shot, wide eye-level static shot locks onto the sunset seaside, composition includes forest path, boardwalk, stone steps, and seaside space forming a complete retrospective view in the distance, two singers stand side by side as small silhouettes, surrounding audience still sparsely clapping, sea surface reflects warm and stable light, natural and backlight continue to unify the visual tone of the entire film,",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      20,
+      17,
+      18,
+      17,
+      18,
+      18,
+      17,
+      18,
+      19,
+      16,
+      19,
+      23,
+      20
+    ],
+    "latent_frames_per_shot": [
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      7,
+      6
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 shows Elderly woman in Morning misty path at forest entrance, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Wide shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also prepare a natural visual connection toward Forest clearing.",
+      "The scene transitions. Shot 2 shows Elderly woman in Forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Morning misty path at forest entrance and prepare a natural visual connection toward Another side of the same forest clearing.",
+      "The scene transitions. Shot 3 shows Elderly woman in Another side of the same forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft natural light lighting. Use a Close-up from an Eye-level shot perspective, with Slight pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Forest clearing and prepare a natural visual connection toward Center of forest clearing.",
+      "The scene transitions. Shot 4 shows Elderly woman in Center of forest clearing, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Small circular movement camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Another side of the same forest clearing and prepare a natural visual connection toward Edge of wooden boardwalk leading to sea cliff.",
+      "The scene transitions. Shot 5 shows Elderly woman in Edge of wooden boardwalk leading to sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Center of forest clearing and prepare a natural visual connection toward Other end of wooden boardwalk.",
+      "The scene transitions. Shot 6 shows Elderly woman in Other end of wooden boardwalk, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour side lighting lighting. Use an Extreme close-up from an Eye-level shot perspective, with Slight pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of wooden boardwalk leading to sea cliff and prepare a natural visual connection toward Wooden boardwalk passing through forest.",
+      "The scene transitions. Shot 7 shows Elderly woman in Wooden boardwalk passing through forest, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Natural light lighting. Use a Medium shot from a Side-on eye-level shot perspective, with Pan follow shot camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Other end of wooden boardwalk and prepare a natural visual connection toward Sea cliff viewing platform.",
+      "The scene transitions. Shot 8 shows Elderly woman in Sea cliff viewing platform, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Wide shot from a Slight low-angle shot perspective, with Slow pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Wooden boardwalk passing through forest and prepare a natural visual connection toward Edge of sea cliff.",
+      "The scene transitions. Shot 9 shows Elderly woman in Edge of sea cliff, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Backlit silhouette lighting. Use a Medium shot from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Sea cliff viewing platform and prepare a natural visual connection toward Stone steps descending to seaside.",
+      "The scene transitions. Shot 10 shows Elderly woman in Stone steps descending to seaside, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour backlight lighting. Use a Close-up from an Overhead shot perspective, with Follow shot downward camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Edge of sea cliff and prepare a natural visual connection toward Shallow beach area.",
+      "The scene transitions. Shot 11 shows Elderly woman in Shallow beach area, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Golden hour lighting lighting. Use a Medium shot from an Eye-level shot perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Stone steps descending to seaside and prepare a natural visual connection toward Wet sand before waves crashing ashore.",
+      "The scene transitions. Shot 12 shows Elderly woman in Wet sand before waves crashing ashore, within a Natural scenery (forest / seaside / mountain top / desert / snowy mountain) setting. The image should maintain Realistic style, Warm color tone, Soft backlight lighting. Use a Close-up from an Eye-level shot perspective, with Slow push-in camera movement, entering through a Fade in/out transition. Frame the subject as part of a Male-female duet (alternating microphones / harmonized lip-syncing); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Shallow beach area and prepare a natural visual connection toward Entire seaside under sunset.",
+      "The scene transitions. Shot 13 fades out with a pull-back from the previous shot, wide eye-level static shot locks onto the sunset seaside, composition includes forest path, boardwalk, stone steps, and seaside space forming a complete retrospective view in the distance, two singers stand side by side as small silhouettes, surrounding audience still sparsely clapping, sea surface reflects warm and stable light, natural and backlight continue to unify the visual tone of the entire film,"
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 156,
+    "sample_id": "156",
+    "prompts": [
+      "Shot 1 opens with a fade-in, a long shot at eye level following the subject, showing an African American street saxophonist walking from a street corner toward a crossroads lit by emerging neon lights. Twilight evenly covers the pavement, outlined by neon edges. His steps are steady, with his clothing and suspenders gently swaying. The camera smoothly follows him from behind and slightly to the side as he crosses the crosswalk.",
+      "Shot 2 cuts hard from the previous shot to a medium shot at eye level, framing him on the sidewalk beside the intersection. Storefronts and streetlights appear softly blurred in the background. He stops, squats down, and opens the instrument case. Neon reflects off the velvet interior and metal clasps. Scattered applause remains faintly in the distance. The camera makes a slight push-in to allow viewers to see his hands retrieving the saxophone.",
+      "Shot 3 transitions via action match cut to a close-up from a slightly overhead angle, focusing on the saxophone's curved body and keys. With shallow depth of field, the background reduces to flowing neon color blocks. Mixed warm and cool reflections glide across the metal surface. He holds the instrument steady with his thumb while quickly testing the keys with the other hand. The camera gently pans across the keys and engravings, emphasizing material texture and meticulous pre-performance checks.",
+      "Shot 4 connects via J-cut: the The subject’s face and upper body dominate the frame, with neon signs in the background creating soft bokeh. Twilight enhances skin tone and facial contours, making them look natural and full. The camera pushes in very closely to enhance presence.",
+      "Shot 5 cuts hard from the previous shot into a close-up from a side-eye-level angle, including both the neck of the instrument and his chest. His chest expands and shoulders rise slightly.",
+      "Shot 6 matches the previous shot with a cut to a close-up from a front-side eye-level angle, focusing precisely on the lips, reed, and ligature contact point. Shallow depth of field blurs the entire city into soft light spots. Neon flashes bright highlights along the edge of the reed. He presses his lips onto the reed, subtly adjusting angle and pressure. Facial muscles engage in preparation. The camera makes only slight tilt adjustments to follow this precise motion.",
+      "Shot 7 cuts hard at the moment of Foreground shows dancing fingertips; background features the high-gloss trajectory of the metal tube on his chest. Key rebound, pad opening/closing, and subtle tension in the back of the hand are all clearly visible.",
+      "Shot 8 cuts to a medium shot at eye level with a pan, not directly facing the subject but capturing his reflection in the window. The real person glides past the edge of the frame, while the reflection becomes the visual focus. The glass overlays neon, streetlights, and his silhouette playing, forming layered urban textures.",
+      "Shot 9 cuts hard from the previous shot to a low-angle close-up, looking upward from beneath the instrument. The saxophone bell and the subject’s face become the visual center. The background shows the boundary between newly lit neon and twilight sky, with edge lighting more distinctly outlining the silhouette. He lifts the instrument into a sustained high note, neck and cheeks tensing, eyes focused upward. As the note continues, reflections shift across the metal surface. The camera slowly pushes upward with a slight circular motion, amplifying the peak tension.",
+      "Shot 10 cuts quickly at a rhythmic break to an overhead close-up, showing only the shoe tip and pavement. The edge of the crosswalk and tile gaps form a clear geometric composition. Warm streetlights cast short shadows.",
+      "Shot 11 cuts back via continuous action to a close-up from a side-eye-level angle, framing the face, chest, and part of the keys within the same shot. The background remains consistent with neon bokeh and blurred pedestrian flow lines. Lips and cheeks show noticeable changes in controlling airflow. The new short phrase is softer and rounder than the previous one.",
+      "Shot 12 fades from the previous shot to a long shot at eye level, placing the subject back into the overall neon-lit intersection environment. Blurred shoulders and backs of occasional onlookers pass in the foreground, while car lights and signs in the background create a flickering urban atmosphere. The camera slowly retreats, reintegrating the performance into the street scene.",
+      "Shot 13 cuts hard from the previous shot to a close-up at eye level for the finale, focusing back on his face and the recently lowered saxophone. Metallic highlights still shimmer with lingering resonance. Neon edge lighting gently outlines his profile. He smiles and lowers the instrument, shoulders relaxing naturally. Applause gently supports the ending after the phrase. The camera makes a minimal push-in and holds on the smile and instrument reflection to complete the closure."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, a long shot at eye level following the subject, showing an African American street saxophonist walking from a street corner toward a crossroads lit by emerging neon lights. Twilight evenly covers the pavement, outlined by neon edges. His steps are steady, with his clothing and suspenders gently swaying. The camera smoothly follows him from behind and slightly to the side as he crosses the crosswalk.",
+        "source_video_frames": 22,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot to a medium shot at eye level, framing him on the sidewalk beside the intersection. Storefronts and streetlights appear softly blurred in the background. He stops, squats down, and opens the instrument case. Neon reflects off the velvet interior and metal clasps. Scattered applause remains faintly in the distance. The camera makes a slight push-in to allow viewers to see his hands retrieving the saxophone.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 transitions via action match cut to a close-up from a slightly overhead angle, focusing on the saxophone's curved body and keys. With shallow depth of field, the background reduces to flowing neon color blocks. Mixed warm and cool reflections glide across the metal surface. He holds the instrument steady with his thumb while quickly testing the keys with the other hand. The camera gently pans across the keys and engravings, emphasizing material texture and meticulous pre-performance checks.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 connects via J-cut: the The subject’s face and upper body dominate the frame, with neon signs in the background creating soft bokeh. Twilight enhances skin tone and facial contours, making them look natural and full. The camera pushes in very closely to enhance presence.",
+        "source_video_frames": 12,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard from the previous shot into a close-up from a side-eye-level angle, including both the neck of the instrument and his chest. His chest expands and shoulders rise slightly.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 matches the previous shot with a cut to a close-up from a front-side eye-level angle, focusing precisely on the lips, reed, and ligature contact point. Shallow depth of field blurs the entire city into soft light spots. Neon flashes bright highlights along the edge of the reed. He presses his lips onto the reed, subtly adjusting angle and pressure. Facial muscles engage in preparation. The camera makes only slight tilt adjustments to follow this precise motion.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 cuts hard at the moment of Foreground shows dancing fingertips; background features the high-gloss trajectory of the metal tube on his chest. Key rebound, pad opening/closing, and subtle tension in the back of the hand are all clearly visible.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 cuts to a medium shot at eye level with a pan, not directly facing the subject but capturing his reflection in the window. The real person glides past the edge of the frame, while the reflection becomes the visual focus. The glass overlays neon, streetlights, and his silhouette playing, forming layered urban textures.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 cuts hard from the previous shot to a low-angle close-up, looking upward from beneath the instrument. The saxophone bell and the subject’s face become the visual center. The background shows the boundary between newly lit neon and twilight sky, with edge lighting more distinctly outlining the silhouette. He lifts the instrument into a sustained high note, neck and cheeks tensing, eyes focused upward. As the note continues, reflections shift across the metal surface. The camera slowly pushes upward with a slight circular motion, amplifying the peak tension.",
+        "source_video_frames": 30,
+        "latent_frames": 8,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts quickly at a rhythmic break to an overhead close-up, showing only the shoe tip and pavement. The edge of the crosswalk and tile gaps form a clear geometric composition. Warm streetlights cast short shadows.",
+        "source_video_frames": 13,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts back via continuous action to a close-up from a side-eye-level angle, framing the face, chest, and part of the keys within the same shot. The background remains consistent with neon bokeh and blurred pedestrian flow lines. Lips and cheeks show noticeable changes in controlling airflow. The new short phrase is softer and rounder than the previous one.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 fades from the previous shot to a long shot at eye level, placing the subject back into the overall neon-lit intersection environment. Blurred shoulders and backs of occasional onlookers pass in the foreground, while car lights and signs in the background create a flickering urban atmosphere. The camera slowly retreats, reintegrating the performance into the street scene.",
+        "source_video_frames": 29,
+        "latent_frames": 8,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 cuts hard from the previous shot to a close-up at eye level for the finale, focusing back on his face and the recently lowered saxophone. Metallic highlights still shimmer with lingering resonance. Neon edge lighting gently outlines his profile. He smiles and lowers the instrument, shoulders relaxing naturally. Applause gently supports the ending after the phrase. The camera makes a minimal push-in and holds on the smile and instrument reflection to complete the closure.",
+        "source_video_frames": 15,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      22,
+      17,
+      13,
+      12,
+      14,
+      14,
+      20,
+      20,
+      30,
+      13,
+      21,
+      29,
+      15
+    ],
+    "latent_frames_per_shot": [
+      6,
+      5,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      8,
+      4,
+      6,
+      8,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, a long shot at eye level following the subject, showing an African American street saxophonist walking from a street corner toward a crossroads lit by emerging neon lights. Twilight evenly covers the pavement, outlined by neon edges. His steps are steady, with his clothing and suspenders gently swaying. The camera smoothly follows him from behind and slightly to the side as he crosses the crosswalk.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot to a medium shot at eye level, framing him on the sidewalk beside the intersection. Storefronts and streetlights appear softly blurred in the background. He stops, squats down, and opens the instrument case. Neon reflects off the velvet interior and metal clasps. Scattered applause remains faintly in the distance. The camera makes a slight push-in to allow viewers to see his hands retrieving the saxophone.",
+      "The scene transitions. Shot 3 transitions via action match cut to a close-up from a slightly overhead angle, focusing on the saxophone's curved body and keys. With shallow depth of field, the background reduces to flowing neon color blocks. Mixed warm and cool reflections glide across the metal surface. He holds the instrument steady with his thumb while quickly testing the keys with the other hand. The camera gently pans across the keys and engravings, emphasizing material texture and meticulous pre-performance checks.",
+      "The scene transitions. Shot 4 connects via J-cut: the The subject’s face and upper body dominate the frame, with neon signs in the background creating soft bokeh. Twilight enhances skin tone and facial contours, making them look natural and full. The camera pushes in very closely to enhance presence.",
+      "The scene transitions. Shot 5 cuts hard from the previous shot into a close-up from a side-eye-level angle, including both the neck of the instrument and his chest. His chest expands and shoulders rise slightly.",
+      "The scene transitions. Shot 6 matches the previous shot with a cut to a close-up from a front-side eye-level angle, focusing precisely on the lips, reed, and ligature contact point. Shallow depth of field blurs the entire city into soft light spots. Neon flashes bright highlights along the edge of the reed. He presses his lips onto the reed, subtly adjusting angle and pressure. Facial muscles engage in preparation. The camera makes only slight tilt adjustments to follow this precise motion.",
+      "The scene transitions. Shot 7 cuts hard at the moment of Foreground shows dancing fingertips; background features the high-gloss trajectory of the metal tube on his chest. Key rebound, pad opening/closing, and subtle tension in the back of the hand are all clearly visible.",
+      "The scene transitions. Shot 8 cuts to a medium shot at eye level with a pan, not directly facing the subject but capturing his reflection in the window. The real person glides past the edge of the frame, while the reflection becomes the visual focus. The glass overlays neon, streetlights, and his silhouette playing, forming layered urban textures.",
+      "The scene transitions. Shot 9 cuts hard from the previous shot to a low-angle close-up, looking upward from beneath the instrument. The saxophone bell and the subject’s face become the visual center. The background shows the boundary between newly lit neon and twilight sky, with edge lighting more distinctly outlining the silhouette. He lifts the instrument into a sustained high note, neck and cheeks tensing, eyes focused upward. As the note continues, reflections shift across the metal surface. The camera slowly pushes upward with a slight circular motion, amplifying the peak tension.",
+      "The scene transitions. Shot 10 cuts quickly at a rhythmic break to an overhead close-up, showing only the shoe tip and pavement. The edge of the crosswalk and tile gaps form a clear geometric composition. Warm streetlights cast short shadows.",
+      "The scene transitions. Shot 11 cuts back via continuous action to a close-up from a side-eye-level angle, framing the face, chest, and part of the keys within the same shot. The background remains consistent with neon bokeh and blurred pedestrian flow lines. Lips and cheeks show noticeable changes in controlling airflow. The new short phrase is softer and rounder than the previous one.",
+      "The scene transitions. Shot 12 fades from the previous shot to a long shot at eye level, placing the subject back into the overall neon-lit intersection environment. Blurred shoulders and backs of occasional onlookers pass in the foreground, while car lights and signs in the background create a flickering urban atmosphere. The camera slowly retreats, reintegrating the performance into the street scene.",
+      "The scene transitions. Shot 13 cuts hard from the previous shot to a close-up at eye level for the finale, focusing back on his face and the recently lowered saxophone. Metallic highlights still shimmer with lingering resonance. Neon edge lighting gently outlines his profile. He smiles and lowers the instrument, shoulders relaxing naturally. Applause gently supports the ending after the phrase. The camera makes a minimal push-in and holds on the smile and instrument reflection to complete the closure."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 70,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 186,
+    "sample_id": "186",
+    "prompts": [
+      "Shot 1 opens with a fade-in, wide-angle overhead composition, where the forest path is diagonally guided toward the center by surrounding trees and distant sea. Foreground features blurred warm-colored leaves, midground shows the path, and background faintly reveals the coastline in the direction of the sunset. Three small sprites with backpacks run from different directions to meet, stopping under soft evening light to see each other. The camera slowly lowers and pushes forward along the path, establishing a cheerful atmosphere of reunion.",
+      "Warm light filters through tree gaps. Its smile lifts at the end of the sentence, while the others show expressions of thoughtfulness and disagreement. Leaves rustle beneath their feet. The camera slightly pushes in to emphasize the moment the suggestion is made.",
+      "Shot 3 uses a reverse-angle hard cut from the previous shot, close-up eye-level slightly right-composed, with the right sprite as the focus. The left sprite's shoulder silhouette remains in the foreground to create an over-the-shoulder perspective. Background remains consistent forest slope and bright horizon. The left sprite subtly shakes its head in disagreement in the foreground, while the middle one’s eyes dart back and forth in the background. A gentle breeze rustles leaves. The camera slightly pans horizontally to follow the speaker’s head motion.",
+      "Shot 4 cuts abruptly from the previous shot, featuring a medium close-up, eye-level frontal group composition. The central sprite stands in the middle of the frame, with one on the left and one on the right occupying opposite sides, creating a balanced, confrontational arrangement. Warm sunset light illuminates its large eyes. ' The sprite on the left immediately tries to respond, while the one on the right gestures with a hand, but both pause momentarily. Smiles begin to form. The three small backpacks gently sway.",
+      "Shot 5 connects via action-matched editing, wide-angle eye-level tracking shot, as the three sprites finally walk and talk, moving side-by-side along the forest path. Fast-moving tree trunks in the foreground create a sense of speed. Midground shows alternating steps and bouncing backpacks. In the background, the entrance to a small wooden bridge connecting the hillside to the seaside is visible. Lighting remains consistent warm sunset glow. The camera moves at low level, smoothly following their direction.",
+      "The three sprites step onto the bridge one after another. The left one turns back first, indicating the sea. The right one defiantly gestures uphill. The middle one reluctantly follows.",
+      "The middle sprite laughs beside it. The slope begins to steepen. Background transitions from bridgehead to rocky trail with sea wind blowing in. Sunset light from the side-rear outlines ears and backpack edges. The right sprite continues speaking in fragmented Chinese, insisting on its opinion. The left sprite shrugs its shoulder in the foreground, showing disagreement. The middle one laughs aloud. The camera slightly tilts up to follow their climbing body movements.",
+      "Shot 8 enters via a fade cut, medium overhead group shot, as the three sprites pause halfway at a fork in the road. The split paths form a distinct V-shape in the composition—one leading down to the visible coastline, the other ascending higher. Warm twilight hues deepen. Wind grows slightly louder. Backpack straps continue swinging due to momentum. The left points toward the seaside path, the right toward the high path, the middle stands in the center, looking both ways. The camera slowly lowers from above, clearly marking the decision point.",
+      "Shot 9 cuts abruptly from the previous shot, a close-up at eye level, with the central character standing at the cliff's edge in the foreground, backed by a sea and sky bathed in golden-orange hues from the setting sun. The other two characters are positioned on either side, slightly within the frame. The central character squints into the wind, their ears and backpack straps fluttering gently, then quickly turns their head to ask, 'Should we look at the sea first or the clouds? The two side characters pause momentarily, then exchange glances.",
+      "Shot 10 uses a reverse-angle hard cut, medium-close eye-level dual-character composition, with both left and right sprites entering sharp focus. A slight blur of the middle sprite’s head appears in the foreground to establish spatial depth. The middle sprite trembles slightly in the foreground, as if finally receiving an answer. The camera quickly micro-pushes to create a climactic burst of shared decision.",
+      "Shot 11 follows with a hard cut, close-up eye-level group shot, three faces crowded into the frame, foreground-background compression focusing attention on eye contact. Warm backlight softly outlines their silhouettes. Tiny nose tips and cheeks are illuminated by the sunset. The camera gently pulls back, allowing the transition from tension to resolution to unfold naturally.",
+      "Shot 12 shows Big-Eyed Cute Creatures / Sprites in Downhill Trail Leading to the Sea, within a Natural Scenery (Forest / Seaside / Mountain Top / Desert / Snow-Covered Mountains) setting. The image should maintain Anime Style, Warm Color Tone, Golden hour natural light lighting. Use a Wide Shot from an Overhead Shot perspective, with Follow dive camera movement, entering through a Hard Cut transition. Frame the subject as part of a Three-way Interaction (Frequent Eye Contact Switching Between Two Characters); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Turning Around at Cliffside to Prepare for Descent and prepare a natural visual connection toward Sunset beach by the sea.",
+      "Shot 13 transitions with a fade-in/fade-out deceleration from the previous shot, featuring a medium-long static rear view composition. The frame is filled with sandy beach and sea surface, with three fairies sitting side by side in the lower center. In the foreground, fine sand is warmed by the evening light, while the background shows gently rolling waves and low-hanging twilight clouds. The overall lighting remains soft, warm, and natural. After running, their bodies gradually calm down, shoulders softly rising and falling. The other two nod subtly and share a quiet smile. The camera slowly pulls back at an extremely gradual pace, leaving the trio's shared arrival on the sunset-lit beach."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, wide-angle overhead composition, where the forest path is diagonally guided toward the center by surrounding trees and distant sea. Foreground features blurred warm-colored leaves, midground shows the path, and background faintly reveals the coastline in the direction of the sunset. Three small sprites with backpacks run from different directions to meet, stopping under soft evening light to see each other. The camera slowly lowers and pushes forward along the path, establishing a cheerful atmosphere of reunion.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Warm light filters through tree gaps. Its smile lifts at the end of the sentence, while the others show expressions of thoughtfulness and disagreement. Leaves rustle beneath their feet. The camera slightly pushes in to emphasize the moment the suggestion is made.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 uses a reverse-angle hard cut from the previous shot, close-up eye-level slightly right-composed, with the right sprite as the focus. The left sprite's shoulder silhouette remains in the foreground to create an over-the-shoulder perspective. Background remains consistent forest slope and bright horizon. The left sprite subtly shakes its head in disagreement in the foreground, while the middle one’s eyes dart back and forth in the background. A gentle breeze rustles leaves. The camera slightly pans horizontally to follow the speaker’s head motion.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts abruptly from the previous shot, featuring a medium close-up, eye-level frontal group composition. The central sprite stands in the middle of the frame, with one on the left and one on the right occupying opposite sides, creating a balanced, confrontational arrangement. Warm sunset light illuminates its large eyes. ' The sprite on the left immediately tries to respond, while the one on the right gestures with a hand, but both pause momentarily. Smiles begin to form. The three small backpacks gently sway.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 connects via action-matched editing, wide-angle eye-level tracking shot, as the three sprites finally walk and talk, moving side-by-side along the forest path. Fast-moving tree trunks in the foreground create a sense of speed. Midground shows alternating steps and bouncing backpacks. In the background, the entrance to a small wooden bridge connecting the hillside to the seaside is visible. Lighting remains consistent warm sunset glow. The camera moves at low level, smoothly following their direction.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "The three sprites step onto the bridge one after another. The left one turns back first, indicating the sea. The right one defiantly gestures uphill. The middle one reluctantly follows.",
+        "source_video_frames": 16,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "The middle sprite laughs beside it. The slope begins to steepen. Background transitions from bridgehead to rocky trail with sea wind blowing in. Sunset light from the side-rear outlines ears and backpack edges. The right sprite continues speaking in fragmented Chinese, insisting on its opinion. The left sprite shrugs its shoulder in the foreground, showing disagreement. The middle one laughs aloud. The camera slightly tilts up to follow their climbing body movements.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 enters via a fade cut, medium overhead group shot, as the three sprites pause halfway at a fork in the road. The split paths form a distinct V-shape in the composition—one leading down to the visible coastline, the other ascending higher. Warm twilight hues deepen. Wind grows slightly louder. Backpack straps continue swinging due to momentum. The left points toward the seaside path, the right toward the high path, the middle stands in the center, looking both ways. The camera slowly lowers from above, clearly marking the decision point.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 cuts abruptly from the previous shot, a close-up at eye level, with the central character standing at the cliff's edge in the foreground, backed by a sea and sky bathed in golden-orange hues from the setting sun. The other two characters are positioned on either side, slightly within the frame. The central character squints into the wind, their ears and backpack straps fluttering gently, then quickly turns their head to ask, 'Should we look at the sea first or the clouds? The two side characters pause momentarily, then exchange glances.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 uses a reverse-angle hard cut, medium-close eye-level dual-character composition, with both left and right sprites entering sharp focus. A slight blur of the middle sprite’s head appears in the foreground to establish spatial depth. The middle sprite trembles slightly in the foreground, as if finally receiving an answer. The camera quickly micro-pushes to create a climactic burst of shared decision.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 follows with a hard cut, close-up eye-level group shot, three faces crowded into the frame, foreground-background compression focusing attention on eye contact. Warm backlight softly outlines their silhouettes. Tiny nose tips and cheeks are illuminated by the sunset. The camera gently pulls back, allowing the transition from tension to resolution to unfold naturally.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 shows Big-Eyed Cute Creatures / Sprites in Downhill Trail Leading to the Sea, within a Natural Scenery (Forest / Seaside / Mountain Top / Desert / Snow-Covered Mountains) setting. The image should maintain Anime Style, Warm Color Tone, Golden hour natural light lighting. Use a Wide Shot from an Overhead Shot perspective, with Follow dive camera movement, entering through a Hard Cut transition. Frame the subject as part of a Three-way Interaction (Frequent Eye Contact Switching Between Two Characters); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Turning Around at Cliffside to Prepare for Descent and prepare a natural visual connection toward Sunset beach by the sea.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 transitions with a fade-in/fade-out deceleration from the previous shot, featuring a medium-long static rear view composition. The frame is filled with sandy beach and sea surface, with three fairies sitting side by side in the lower center. In the foreground, fine sand is warmed by the evening light, while the background shows gently rolling waves and low-hanging twilight clouds. The overall lighting remains soft, warm, and natural. After running, their bodies gradually calm down, shoulders softly rising and falling. The other two nod subtly and share a quiet smile. The camera slowly pulls back at an extremely gradual pace, leaving the trio's shared arrival on the sunset-lit beach.",
+        "source_video_frames": 36,
+        "latent_frames": 10,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      18,
+      16,
+      16,
+      18,
+      16,
+      16,
+      19,
+      17,
+      20,
+      14,
+      14,
+      20,
+      36
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      4,
+      4,
+      6,
+      10
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, wide-angle overhead composition, where the forest path is diagonally guided toward the center by surrounding trees and distant sea. Foreground features blurred warm-colored leaves, midground shows the path, and background faintly reveals the coastline in the direction of the sunset. Three small sprites with backpacks run from different directions to meet, stopping under soft evening light to see each other. The camera slowly lowers and pushes forward along the path, establishing a cheerful atmosphere of reunion.",
+      "The scene transitions. Warm light filters through tree gaps. Its smile lifts at the end of the sentence, while the others show expressions of thoughtfulness and disagreement. Leaves rustle beneath their feet. The camera slightly pushes in to emphasize the moment the suggestion is made.",
+      "The scene transitions. Shot 3 uses a reverse-angle hard cut from the previous shot, close-up eye-level slightly right-composed, with the right sprite as the focus. The left sprite's shoulder silhouette remains in the foreground to create an over-the-shoulder perspective. Background remains consistent forest slope and bright horizon. The left sprite subtly shakes its head in disagreement in the foreground, while the middle one’s eyes dart back and forth in the background. A gentle breeze rustles leaves. The camera slightly pans horizontally to follow the speaker’s head motion.",
+      "The scene transitions. Shot 4 cuts abruptly from the previous shot, featuring a medium close-up, eye-level frontal group composition. The central sprite stands in the middle of the frame, with one on the left and one on the right occupying opposite sides, creating a balanced, confrontational arrangement. Warm sunset light illuminates its large eyes. ' The sprite on the left immediately tries to respond, while the one on the right gestures with a hand, but both pause momentarily. Smiles begin to form. The three small backpacks gently sway.",
+      "The scene transitions. Shot 5 connects via action-matched editing, wide-angle eye-level tracking shot, as the three sprites finally walk and talk, moving side-by-side along the forest path. Fast-moving tree trunks in the foreground create a sense of speed. Midground shows alternating steps and bouncing backpacks. In the background, the entrance to a small wooden bridge connecting the hillside to the seaside is visible. Lighting remains consistent warm sunset glow. The camera moves at low level, smoothly following their direction.",
+      "The scene transitions. The three sprites step onto the bridge one after another. The left one turns back first, indicating the sea. The right one defiantly gestures uphill. The middle one reluctantly follows.",
+      "The scene transitions. The middle sprite laughs beside it. The slope begins to steepen. Background transitions from bridgehead to rocky trail with sea wind blowing in. Sunset light from the side-rear outlines ears and backpack edges. The right sprite continues speaking in fragmented Chinese, insisting on its opinion. The left sprite shrugs its shoulder in the foreground, showing disagreement. The middle one laughs aloud. The camera slightly tilts up to follow their climbing body movements.",
+      "The scene transitions. Shot 8 enters via a fade cut, medium overhead group shot, as the three sprites pause halfway at a fork in the road. The split paths form a distinct V-shape in the composition—one leading down to the visible coastline, the other ascending higher. Warm twilight hues deepen. Wind grows slightly louder. Backpack straps continue swinging due to momentum. The left points toward the seaside path, the right toward the high path, the middle stands in the center, looking both ways. The camera slowly lowers from above, clearly marking the decision point.",
+      "The scene transitions. Shot 9 cuts abruptly from the previous shot, a close-up at eye level, with the central character standing at the cliff's edge in the foreground, backed by a sea and sky bathed in golden-orange hues from the setting sun. The other two characters are positioned on either side, slightly within the frame. The central character squints into the wind, their ears and backpack straps fluttering gently, then quickly turns their head to ask, 'Should we look at the sea first or the clouds? The two side characters pause momentarily, then exchange glances.",
+      "The scene transitions. Shot 10 uses a reverse-angle hard cut, medium-close eye-level dual-character composition, with both left and right sprites entering sharp focus. A slight blur of the middle sprite’s head appears in the foreground to establish spatial depth. The middle sprite trembles slightly in the foreground, as if finally receiving an answer. The camera quickly micro-pushes to create a climactic burst of shared decision.",
+      "The scene transitions. Shot 11 follows with a hard cut, close-up eye-level group shot, three faces crowded into the frame, foreground-background compression focusing attention on eye contact. Warm backlight softly outlines their silhouettes. Tiny nose tips and cheeks are illuminated by the sunset. The camera gently pulls back, allowing the transition from tension to resolution to unfold naturally.",
+      "The scene transitions. Shot 12 shows Big-Eyed Cute Creatures / Sprites in Downhill Trail Leading to the Sea, within a Natural Scenery (Forest / Seaside / Mountain Top / Desert / Snow-Covered Mountains) setting. The image should maintain Anime Style, Warm Color Tone, Golden hour natural light lighting. Use a Wide Shot from an Overhead Shot perspective, with Follow dive camera movement, entering through a Hard Cut transition. Frame the subject as part of a Three-way Interaction (Frequent Eye Contact Switching Between Two Characters); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Turning Around at Cliffside to Prepare for Descent and prepare a natural visual connection toward Sunset beach by the sea.",
+      "The scene transitions. Shot 13 transitions with a fade-in/fade-out deceleration from the previous shot, featuring a medium-long static rear view composition. The frame is filled with sandy beach and sea surface, with three fairies sitting side by side in the lower center. In the foreground, fine sand is warmed by the evening light, while the background shows gently rolling waves and low-hanging twilight clouds. The overall lighting remains soft, warm, and natural. After running, their bodies gradually calm down, shoulders softly rising and falling. The other two nod subtly and share a quiet smile. The camera slowly pulls back at an extremely gradual pace, leaving the trio's shared arrival on the sunset-lit beach."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 218,
+    "sample_id": "218",
+    "prompts": [
+      "Shot 1 opens with a pixel scan flash-in, using a long shot overhead composition. The subway station starting zone is centered in the frame, with track lines and platform edges forming strong leading lines. Foreground features glowing gates and a pulsing countdown sign; background shows glowing arrows pointing toward the city race route. Cool blue screen light dominates, with warm red neon glowing at gate edges. A fluorescent red sports car sits stationary in the starting grid, vibrating slightly to build power. Its front reflection is sharp. The camera first slightly tilts down, then slowly pushes in, creating pre-race tension.",
+      "Shot 2 connects to the previous shot via a hard cut after the countdown digits flash across the screen. Uses a close-up ground-level eye-level perspective, with the lens nearly skimming the platform floor as it follows the car forward. Foreground track bricks rush past, creating strong speed texture. Midground locks on the front wheels and side skirt of the fluorescent red car. Background platform light strips are stretched into pixel trails. Lighting remains dominated by cool blue ambient light with red body glow. The camera performs a low-speed rapid follow with slight shake, emphasizing explosive power.",
+      "Shot 3 links to the previous shot via a match cut based on motion, using a medium-long shot lateral tracking perspective. The glass corridor enters diagonally from the left foreground, forming a perspective tunnel. Foreground sweeps past metal supports. Midground shows the red car speeding through. Background reveals city pixel billboards and museum directional signs. Cool blue glass reflections and warm guide lights maintain consistent color temperature. The car races tightly along the corridor edge, reflecting multiple layers of red afterimages. The broadcast quickly announces “进入博物馆赛段” in Chinese, while audience cheers are elongated by corridor echo. The camera first pans to follow, then slightly pushes in, clarifying both environmental speed and route direction.",
+      "The fourth shot cuts in from the previous one via a red afterimage reflected in glass, using a wide-angle, slightly angled upward view. The museum exhibition ring surrounds the frame, with low railings and floor arrows in the foreground, a drifting sports car in the midground, and a massive dinosaur projection spanning the dome in the background. The cool glow of the screen and the warm contour lighting of the hall maintain a consistent tone. A fluorescent red sports car performs a sharp drift along the ring, its rear sweeping beneath the dinosaur projection's belly. Tire sparks intertwine with the pixelated texture of the projection, making the drift arc clearly visible. At the peak of the drift, a Chinese voiceover exclaims 'Nice turn!' The screech of tires erupts in sync with the audience's collective cheer “哇”. The camera follows the arc, circling half around the car while slightly rising, emphasizing the turning angle and spatial scale of the environment.",
+      "Shot 5 connects via a hard cut triggered by a flash-white light spot from the exhibition side door. Uses a medium shot eye-level slightly rear-following composition. Foreground features a pixel light door swinging outward. Midground shows the car bursting through the side door. Background instantly shifts to the neon-lit street of the amusement park, with signs, candy lightboxes, and archway light strips forming depth. Warm neon intensity increases slightly but remains balanced by dominant cool blue screen light. The car transitions from indoor flooring to brick street without pause, continuing to accelerate. Body reflections begin absorbing more colorful light blocks. The camera performs a brief surge forward followed by stable tracking, conveying the impact of stage transition.",
+      "Shot 6 links via a match cut based on horizontal sweep light from a neon sign. Uses a far-medium shot overhead diagonal angle. Foreground pillars rush past, creating occlusion. Midground shows the red car weaving through gaps. Background faintly reveals several pixel opponents trailing on different lanes. Lighting remains cool blue base with warm red and purple pillar edges. Main action involves continuous left-right lane changes for overtaking. Each time the front cuts in, a short afterimage appears. The broadcast delivers rapid-fire Chinese updates “连续超车、继续领先”. Audience cheers are rhythmically chopped. The camera follows from a god-like diagonal perspective with continuous small pans, making route changes immediately clear.",
+      "Shot 7 enters via a hard cut after pillar occlusion. Uses a close-up low-angle upward shot. The carousel square's short ramp is centered in the frame. Foreground carousel bulbs form circular bokeh. Midground shows the red car compressing suspension as it climbs the ramp. Background features the top of the carousel and scattered colored light pixels. Warm glow slightly intensifies but maintains overall neon arcade character. The car becomes airborne at the ramp peak, chassis and tires clearly off-ground. A red-orange pixel trail streams from the rear. The camera first rises with the car, then slightly pulls back, providing space for the jump.",
+      "Shot 8 connects to the previous shot via a match cut based on aerial motion, using a medium shot with eye-level slightly forward-leading composition. The stadium's outer ring entrance opens in the right foreground, with the track texture about to be touched visible in the foreground, the red race car crashing down from the upper left into the ground in the midground, and the stadium's exterior wall screen rolling race graphics in the background. Cold blue electronic screen light dominates again. After landing, the car's suspension compresses, the body sways slightly sideways, then quickly regains traction and continues forward. The impact The broadcast announces in Chinese “进入体育场外环”. The camera briefly pulls back then rapidly follows, emphasizing both the landing impact and the sustained speed.",
+      "Shot 9 connects to the previous shot via a wipe transition as the car skims past the trackside wall, using a close-up side-angle shot against the wall. The spectator passage entrance is framed narrowly between the wall and railings, creating a tight perspective. The foreground wall shows strong reflections and motion streaks, the midground features the red race car drifting tightly along the wall, and the background includes the illuminated sign at the spectator entrance gradually growing larger. Lighting remains cold blue screen glow with warm edge lights. The car slides almost flush against the wall before precisely entering the passage. Tire smoke trails and sparks along the wall are stretched into arcs within the pixel grid. Spectators inside the passage erupt in close-range shouts. The camera pans along the wall and sharply turns at the moment of entry, highlighting the risky yet precise route choice.",
+      "Shot 10 connects to the previous shot via a sudden darkening in the tunnel followed by a hard cut to an open scene, using a wide-angle eye-level telephoto compression composition. The main track runs parallel to the electronic scoreboard, extending into the distance. The foreground features the track edge lighting strip, the midground shows the red race car surging onto the main track, and the background includes the massive electronic scoreboard and stands entering the frame. Cold blue screen light reaches its peak intensity, with warm neon lights from the spectator seats serving as accent. The camera performs high-speed lateral tracking with a slight push-in, continuously building tension during the parallel sprint.",
+      "Shot 11 connects to the previous shot via a match cut based on the scoreboard digits flipping, using a medium-close rear-side tracking shot. The foreground features the red car's rear wing and flickering taillights, the midground shows an opponent vehicle approaching from the rear right, and the background compresses the sea of lights from the stands into solid color blocks. Lighting remains consistent but contrast is slightly heightened for urgency. The fluorescent red car maintains the lead, though minor course corrections are visible. The opponent’s front nearly touches the rear bumper. The broadcast's Chinese voiceover speeds up noticeably “对手正在逼近”. Crowd cheers shift from excitement to tension. The camera tracks the car while subtly shifting rightward, compressing the closing gap into a single visual plane.",
+      "Shot 12 cuts in from the previous shot with a quick whip pan and motion blur, using a close-up, low-angle, eye-level slightly forward framing. In the midground, the red race car and its rival are side by side, sprinting at full speed. In the background, spectators on the stands rise as one, broadcast towers flash lights, and the cool blue glow of large screens contrasts with warm cheering lights, building to the ultimate climax.",
+      "The finish zone is centered. The foreground features pixel fragments and falling streamers, the midground shows the fluorescent red race car frozen in a slight sideways pose, and the background displays the large screen replaying the afterimage of the overtaking moment and showing large text “冠军”. Cold screen light illuminates the car's edges, while warm celebration light strips surround it from both sides. The vehicle no longer moves at high speed but holds a victorious pause. Heat waves and afterimages slowly dissipate from the rear."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a pixel scan flash-in, using a long shot overhead composition. The subway station starting zone is centered in the frame, with track lines and platform edges forming strong leading lines. Foreground features glowing gates and a pulsing countdown sign; background shows glowing arrows pointing toward the city race route. Cool blue screen light dominates, with warm red neon glowing at gate edges. A fluorescent red sports car sits stationary in the starting grid, vibrating slightly to build power. Its front reflection is sharp. The camera first slightly tilts down, then slowly pushes in, creating pre-race tension.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 connects to the previous shot via a hard cut after the countdown digits flash across the screen. Uses a close-up ground-level eye-level perspective, with the lens nearly skimming the platform floor as it follows the car forward. Foreground track bricks rush past, creating strong speed texture. Midground locks on the front wheels and side skirt of the fluorescent red car. Background platform light strips are stretched into pixel trails. Lighting remains dominated by cool blue ambient light with red body glow. The camera performs a low-speed rapid follow with slight shake, emphasizing explosive power.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 links to the previous shot via a match cut based on motion, using a medium-long shot lateral tracking perspective. The glass corridor enters diagonally from the left foreground, forming a perspective tunnel. Foreground sweeps past metal supports. Midground shows the red car speeding through. Background reveals city pixel billboards and museum directional signs. Cool blue glass reflections and warm guide lights maintain consistent color temperature. The car races tightly along the corridor edge, reflecting multiple layers of red afterimages. The broadcast quickly announces “进入博物馆赛段” in Chinese, while audience cheers are elongated by corridor echo. The camera first pans to follow, then slightly pushes in, clarifying both environmental speed and route direction.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "The fourth shot cuts in from the previous one via a red afterimage reflected in glass, using a wide-angle, slightly angled upward view. The museum exhibition ring surrounds the frame, with low railings and floor arrows in the foreground, a drifting sports car in the midground, and a massive dinosaur projection spanning the dome in the background. The cool glow of the screen and the warm contour lighting of the hall maintain a consistent tone. A fluorescent red sports car performs a sharp drift along the ring, its rear sweeping beneath the dinosaur projection's belly. Tire sparks intertwine with the pixelated texture of the projection, making the drift arc clearly visible. At the peak of the drift, a Chinese voiceover exclaims 'Nice turn!' The screech of tires erupts in sync with the audience's collective cheer “哇”. The camera follows the arc, circling half around the car while slightly rising, emphasizing the turning angle and spatial scale of the environment.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 connects via a hard cut triggered by a flash-white light spot from the exhibition side door. Uses a medium shot eye-level slightly rear-following composition. Foreground features a pixel light door swinging outward. Midground shows the car bursting through the side door. Background instantly shifts to the neon-lit street of the amusement park, with signs, candy lightboxes, and archway light strips forming depth. Warm neon intensity increases slightly but remains balanced by dominant cool blue screen light. The car transitions from indoor flooring to brick street without pause, continuing to accelerate. Body reflections begin absorbing more colorful light blocks. The camera performs a brief surge forward followed by stable tracking, conveying the impact of stage transition.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 links via a match cut based on horizontal sweep light from a neon sign. Uses a far-medium shot overhead diagonal angle. Foreground pillars rush past, creating occlusion. Midground shows the red car weaving through gaps. Background faintly reveals several pixel opponents trailing on different lanes. Lighting remains cool blue base with warm red and purple pillar edges. Main action involves continuous left-right lane changes for overtaking. Each time the front cuts in, a short afterimage appears. The broadcast delivers rapid-fire Chinese updates “连续超车、继续领先”. Audience cheers are rhythmically chopped. The camera follows from a god-like diagonal perspective with continuous small pans, making route changes immediately clear.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 enters via a hard cut after pillar occlusion. Uses a close-up low-angle upward shot. The carousel square's short ramp is centered in the frame. Foreground carousel bulbs form circular bokeh. Midground shows the red car compressing suspension as it climbs the ramp. Background features the top of the carousel and scattered colored light pixels. Warm glow slightly intensifies but maintains overall neon arcade character. The car becomes airborne at the ramp peak, chassis and tires clearly off-ground. A red-orange pixel trail streams from the rear. The camera first rises with the car, then slightly pulls back, providing space for the jump.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 connects to the previous shot via a match cut based on aerial motion, using a medium shot with eye-level slightly forward-leading composition. The stadium's outer ring entrance opens in the right foreground, with the track texture about to be touched visible in the foreground, the red race car crashing down from the upper left into the ground in the midground, and the stadium's exterior wall screen rolling race graphics in the background. Cold blue electronic screen light dominates again. After landing, the car's suspension compresses, the body sways slightly sideways, then quickly regains traction and continues forward. The impact The broadcast announces in Chinese “进入体育场外环”. The camera briefly pulls back then rapidly follows, emphasizing both the landing impact and the sustained speed.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 connects to the previous shot via a wipe transition as the car skims past the trackside wall, using a close-up side-angle shot against the wall. The spectator passage entrance is framed narrowly between the wall and railings, creating a tight perspective. The foreground wall shows strong reflections and motion streaks, the midground features the red race car drifting tightly along the wall, and the background includes the illuminated sign at the spectator entrance gradually growing larger. Lighting remains cold blue screen glow with warm edge lights. The car slides almost flush against the wall before precisely entering the passage. Tire smoke trails and sparks along the wall are stretched into arcs within the pixel grid. Spectators inside the passage erupt in close-range shouts. The camera pans along the wall and sharply turns at the moment of entry, highlighting the risky yet precise route choice.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 connects to the previous shot via a sudden darkening in the tunnel followed by a hard cut to an open scene, using a wide-angle eye-level telephoto compression composition. The main track runs parallel to the electronic scoreboard, extending into the distance. The foreground features the track edge lighting strip, the midground shows the red race car surging onto the main track, and the background includes the massive electronic scoreboard and stands entering the frame. Cold blue screen light reaches its peak intensity, with warm neon lights from the spectator seats serving as accent. The camera performs high-speed lateral tracking with a slight push-in, continuously building tension during the parallel sprint.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 connects to the previous shot via a match cut based on the scoreboard digits flipping, using a medium-close rear-side tracking shot. The foreground features the red car's rear wing and flickering taillights, the midground shows an opponent vehicle approaching from the rear right, and the background compresses the sea of lights from the stands into solid color blocks. Lighting remains consistent but contrast is slightly heightened for urgency. The fluorescent red car maintains the lead, though minor course corrections are visible. The opponent’s front nearly touches the rear bumper. The broadcast's Chinese voiceover speeds up noticeably “对手正在逼近”. Crowd cheers shift from excitement to tension. The camera tracks the car while subtly shifting rightward, compressing the closing gap into a single visual plane.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 cuts in from the previous shot with a quick whip pan and motion blur, using a close-up, low-angle, eye-level slightly forward framing. In the midground, the red race car and its rival are side by side, sprinting at full speed. In the background, spectators on the stands rise as one, broadcast towers flash lights, and the cool blue glow of large screens contrasts with warm cheering lights, building to the ultimate climax.",
+        "source_video_frames": 24,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "The finish zone is centered. The foreground features pixel fragments and falling streamers, the midground shows the fluorescent red race car frozen in a slight sideways pose, and the background displays the large screen replaying the afterimage of the overtaking moment and showing large text “冠军”. Cold screen light illuminates the car's edges, while warm celebration light strips surround it from both sides. The vehicle no longer moves at high speed but holds a victorious pause. Heat waves and afterimages slowly dissipate from the rear.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      18,
+      17,
+      17,
+      20,
+      17,
+      19,
+      17,
+      18,
+      17,
+      20,
+      19,
+      24,
+      17
+    ],
+    "latent_frames_per_shot": [
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      5,
+      5,
+      5,
+      6,
+      6,
+      7,
+      5
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a pixel scan flash-in, using a long shot overhead composition. The subway station starting zone is centered in the frame, with track lines and platform edges forming strong leading lines. Foreground features glowing gates and a pulsing countdown sign; background shows glowing arrows pointing toward the city race route. Cool blue screen light dominates, with warm red neon glowing at gate edges. A fluorescent red sports car sits stationary in the starting grid, vibrating slightly to build power. Its front reflection is sharp. The camera first slightly tilts down, then slowly pushes in, creating pre-race tension.",
+      "The scene transitions. Shot 2 connects to the previous shot via a hard cut after the countdown digits flash across the screen. Uses a close-up ground-level eye-level perspective, with the lens nearly skimming the platform floor as it follows the car forward. Foreground track bricks rush past, creating strong speed texture. Midground locks on the front wheels and side skirt of the fluorescent red car. Background platform light strips are stretched into pixel trails. Lighting remains dominated by cool blue ambient light with red body glow. The camera performs a low-speed rapid follow with slight shake, emphasizing explosive power.",
+      "The scene transitions. Shot 3 links to the previous shot via a match cut based on motion, using a medium-long shot lateral tracking perspective. The glass corridor enters diagonally from the left foreground, forming a perspective tunnel. Foreground sweeps past metal supports. Midground shows the red car speeding through. Background reveals city pixel billboards and museum directional signs. Cool blue glass reflections and warm guide lights maintain consistent color temperature. The car races tightly along the corridor edge, reflecting multiple layers of red afterimages. The broadcast quickly announces “进入博物馆赛段” in Chinese, while audience cheers are elongated by corridor echo. The camera first pans to follow, then slightly pushes in, clarifying both environmental speed and route direction.",
+      "The scene transitions. The fourth shot cuts in from the previous one via a red afterimage reflected in glass, using a wide-angle, slightly angled upward view. The museum exhibition ring surrounds the frame, with low railings and floor arrows in the foreground, a drifting sports car in the midground, and a massive dinosaur projection spanning the dome in the background. The cool glow of the screen and the warm contour lighting of the hall maintain a consistent tone. A fluorescent red sports car performs a sharp drift along the ring, its rear sweeping beneath the dinosaur projection's belly. Tire sparks intertwine with the pixelated texture of the projection, making the drift arc clearly visible. At the peak of the drift, a Chinese voiceover exclaims 'Nice turn!' The screech of tires erupts in sync with the audience's collective cheer “哇”. The camera follows the arc, circling half around the car while slightly rising, emphasizing the turning angle and spatial scale of the environment.",
+      "The scene transitions. Shot 5 connects via a hard cut triggered by a flash-white light spot from the exhibition side door. Uses a medium shot eye-level slightly rear-following composition. Foreground features a pixel light door swinging outward. Midground shows the car bursting through the side door. Background instantly shifts to the neon-lit street of the amusement park, with signs, candy lightboxes, and archway light strips forming depth. Warm neon intensity increases slightly but remains balanced by dominant cool blue screen light. The car transitions from indoor flooring to brick street without pause, continuing to accelerate. Body reflections begin absorbing more colorful light blocks. The camera performs a brief surge forward followed by stable tracking, conveying the impact of stage transition.",
+      "The scene transitions. Shot 6 links via a match cut based on horizontal sweep light from a neon sign. Uses a far-medium shot overhead diagonal angle. Foreground pillars rush past, creating occlusion. Midground shows the red car weaving through gaps. Background faintly reveals several pixel opponents trailing on different lanes. Lighting remains cool blue base with warm red and purple pillar edges. Main action involves continuous left-right lane changes for overtaking. Each time the front cuts in, a short afterimage appears. The broadcast delivers rapid-fire Chinese updates “连续超车、继续领先”. Audience cheers are rhythmically chopped. The camera follows from a god-like diagonal perspective with continuous small pans, making route changes immediately clear.",
+      "The scene transitions. Shot 7 enters via a hard cut after pillar occlusion. Uses a close-up low-angle upward shot. The carousel square's short ramp is centered in the frame. Foreground carousel bulbs form circular bokeh. Midground shows the red car compressing suspension as it climbs the ramp. Background features the top of the carousel and scattered colored light pixels. Warm glow slightly intensifies but maintains overall neon arcade character. The car becomes airborne at the ramp peak, chassis and tires clearly off-ground. A red-orange pixel trail streams from the rear. The camera first rises with the car, then slightly pulls back, providing space for the jump.",
+      "The scene transitions. Shot 8 connects to the previous shot via a match cut based on aerial motion, using a medium shot with eye-level slightly forward-leading composition. The stadium's outer ring entrance opens in the right foreground, with the track texture about to be touched visible in the foreground, the red race car crashing down from the upper left into the ground in the midground, and the stadium's exterior wall screen rolling race graphics in the background. Cold blue electronic screen light dominates again. After landing, the car's suspension compresses, the body sways slightly sideways, then quickly regains traction and continues forward. The impact The broadcast announces in Chinese “进入体育场外环”. The camera briefly pulls back then rapidly follows, emphasizing both the landing impact and the sustained speed.",
+      "The scene transitions. Shot 9 connects to the previous shot via a wipe transition as the car skims past the trackside wall, using a close-up side-angle shot against the wall. The spectator passage entrance is framed narrowly between the wall and railings, creating a tight perspective. The foreground wall shows strong reflections and motion streaks, the midground features the red race car drifting tightly along the wall, and the background includes the illuminated sign at the spectator entrance gradually growing larger. Lighting remains cold blue screen glow with warm edge lights. The car slides almost flush against the wall before precisely entering the passage. Tire smoke trails and sparks along the wall are stretched into arcs within the pixel grid. Spectators inside the passage erupt in close-range shouts. The camera pans along the wall and sharply turns at the moment of entry, highlighting the risky yet precise route choice.",
+      "The scene transitions. Shot 10 connects to the previous shot via a sudden darkening in the tunnel followed by a hard cut to an open scene, using a wide-angle eye-level telephoto compression composition. The main track runs parallel to the electronic scoreboard, extending into the distance. The foreground features the track edge lighting strip, the midground shows the red race car surging onto the main track, and the background includes the massive electronic scoreboard and stands entering the frame. Cold blue screen light reaches its peak intensity, with warm neon lights from the spectator seats serving as accent. The camera performs high-speed lateral tracking with a slight push-in, continuously building tension during the parallel sprint.",
+      "The scene transitions. Shot 11 connects to the previous shot via a match cut based on the scoreboard digits flipping, using a medium-close rear-side tracking shot. The foreground features the red car's rear wing and flickering taillights, the midground shows an opponent vehicle approaching from the rear right, and the background compresses the sea of lights from the stands into solid color blocks. Lighting remains consistent but contrast is slightly heightened for urgency. The fluorescent red car maintains the lead, though minor course corrections are visible. The opponent’s front nearly touches the rear bumper. The broadcast's Chinese voiceover speeds up noticeably “对手正在逼近”. Crowd cheers shift from excitement to tension. The camera tracks the car while subtly shifting rightward, compressing the closing gap into a single visual plane.",
+      "The scene transitions. Shot 12 cuts in from the previous shot with a quick whip pan and motion blur, using a close-up, low-angle, eye-level slightly forward framing. In the midground, the red race car and its rival are side by side, sprinting at full speed. In the background, spectators on the stands rise as one, broadcast towers flash lights, and the cool blue glow of large screens contrasts with warm cheering lights, building to the ultimate climax.",
+      "The scene transitions. The finish zone is centered. The foreground features pixel fragments and falling streamers, the midground shows the fluorescent red race car frozen in a slight sideways pose, and the background displays the large screen replaying the afterimage of the overtaking moment and showing large text “冠军”. Cold screen light illuminates the car's edges, while warm celebration light strips surround it from both sides. The vehicle no longer moves at high speed but holds a victorious pause. Heat waves and afterimages slowly dissipate from the rear."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 71,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 236,
+    "sample_id": "236",
+    "prompts": [
+      "Shot 1 opens with a fade-in, close-up overhead composition focusing on the office desk, silver hair fragments scattered across black keyboard gaps and wooden surface, foreground blurred folder edge, focus on keycaps and hair contrast, calm neutral office environment illuminated by natural light from the window, camera slowly pushes in, first piano staccato note coincides with character's gaze scanning the keyboard upon sitting down.",
+      "Shot 2 cuts hard from previous shot, extreme close-up eye-level shot of character's finger picking up a long silver hair from keyboard edge, shallow depth of field blurs bookshelf background, furrowed brow becomes focal point, skin texture and hair detail clearly visible, soft indoor lighting maintains realistic texture, camera slightly moves forward, second staccato note precisely matches moment fingertip grasps hair.",
+      "Shot 3 shows Elderly male in Classroom lectern and blackboard area, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Eye-level perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Office desk hair strands and hand details and prepare a natural visual connection toward Demonstration of handheld hair dryer in classroom.",
+      "Shot 4 cuts hard via matching action from previous shot, medium close-up low-angle focused on hair dryer in his hand, coat rack and curtain in classroom corner create depth, instant activation lifts silver hair at forehead and temple, fine strands flutter against soft window backlight, camera makes small tilt from bottom to top, fan roar first overwhelms piano note, image and",
+      "Shot 5 cuts hard into extreme close-up side view, focus locked on hair dryer nozzle contacting curly silver hair, foreground shows metallic edge of device housing, background blurred into pale gray classroom block, hair instantly straightened and aligned by high-speed airflow, micro-backlight outlines hair edges, camera gently pushes in and follows hair motion, piano staccato and wind",
+      "Shot 6 transitions from previous shot via graphic overlay cut, medium eye-level shot of character standing still, background instantly transforms into vertical text wall composed of parameters and fine lines, product silhouette occupies foreground, screen-style information layer converges from both sides, “卷发不缠绕” appears slightly right of center, text uses bright white 3D typography, slight embossed highlight, and forward-expanding entrance animation, image retains neutral gray-blue tone, camera slowly pulls back, forming complete ad composition of character, product, and parameter info, fan",
+      "Shot 7 shows Elderly male in Cafe window-side tabletop, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Overhead perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Product parameters and body displayed together in classroom and prepare a natural visual connection toward Vacuum demonstration on cafe floor.",
+      "Shot 8 shows Elderly male in Vacuum demonstration on cafe floor, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Close-up from a Low angle perspective, with Push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Cafe window-side tabletop and prepare a natural visual connection toward Transparent dust cup details in cafe.",
+      "Shot 9 enters via motion direction match into extreme close-up, transparent dust cup centered in frame, internal debris and hair forming clear swirling vortex, foreground casing reflection kept minimal, background cafe colors fully blurred, focus on dynamic layers and vortex trajectory inside cup, camera makes slight orbit, suction",
+      "Shot 10 cuts hard back to home kitchen, wide eye-level shot showing light gray tiles, cabinets, and floor-to-ceiling window, one prominent silver hair and several fine strands scattered on floor guiding viewer's gaze forward, vacuum enters frame rapidly from left, moving straight along grout lines, hairs instantly sucked away, kitchen natural light clean and uniform, camera slowly pulls back to maintain full space, wind",
+      "Shot 11 fades from previous shot, close-up side profile eye-level capturing character pausing and relaxing into a gentle smile, background kitchen softly defocused, character outline gently outlined by side window light, smile reserved and natural, neck and shoulder lines relaxed, camera gently pushes in, suction",
+      "Shot 12 shows Elderly male in Home kitchen countertop product hero shot, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Medium shot from a Low angle perspective, with Pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop area and prepare a natural visual connection toward Home kitchen countertop brand closing frame.",
+      "Shot 13 shows Elderly male in Home kitchen countertop brand closing frame, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use an Extreme close-up from an Eye-level perspective, with Pull-out camera movement. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop product hero shot."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, close-up overhead composition focusing on the office desk, silver hair fragments scattered across black keyboard gaps and wooden surface, foreground blurred folder edge, focus on keycaps and hair contrast, calm neutral office environment illuminated by natural light from the window, camera slowly pushes in, first piano staccato note coincides with character's gaze scanning the keyboard upon sitting down.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from previous shot, extreme close-up eye-level shot of character's finger picking up a long silver hair from keyboard edge, shallow depth of field blurs bookshelf background, furrowed brow becomes focal point, skin texture and hair detail clearly visible, soft indoor lighting maintains realistic texture, camera slightly moves forward, second staccato note precisely matches moment fingertip grasps hair.",
+        "source_video_frames": 14,
+        "latent_frames": 4,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 shows Elderly male in Classroom lectern and blackboard area, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Eye-level perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Office desk hair strands and hand details and prepare a natural visual connection toward Demonstration of handheld hair dryer in classroom.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 cuts hard via matching action from previous shot, medium close-up low-angle focused on hair dryer in his hand, coat rack and curtain in classroom corner create depth, instant activation lifts silver hair at forehead and temple, fine strands flutter against soft window backlight, camera makes small tilt from bottom to top, fan roar first overwhelms piano note, image and",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard into extreme close-up side view, focus locked on hair dryer nozzle contacting curly silver hair, foreground shows metallic edge of device housing, background blurred into pale gray classroom block, hair instantly straightened and aligned by high-speed airflow, micro-backlight outlines hair edges, camera gently pushes in and follows hair motion, piano staccato and wind",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 transitions from previous shot via graphic overlay cut, medium eye-level shot of character standing still, background instantly transforms into vertical text wall composed of parameters and fine lines, product silhouette occupies foreground, screen-style information layer converges from both sides, “卷发不缠绕” appears slightly right of center, text uses bright white 3D typography, slight embossed highlight, and forward-expanding entrance animation, image retains neutral gray-blue tone, camera slowly pulls back, forming complete ad composition of character, product, and parameter info, fan",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 shows Elderly male in Cafe window-side tabletop, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Overhead perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Product parameters and body displayed together in classroom and prepare a natural visual connection toward Vacuum demonstration on cafe floor.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 shows Elderly male in Vacuum demonstration on cafe floor, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Close-up from a Low angle perspective, with Push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Cafe window-side tabletop and prepare a natural visual connection toward Transparent dust cup details in cafe.",
+        "source_video_frames": 21,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 enters via motion direction match into extreme close-up, transparent dust cup centered in frame, internal debris and hair forming clear swirling vortex, foreground casing reflection kept minimal, background cafe colors fully blurred, focus on dynamic layers and vortex trajectory inside cup, camera makes slight orbit, suction",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts hard back to home kitchen, wide eye-level shot showing light gray tiles, cabinets, and floor-to-ceiling window, one prominent silver hair and several fine strands scattered on floor guiding viewer's gaze forward, vacuum enters frame rapidly from left, moving straight along grout lines, hairs instantly sucked away, kitchen natural light clean and uniform, camera slowly pulls back to maintain full space, wind",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 fades from previous shot, close-up side profile eye-level capturing character pausing and relaxing into a gentle smile, background kitchen softly defocused, character outline gently outlined by side window light, smile reserved and natural, neck and shoulder lines relaxed, camera gently pushes in, suction",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 shows Elderly male in Home kitchen countertop product hero shot, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Medium shot from a Low angle perspective, with Pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop area and prepare a natural visual connection toward Home kitchen countertop brand closing frame.",
+        "source_video_frames": 23,
+        "latent_frames": 7,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 shows Elderly male in Home kitchen countertop brand closing frame, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use an Extreme close-up from an Eye-level perspective, with Pull-out camera movement. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop product hero shot.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      18,
+      14,
+      18,
+      19,
+      18,
+      17,
+      18,
+      21,
+      17,
+      20,
+      17,
+      23,
+      20
+    ],
+    "latent_frames_per_shot": [
+      5,
+      4,
+      5,
+      6,
+      5,
+      5,
+      5,
+      6,
+      5,
+      6,
+      5,
+      7,
+      6
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, close-up overhead composition focusing on the office desk, silver hair fragments scattered across black keyboard gaps and wooden surface, foreground blurred folder edge, focus on keycaps and hair contrast, calm neutral office environment illuminated by natural light from the window, camera slowly pushes in, first piano staccato note coincides with character's gaze scanning the keyboard upon sitting down.",
+      "The scene transitions. Shot 2 cuts hard from previous shot, extreme close-up eye-level shot of character's finger picking up a long silver hair from keyboard edge, shallow depth of field blurs bookshelf background, furrowed brow becomes focal point, skin texture and hair detail clearly visible, soft indoor lighting maintains realistic texture, camera slightly moves forward, second staccato note precisely matches moment fingertip grasps hair.",
+      "The scene transitions. Shot 3 shows Elderly male in Classroom lectern and blackboard area, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Eye-level perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Office desk hair strands and hand details and prepare a natural visual connection toward Demonstration of handheld hair dryer in classroom.",
+      "The scene transitions. Shot 4 cuts hard via matching action from previous shot, medium close-up low-angle focused on hair dryer in his hand, coat rack and curtain in classroom corner create depth, instant activation lifts silver hair at forehead and temple, fine strands flutter against soft window backlight, camera makes small tilt from bottom to top, fan roar first overwhelms piano note, image and",
+      "The scene transitions. Shot 5 cuts hard into extreme close-up side view, focus locked on hair dryer nozzle contacting curly silver hair, foreground shows metallic edge of device housing, background blurred into pale gray classroom block, hair instantly straightened and aligned by high-speed airflow, micro-backlight outlines hair edges, camera gently pushes in and follows hair motion, piano staccato and wind",
+      "The scene transitions. Shot 6 transitions from previous shot via graphic overlay cut, medium eye-level shot of character standing still, background instantly transforms into vertical text wall composed of parameters and fine lines, product silhouette occupies foreground, screen-style information layer converges from both sides, “卷发不缠绕” appears slightly right of center, text uses bright white 3D typography, slight embossed highlight, and forward-expanding entrance animation, image retains neutral gray-blue tone, camera slowly pulls back, forming complete ad composition of character, product, and parameter info, fan",
+      "The scene transitions. Shot 7 shows Elderly male in Cafe window-side tabletop, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use a Medium shot from an Overhead perspective, with Pan camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Product parameters and body displayed together in classroom and prepare a natural visual connection toward Vacuum demonstration on cafe floor.",
+      "The scene transitions. Shot 8 shows Elderly male in Vacuum demonstration on cafe floor, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Close-up from a Low angle perspective, with Push-in camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Cafe window-side tabletop and prepare a natural visual connection toward Transparent dust cup details in cafe.",
+      "The scene transitions. Shot 9 enters via motion direction match into extreme close-up, transparent dust cup centered in frame, internal debris and hair forming clear swirling vortex, foreground casing reflection kept minimal, background cafe colors fully blurred, focus on dynamic layers and vortex trajectory inside cup, camera makes slight orbit, suction",
+      "The scene transitions. Shot 10 cuts hard back to home kitchen, wide eye-level shot showing light gray tiles, cabinets, and floor-to-ceiling window, one prominent silver hair and several fine strands scattered on floor guiding viewer's gaze forward, vacuum enters frame rapidly from left, moving straight along grout lines, hairs instantly sucked away, kitchen natural light clean and uniform, camera slowly pulls back to maintain full space, wind",
+      "The scene transitions. Shot 11 fades from previous shot, close-up side profile eye-level capturing character pausing and relaxing into a gentle smile, background kitchen softly defocused, character outline gently outlined by side window light, smile reserved and natural, neck and shoulder lines relaxed, camera gently pushes in, suction",
+      "The scene transitions. Shot 12 shows Elderly male in Home kitchen countertop product hero shot, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Side lighting lighting. Use a Medium shot from a Low angle perspective, with Pull-out camera movement, entering through a Hard cut transition. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop area and prepare a natural visual connection toward Home kitchen countertop brand closing frame.",
+      "The scene transitions. Shot 13 shows Elderly male in Home kitchen countertop brand closing frame, within a Indoor life (kitchen/classroom/hospital/cafe/office) setting. The image should maintain Realistic style, Neutral color tone, Natural light with side lighting lighting. Use an Extreme close-up from an Eye-level perspective, with Pull-out camera movement. Frame the subject as part of a Small Appliances (vacuum cleaner/hair dryer high-speed airflow interacting with hair); emphasize body pose, facial expression, clothing silhouette, surrounding objects, spatial layout, and scene continuity. Also continue visually from the previous setting around Home kitchen countertop product hero shot."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 70,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  },
+  {
+    "idx": 268,
+    "sample_id": "268",
+    "prompts": [
+      "Shot 1 opens with a fade-in, combining a long overhead slightly level-angle view, with the exterior door as foreground and focus on the warmly lit doorway and silhouettes inside. The night outside is quiet, the interior warm, with faint outlines of family members moving and the dining table visible. Warm light spills from indoors onto the doorstep. The camera slowly pushes forward.",
+      "Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level shot in the entryway. The door frame remains at the edge for depth, focus on the young woman carrying a hot dish out from the kitchen. Background shows dining room lights and family figures. Lighting maintains the warm yellow tone with soft highlights on the food. She steadily carries the dish toward the table, clearly speaking \"开饭了\", her final syllable ending just as she stops. The camera follows with a short push-in. Dishware clinks in sync with her",
+      "Shot 3 cuts hard from the previous shot, showing a close-up in the kitchen, slightly off-center eye-level. Foreground is a steaming pot of soup, focus shifts to an elder’s hands and focused expression as they serve soup. Shallow depth of field blurs cabinets and warm lights behind. Steam is softly visible under warm light. The action—lifting spoon, pausing, pouring into bowl—is fluid and natural, causing gentle ripples on the surface. The camera subtly tilts to follow the motion. Mood is calm and warm.",
+      "Shot 4 transitions via a slight action match cut from the prior shot, showing an overhead wide shot of the dining table. Dishes form the visual center, spreading outward. Family members enter from different directions, seating themselves. Bowls, chopsticks, and cups create a circular composition of togetherness. Warm light evenly illuminates the table and shoulders. Main actions: pulling chairs, placing bowls, adjusting napkins, smiling at each other. The camera performs a very slight clockwise pan while overhead, capturing the full seating process.",
+      "Shot 5 cuts hard from the previous shot, showing a medium eye-level front-facing shot of a middle-aged man. Slightly blurred rim of a glass in the foreground adds layering. Focus is on his hand raising the glass and his face. Background shows expectant gazes from family. Warm light creates soft reflections on the glass edge. The camera gently pushes in to emphasize sincerity, while",
+      "Shot 6 cuts hard with a reverse angle from the previous shot, showing a close-up eye-level shot of an elderly woman. Composition places her at one-third of the frame. A blurred shoulder of the person across from her appears in the foreground. Soft lighting wraps around her face. Before taking the glass, she nods slightly, then smiles and replies \"都平安就好\". At the end, her gaze sweeps across the table. The camera remains steady, emphasizing the authenticity of her response.",
+      "Shot 7 cuts hard from the previous shot, showing a close-up eye-level slightly upward shot of a child. Blurred edge of a plate in the foreground. Focus is tightly on the child’s bright eyes and eager expression. Background blurs into warm bokeh. By the time the last word ends, their small hand already points to the dish. The camera performs a quick push-in.",
+      "Shot 8 cuts hard with action continuity from the previous shot, showing a medium-close eye-level shot of a young man picking up a chicken wing from a platter. Composition forms a triangle with the foreground plate, main arm, and background child’s gaze. Warm light highlights chopsticks, shiny surface of the wing, and side profile. He stabilizes his wrist, lifts the wing, and delivers it to the child’s bowl. Movement is natural and fluid. The camera makes a brief lateral pan along the chopsticks.",
+      "Shot 9 connects smoothly via a tracking pan from the previous shot, shifting to a medium horizontal pan. The camera glides from one side to the other, sweeping across each family member’s smiling face and raised glass. Composition places glasses intersecting in the foreground, faces layered in mid-ground. Warm light sparkles on liquid and ceramic. Actions focus on leaning forward, raising glasses, gently clinking, and sharing smiles. The clink must precisely sync with the Natural Chinese banter overlays. Pacing slightly increases.",
+      "Shot 10 cuts hard from the previous shot, showing a medium-close eye-level shot of a middle-aged woman turning sideways to ask a teen across the table. Uses over-the-shoulder reverse-angle framing. Background shows the teen’s blurred silhouette. Warm light remains stable. After speaking, she pauses briefly, awaiting reply. The camera gently pushes in and holds at the end of the sentence.",
+      "Shot 11 cuts hard with reverse angle from the previous shot, showing a close-up eye-level shot of the teen. Focus is on a slightly reserved yet joyful expression. Blurred rim of a cup on the table in the foreground. Background shows expectant family gazes and warm light. At the end, his lips curve upward slightly. The camera makes a very light push-in to emphasize emotional shift.",
+      "Shot 12 cuts hard from the previous shot, showing a medium eye-level group shot of the dining table. Composition centers the teen near the middle, others converging their gazes from both sides. Depth of field is slightly deeper to retain multiple reactions. Under warm light, nearly everyone simultaneously reveals surprised smiles and applauds. Some lean forward, some nod, some offer praise. The camera pulls back slightly to reveal more interpersonal dynamics.",
+      "Shot 13 connects with a soft pull-out from the previous shot, showing a long eye-level shot gradually pulling back from the dining room to include the living room. Food, lighting, wall decor, and the three generations sitting together form a complete domestic space. Foreground may include a partially open door and corner of a sofa to enhance spatial depth. Warm yellow lighting remains consistent. Characters continue serving food, talking, and laughing at each other. Actions no longer center on single lines but return to natural group conversation. The camera pulls back smoothly, concluding in a sustained atmosphere of reunion."
+    ],
+    "shots": [
+      {
+        "shot": 1,
+        "prompt": "Shot 1 opens with a fade-in, combining a long overhead slightly level-angle view, with the exterior door as foreground and focus on the warmly lit doorway and silhouettes inside. The night outside is quiet, the interior warm, with faint outlines of family members moving and the dining table visible. Warm light spills from indoors onto the doorstep. The camera slowly pushes forward.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 2,
+        "prompt": "Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level shot in the entryway. The door frame remains at the edge for depth, focus on the young woman carrying a hot dish out from the kitchen. Background shows dining room lights and family figures. Lighting maintains the warm yellow tone with soft highlights on the food. She steadily carries the dish toward the table, clearly speaking \"开饭了\", her final syllable ending just as she stops. The camera follows with a short push-in. Dishware clinks in sync with her",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 3,
+        "prompt": "Shot 3 cuts hard from the previous shot, showing a close-up in the kitchen, slightly off-center eye-level. Foreground is a steaming pot of soup, focus shifts to an elder’s hands and focused expression as they serve soup. Shallow depth of field blurs cabinets and warm lights behind. Steam is softly visible under warm light. The action—lifting spoon, pausing, pouring into bowl—is fluid and natural, causing gentle ripples on the surface. The camera subtly tilts to follow the motion. Mood is calm and warm.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 4,
+        "prompt": "Shot 4 transitions via a slight action match cut from the prior shot, showing an overhead wide shot of the dining table. Dishes form the visual center, spreading outward. Family members enter from different directions, seating themselves. Bowls, chopsticks, and cups create a circular composition of togetherness. Warm light evenly illuminates the table and shoulders. Main actions: pulling chairs, placing bowls, adjusting napkins, smiling at each other. The camera performs a very slight clockwise pan while overhead, capturing the full seating process.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 5,
+        "prompt": "Shot 5 cuts hard from the previous shot, showing a medium eye-level front-facing shot of a middle-aged man. Slightly blurred rim of a glass in the foreground adds layering. Focus is on his hand raising the glass and his face. Background shows expectant gazes from family. Warm light creates soft reflections on the glass edge. The camera gently pushes in to emphasize sincerity, while",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 6,
+        "prompt": "Shot 6 cuts hard with a reverse angle from the previous shot, showing a close-up eye-level shot of an elderly woman. Composition places her at one-third of the frame. A blurred shoulder of the person across from her appears in the foreground. Soft lighting wraps around her face. Before taking the glass, she nods slightly, then smiles and replies \"都平安就好\". At the end, her gaze sweeps across the table. The camera remains steady, emphasizing the authenticity of her response.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 7,
+        "prompt": "Shot 7 cuts hard from the previous shot, showing a close-up eye-level slightly upward shot of a child. Blurred edge of a plate in the foreground. Focus is tightly on the child’s bright eyes and eager expression. Background blurs into warm bokeh. By the time the last word ends, their small hand already points to the dish. The camera performs a quick push-in.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 8,
+        "prompt": "Shot 8 cuts hard with action continuity from the previous shot, showing a medium-close eye-level shot of a young man picking up a chicken wing from a platter. Composition forms a triangle with the foreground plate, main arm, and background child’s gaze. Warm light highlights chopsticks, shiny surface of the wing, and side profile. He stabilizes his wrist, lifts the wing, and delivers it to the child’s bowl. Movement is natural and fluid. The camera makes a brief lateral pan along the chopsticks.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 9,
+        "prompt": "Shot 9 connects smoothly via a tracking pan from the previous shot, shifting to a medium horizontal pan. The camera glides from one side to the other, sweeping across each family member’s smiling face and raised glass. Composition places glasses intersecting in the foreground, faces layered in mid-ground. Warm light sparkles on liquid and ceramic. Actions focus on leaning forward, raising glasses, gently clinking, and sharing smiles. The clink must precisely sync with the Natural Chinese banter overlays. Pacing slightly increases.",
+        "source_video_frames": 20,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 10,
+        "prompt": "Shot 10 cuts hard from the previous shot, showing a medium-close eye-level shot of a middle-aged woman turning sideways to ask a teen across the table. Uses over-the-shoulder reverse-angle framing. Background shows the teen’s blurred silhouette. Warm light remains stable. After speaking, she pauses briefly, awaiting reply. The camera gently pushes in and holds at the end of the sentence.",
+        "source_video_frames": 19,
+        "latent_frames": 6,
+        "blocks": 1
+      },
+      {
+        "shot": 11,
+        "prompt": "Shot 11 cuts hard with reverse angle from the previous shot, showing a close-up eye-level shot of the teen. Focus is on a slightly reserved yet joyful expression. Blurred rim of a cup on the table in the foreground. Background shows expectant family gazes and warm light. At the end, his lips curve upward slightly. The camera makes a very light push-in to emphasize emotional shift.",
+        "source_video_frames": 17,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 12,
+        "prompt": "Shot 12 cuts hard from the previous shot, showing a medium eye-level group shot of the dining table. Composition centers the teen near the middle, others converging their gazes from both sides. Depth of field is slightly deeper to retain multiple reactions. Under warm light, nearly everyone simultaneously reveals surprised smiles and applauds. Some lean forward, some nod, some offer praise. The camera pulls back slightly to reveal more interpersonal dynamics.",
+        "source_video_frames": 18,
+        "latent_frames": 5,
+        "blocks": 1
+      },
+      {
+        "shot": 13,
+        "prompt": "Shot 13 connects with a soft pull-out from the previous shot, showing a long eye-level shot gradually pulling back from the dining room to include the living room. Food, lighting, wall decor, and the three generations sitting together form a complete domestic space. Foreground may include a partially open door and corner of a sofa to enhance spatial depth. Warm yellow lighting remains consistent. Characters continue serving food, talking, and laughing at each other. Actions no longer center on single lines but return to natural group conversation. The camera pulls back smoothly, concluding in a sustained atmosphere of reunion.",
+        "source_video_frames": 22,
+        "latent_frames": 6,
+        "blocks": 1
+      }
+    ],
+    "frames_per_shot": [
+      20,
+      17,
+      18,
+      17,
+      20,
+      17,
+      18,
+      17,
+      20,
+      19,
+      17,
+      18,
+      22
+    ],
+    "latent_frames_per_shot": [
+      6,
+      5,
+      5,
+      5,
+      6,
+      5,
+      5,
+      5,
+      6,
+      6,
+      5,
+      5,
+      6
+    ],
+    "shot_block_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "block_prompts": [
+      "Shot 1 opens with a fade-in, combining a long overhead slightly level-angle view, with the exterior door as foreground and focus on the warmly lit doorway and silhouettes inside. The night outside is quiet, the interior warm, with faint outlines of family members moving and the dining table visible. Warm light spills from indoors onto the doorstep. The camera slowly pushes forward.",
+      "The scene transitions. Shot 2 cuts hard from the previous shot, transitioning to a medium eye-level shot in the entryway. The door frame remains at the edge for depth, focus on the young woman carrying a hot dish out from the kitchen. Background shows dining room lights and family figures. Lighting maintains the warm yellow tone with soft highlights on the food. She steadily carries the dish toward the table, clearly speaking \"开饭了\", her final syllable ending just as she stops. The camera follows with a short push-in. Dishware clinks in sync with her",
+      "The scene transitions. Shot 3 cuts hard from the previous shot, showing a close-up in the kitchen, slightly off-center eye-level. Foreground is a steaming pot of soup, focus shifts to an elder’s hands and focused expression as they serve soup. Shallow depth of field blurs cabinets and warm lights behind. Steam is softly visible under warm light. The action—lifting spoon, pausing, pouring into bowl—is fluid and natural, causing gentle ripples on the surface. The camera subtly tilts to follow the motion. Mood is calm and warm.",
+      "The scene transitions. Shot 4 transitions via a slight action match cut from the prior shot, showing an overhead wide shot of the dining table. Dishes form the visual center, spreading outward. Family members enter from different directions, seating themselves. Bowls, chopsticks, and cups create a circular composition of togetherness. Warm light evenly illuminates the table and shoulders. Main actions: pulling chairs, placing bowls, adjusting napkins, smiling at each other. The camera performs a very slight clockwise pan while overhead, capturing the full seating process.",
+      "The scene transitions. Shot 5 cuts hard from the previous shot, showing a medium eye-level front-facing shot of a middle-aged man. Slightly blurred rim of a glass in the foreground adds layering. Focus is on his hand raising the glass and his face. Background shows expectant gazes from family. Warm light creates soft reflections on the glass edge. The camera gently pushes in to emphasize sincerity, while",
+      "The scene transitions. Shot 6 cuts hard with a reverse angle from the previous shot, showing a close-up eye-level shot of an elderly woman. Composition places her at one-third of the frame. A blurred shoulder of the person across from her appears in the foreground. Soft lighting wraps around her face. Before taking the glass, she nods slightly, then smiles and replies \"都平安就好\". At the end, her gaze sweeps across the table. The camera remains steady, emphasizing the authenticity of her response.",
+      "The scene transitions. Shot 7 cuts hard from the previous shot, showing a close-up eye-level slightly upward shot of a child. Blurred edge of a plate in the foreground. Focus is tightly on the child’s bright eyes and eager expression. Background blurs into warm bokeh. By the time the last word ends, their small hand already points to the dish. The camera performs a quick push-in.",
+      "The scene transitions. Shot 8 cuts hard with action continuity from the previous shot, showing a medium-close eye-level shot of a young man picking up a chicken wing from a platter. Composition forms a triangle with the foreground plate, main arm, and background child’s gaze. Warm light highlights chopsticks, shiny surface of the wing, and side profile. He stabilizes his wrist, lifts the wing, and delivers it to the child’s bowl. Movement is natural and fluid. The camera makes a brief lateral pan along the chopsticks.",
+      "The scene transitions. Shot 9 connects smoothly via a tracking pan from the previous shot, shifting to a medium horizontal pan. The camera glides from one side to the other, sweeping across each family member’s smiling face and raised glass. Composition places glasses intersecting in the foreground, faces layered in mid-ground. Warm light sparkles on liquid and ceramic. Actions focus on leaning forward, raising glasses, gently clinking, and sharing smiles. The clink must precisely sync with the Natural Chinese banter overlays. Pacing slightly increases.",
+      "The scene transitions. Shot 10 cuts hard from the previous shot, showing a medium-close eye-level shot of a middle-aged woman turning sideways to ask a teen across the table. Uses over-the-shoulder reverse-angle framing. Background shows the teen’s blurred silhouette. Warm light remains stable. After speaking, she pauses briefly, awaiting reply. The camera gently pushes in and holds at the end of the sentence.",
+      "The scene transitions. Shot 11 cuts hard with reverse angle from the previous shot, showing a close-up eye-level shot of the teen. Focus is on a slightly reserved yet joyful expression. Blurred rim of a cup on the table in the foreground. Background shows expectant family gazes and warm light. At the end, his lips curve upward slightly. The camera makes a very light push-in to emphasize emotional shift.",
+      "The scene transitions. Shot 12 cuts hard from the previous shot, showing a medium eye-level group shot of the dining table. Composition centers the teen near the middle, others converging their gazes from both sides. Depth of field is slightly deeper to retain multiple reactions. Under warm light, nearly everyone simultaneously reveals surprised smiles and applauds. Some lean forward, some nod, some offer praise. The camera pulls back slightly to reveal more interpersonal dynamics.",
+      "The scene transitions. Shot 13 connects with a soft pull-out from the previous shot, showing a long eye-level shot gradually pulling back from the dining room to include the living room. Food, lighting, wall decor, and the three generations sitting together form a complete domestic space. Foreground may include a partially open door and corner of a sofa to enhance spatial depth. Warm yellow lighting remains consistent. Characters continue serving food, talking, and laughing at each other. Actions no longer center on single lines but return to natural group conversation. The camera pulls back smoothly, concluding in a sustained atmosphere of reunion."
+    ],
+    "num_output_frames": 104,
+    "num_frame_per_block": 8,
+    "temporal_compression_ratio": 4,
+    "source_total_video_frames": 240,
+    "source_total_latent_frames": 70,
+    "block_count_method": "round((round((frames - 1) / temporal_compression_ratio + 1)) / num_frame_per_block), min 1"
+  }
+]
