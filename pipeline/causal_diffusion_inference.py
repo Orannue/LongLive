@@ -412,6 +412,7 @@ class CausalDiffusionInferencePipeline(torch.nn.Module):
                 self.vae.mean.to(device=vae_dev, dtype=noise.dtype),
                 1.0 / self.vae.std.to(device=vae_dev, dtype=noise.dtype),
             ]
+            vae_decode_fn = getattr(self.vae.model, "cached_decode", self.vae.model.decode)
             self.vae.model.clear_cache()
             video_chunks = []
             if async_vae:
@@ -438,7 +439,7 @@ class CausalDiffusionInferencePipeline(torch.nn.Module):
                                 if item is None:
                                     vae_all_done.set()
                                     return
-                                decoded = self.vae.model.cached_decode(
+                                decoded = vae_decode_fn(
                                     item,
                                     vae_scale,
                                 ).float().clamp_(-1, 1)
@@ -561,7 +562,7 @@ class CausalDiffusionInferencePipeline(torch.nn.Module):
                     with torch.cuda.stream(vae_stream):
                         vae_stream.wait_event(diffusion_done)
                         chunk_bcthw = latents.permute(0, 2, 1, 3, 4).contiguous()
-                        decoded_chunk = self.vae.model.cached_decode(
+                        decoded_chunk = vae_decode_fn(
                             chunk_bcthw,
                             vae_scale,
                         ).float().clamp_(-1, 1)
@@ -575,7 +576,7 @@ class CausalDiffusionInferencePipeline(torch.nn.Module):
                     vae_work_ready.set()
                 else:
                     chunk_bcthw = latents.permute(0, 2, 1, 3, 4).contiguous()
-                    decoded_chunk = self.vae.model.cached_decode(
+                    decoded_chunk = vae_decode_fn(
                         chunk_bcthw,
                         vae_scale,
                     ).float().clamp_(-1, 1)

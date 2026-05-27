@@ -9,7 +9,6 @@ from torchvision.io import write_video
 from einops import rearrange
 import torch.distributed as dist
 from torch.utils.data import DataLoader, SequentialSampler
-from torch.utils.data.distributed import DistributedSampler
 
 from pipeline import CausalDiffusionInferencePipeline
 from utils.dataset import MultiTextConcatDataset, eval_collate_fn
@@ -54,6 +53,18 @@ def save_prompts_to_txt(prompts_for_sample, prompt_txt_path: str, is_main_proces
         if is_main_process:
             print(f"Warning: failed to save prompts to {prompt_txt_path}: {e}")
 
+
+def build_output_base_name(config, prompt: str, rank: int, idx: int, seed_idx: int, model_type: str) -> str:
+    if getattr(config, "save_with_vbench_names", False):
+        return f"{prompt}-{seed_idx}"
+    if config.save_with_index:
+        return f"rank{rank}-{idx}-{seed_idx}_{model_type}"
+    return f"rank{rank}-{prompt[:100]}-{seed_idx}_{model_type}"
+
+
+def output_complete(path: str) -> bool:
+    return os.path.exists(path) and os.path.getsize(path) > 0
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--config_path", type=str, help="Path to the config file")
 te_quant_group = parser.add_mutually_exclusive_group()
@@ -87,6 +98,9 @@ config.output_folder = section_get(config, "inference", "output_folder", getattr
 config.num_samples = section_get(config, "inference", "num_samples", getattr(config, "num_samples", 1))
 config.num_output_frames = getattr(config, "num_output_frames", config.image_or_video_shape[1])
 config.save_with_index = getattr(config, "save_with_index", False)
+config.save_with_vbench_names = getattr(config, "save_with_vbench_names", False)
+config.sequential_samples = getattr(config, "sequential_samples", False)
+config.skip_existing = getattr(config, "skip_existing", False)
 config.inference_iter = getattr(config, "inference_iter", -1)
 if getattr(config, "i2v", False):
     raise NotImplementedError("I2V inference is not included in this release path.")
@@ -440,6 +454,11 @@ else:
 
 # Create dataset
 nfpb = getattr(config, 'num_frame_per_block', 8)
+if config.num_output_frames % nfpb != 0:
+    raise ValueError(
+        f"num_output_frames={config.num_output_frames} must be divisible by "
+        f"num_frame_per_block={nfpb}"
+    )
 num_blocks = config.num_output_frames // nfpb
 
 data_path = config.data_path
@@ -459,9 +478,14 @@ num_prompts = len(dataset)
 print(f"Number of prompts: {num_prompts}")
 
 if dist.is_initialized():
-    sampler = DistributedSampler(dataset, shuffle=False, drop_last=True)
+    rank = dist.get_rank()
+    world_size = dist.get_world_size()
+    sampler = list(range(rank, num_prompts, world_size))
 else:
+    rank = 0
+    world_size = 1
     sampler = SequentialSampler(dataset)
+print(f"[data] rank={rank}/{world_size} assigned_prompts={len(sampler)}")
 dataloader = DataLoader(dataset, batch_size=1, sampler=sampler, num_workers=0,
                         drop_last=False, collate_fn=collate_fn)
 
@@ -496,20 +520,9 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
     elif isinstance(batch_data, list):
         batch = batch_data[0]  # First (and only) item in the batch
 
-    all_video = []
-
     # MultiTextConcatDataset + eval_collate_fn: prompts[0] is List[str].
     block_prompts = list(batch['prompts'][0])
     prompt = block_prompts[0]  # for filename
-    prompts = [block_prompts] * config.num_samples
-
-    shape = config.image_or_video_shape
-    sampled_noise = torch.randn(
-        [config.num_samples, config.num_output_frames, shape[2], shape[3], shape[4]], device=device, dtype=torch.bfloat16
-    )
-    print("sampled_noise.device", sampled_noise.device)
-    print("prompts", prompts)
-    print('sampled_noise.shape', sampled_noise.shape, 'prompts', prompts)
     save_latents_only = section_get(
         config,
         "inference",
@@ -517,29 +530,6 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
         getattr(config, "save_latents_only", getattr(config, "save_latent_only", False)),
         aliases=("save_latent_only", "return_latents"),
     )
-    inference_kwargs = dict(
-        noise=sampled_noise,
-        text_prompts=prompts,
-        return_latents=save_latents_only,
-    )
-    generated = pipeline.inference(**inference_kwargs)
-
-    if not save_latents_only:
-        current_video = rearrange(generated, 'b t c h w -> b t h w c').cpu()
-        all_video.append(current_video)
-
-        # Final output video
-        video = 255.0 * torch.cat(all_video, dim=1)
-
-        # Clear VAE cache
-        pipeline.vae.model.clear_cache()
-    else:
-        latents = generated
-
-    if dist.is_initialized():
-        rank = dist.get_rank()
-    else:
-        rank = 0
 
     # Save the video if the current prompt is not a dummy prompt
     if idx < num_prompts:
@@ -550,27 +540,86 @@ for i, batch_data in tqdm(enumerate(dataloader), disable=(local_rank != 0)):
             model_type = "ema"
         else:
             model_type = "regular"
-            
+
+        expected_paths = []
         for seed_idx in range(config.num_samples):
-            if config.save_with_index:
-                base_name = f'rank{rank}-{idx}-{seed_idx}_{model_type}'
-            else:
-                base_name = f'rank{rank}-{prompt[:100]}-{seed_idx}_{model_type}'
-
+            base_name = build_output_base_name(config, prompt, rank, idx, seed_idx, model_type)
             if save_latents_only:
-                latent_path = os.path.join(config.output_folder, f'{base_name}.pt')
-                torch.save(latents[seed_idx].cpu(), latent_path)
+                expected_paths.append(os.path.join(config.output_folder, f'{base_name}.pt'))
             else:
-                output_path = os.path.join(config.output_folder, f'{base_name}.mp4')
-                fps = 24 if '5B' in config.model_kwargs.model_name else 16
-                write_video(output_path, video[seed_idx], fps=fps)
+                expected_paths.append(os.path.join(config.output_folder, f'{base_name}.mp4'))
 
-            prompt_txt_path = os.path.join(config.output_folder, f'{base_name}_prompts.txt')
-            save_prompts_to_txt(
-                prompts[seed_idx] if isinstance(prompts[seed_idx], list) else [prompts[seed_idx]],
-                prompt_txt_path,
-                is_main_process=(rank == 0),
+        if config.skip_existing and all(output_complete(path) for path in expected_paths):
+            print(f"[rank {rank}] skip idx={idx}: all outputs exist")
+            continue
+
+        sample_batches = (
+            [(seed_idx, 1) for seed_idx in range(config.num_samples)]
+            if config.sequential_samples
+            else [(0, config.num_samples)]
+        )
+
+        for sample_start, sample_count in sample_batches:
+            batch_seed_indices = list(range(sample_start, sample_start + sample_count))
+            if config.skip_existing and config.sequential_samples:
+                batch_paths = [expected_paths[seed_idx] for seed_idx in batch_seed_indices]
+                if all(output_complete(path) for path in batch_paths):
+                    print(f"[rank {rank}] skip idx={idx}, sample={sample_start}: output exists")
+                    continue
+
+            prompts = [block_prompts] * sample_count
+            shape = config.image_or_video_shape
+            noise_kwargs = {}
+            if config.sequential_samples:
+                sample_seed = int(config.seed) + idx * int(config.num_samples) + sample_start
+                noise_kwargs["generator"] = torch.Generator(device=device).manual_seed(sample_seed)
+            sampled_noise = torch.randn(
+                [sample_count, config.num_output_frames, shape[2], shape[3], shape[4]],
+                device=device,
+                dtype=torch.bfloat16,
+                **noise_kwargs,
             )
+            print("sampled_noise.device", sampled_noise.device)
+            print("prompts", prompts)
+            print('sampled_noise.shape', sampled_noise.shape, 'prompts', prompts)
+
+            inference_kwargs = dict(
+                noise=sampled_noise,
+                text_prompts=prompts,
+                return_latents=save_latents_only,
+            )
+            generated = pipeline.inference(**inference_kwargs)
+
+            if not save_latents_only:
+                current_video = rearrange(generated, 'b t c h w -> b t h w c').cpu()
+                video = 255.0 * current_video
+
+                # Clear VAE cache
+                pipeline.vae.model.clear_cache()
+            else:
+                latents = generated
+
+            for local_seed_idx, seed_idx in enumerate(batch_seed_indices):
+                base_name = build_output_base_name(config, prompt, rank, idx, seed_idx, model_type)
+                if save_latents_only:
+                    latent_path = os.path.join(config.output_folder, f'{base_name}.pt')
+                    torch.save(latents[local_seed_idx].cpu(), latent_path)
+                else:
+                    output_path = os.path.join(config.output_folder, f'{base_name}.mp4')
+                    fps = 24 if '5B' in config.model_kwargs.model_name else 16
+                    write_video(output_path, video[local_seed_idx], fps=fps)
+
+                prompt_txt_path = os.path.join(config.output_folder, f'{base_name}_prompts.txt')
+                save_prompts_to_txt(
+                    prompts[local_seed_idx] if isinstance(prompts[local_seed_idx], list) else [prompts[local_seed_idx]],
+                    prompt_txt_path,
+                    is_main_process=(rank == 0),
+                )
+
+            if config.sequential_samples:
+                if hasattr(pipeline, "clear_cache"):
+                    pipeline.clear_cache()
+                torch.cuda.empty_cache()
 
     if config.inference_iter != -1 and i >= config.inference_iter:
         break
